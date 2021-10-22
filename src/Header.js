@@ -27,12 +27,13 @@ export const Header = () => {
   return (
     <div className="header" id="header">
       <Row className="head-nav">
-        <Col xs={3}>
+        <Col className="col-6 col-sm-3 text-center">
+          <span className="nav-bar-logo-helper"></span>
           <img src={logo} alt="ICSS-logo" className="nav-bar-logo" />
         </Col>
         {isMobile ? (
           <>
-            <Col xs={6}> </Col>
+            <Col className="col-3 col-sm-6"> </Col>
             <Col>
               <Menu
                 isOpen={HamburgerOpen.menuOpen}

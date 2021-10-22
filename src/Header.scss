@@ -3,11 +3,14 @@ $havlock-blue: #479cda;
 body::-webkit-scrollbar {
   display: none;
 }
+
 .header {
   background: linear-gradient(
-      rgba(0, 150, 234, 0.7) 100%,
-      rgba(0, 150, 234, 0.7) 100%
+      90.06deg,
+      rgba(10, 30, 86, 0.2) 15.9%,
+      rgba(255, 187, 0, 0.2) 97.83%
     ),
+    linear-gradient(0deg, rgba(32, 64, 155, 0.69), rgba(32, 64, 155, 0.69)),
     url("./images/website/BG\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,8 +18,14 @@ body::-webkit-scrollbar {
   .head-nav {
     min-height: 110px;
   }
+  .nav-bar-logo-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
   .nav-bar-logo {
     padding-left: 80px;
+    vertical-align: middle;
   }
   .bg-img {
     width: 100%;
@@ -139,7 +148,7 @@ body::-webkit-scrollbar {
       border: 6px solid #ffffff;
       width: auto;
       padding: 20px;
-      background-color: #41b2f1;
+      background-color: #20409b;
     }
     span {
       text-transform: uppercase;
@@ -208,7 +217,7 @@ body::-webkit-scrollbar {
   }
 }
 .nav-bar-logo {
-  height: 100px !important;
+  height: 54px !important;
 }
 
 // hamburger menu css
@@ -302,7 +311,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 @media only screen and (max-width: 768px) {
   .header .nav-bar-logo {
     padding-left: 0px;
-    height: 70px;
+    height: 35px !important;
   }
   .fields {
     .col:nth-child(1) {

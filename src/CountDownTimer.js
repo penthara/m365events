@@ -18,14 +18,14 @@ export const CountDownTimer = () => {
             <Col>
               <Row>
                 <Col>
-                  <span className="timer-date"> 28th August 2021 </span>
+                  <span className="timer-date"> 11th December 2021 </span>
                 </Col>
               </Row>
               <Row>
                 <Col>
                   <span className="timer-title">
                     {" "}
-                    India Cloud Security Summit{" "}
+                    M365 Saturday Bangalore 2021{" "}
                   </span>
                 </Col>
               </Row>
@@ -39,14 +39,14 @@ export const CountDownTimer = () => {
         <Container fluid={true} className="countDown-mobile">
           <Row className="timer-data-row">
             <Col>
-              <span className="timer-date-mobile"> 28th August 2021 </span>
+              <span className="timer-date-mobile"> 11th December 2021 </span>
             </Col>
           </Row>
           <Row>
             <Col>
               <span className="timer-title-mobile">
                 {" "}
-                India Cloud Security Summit{" "}
+                M365 Saturday Bangalore 2021{" "}
               </span>
             </Col>
           </Row>
