@@ -24,7 +24,7 @@ export const Header = () => {
   const toggleHamburgerMenu = () => {
     setHamburgerOpen({ menuOpen: !HamburgerOpen.menuOpen });
   };
-  const [colorChange, setColorchange] = useState(true);
+  const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
       setColorchange(true);
@@ -35,7 +35,7 @@ export const Header = () => {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="header" id="header">
-      <Row className={colorChange ? "head-nav" : "head-nav transparant"}>
+      <Row className={colorChange ? "head-nav navbar-background" : "head-nav "}>
         <Col className="col-6 col-sm-3 text-center">
           <span className="nav-bar-logo-helper"></span>
           <img src={logo} alt="ICSS-logo" className="nav-bar-logo" />

@@ -3,8 +3,8 @@ $havlock-blue: #479cda;
 body::-webkit-scrollbar {
   display: none;
 }
-.transparant {
-  background-color: transparent !important;
+.navbar-background {
+  background-color: #20409b !important;
 }
 .header {
   background: linear-gradient(
@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
   .head-nav {
     min-height: 80px;
     position: fixed;
-    background-color: #20409b;
+    background-color: transparent;
     top: 0;
     width: 100%;
     z-index: 1000;
