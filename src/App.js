@@ -43,8 +43,12 @@ function App() {
               <meta
                 id="og-image"
                 property="og:image"
-                content="./images/website/transparentLogo.png"
+                content="/images/website/transparentLogo.png"
               />
+              <meta
+                name="description"
+                content="Hands-on sessions and labs, delivered to you by the experts and community leaders"
+              ></meta>
             </Helmet>
           </>
         );
