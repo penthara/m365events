@@ -39,8 +39,7 @@ export const Agenda = () => {
           {trackDetailsState.map((data) => {
             return (
               <Col
-                xs="4"
-                className="tracks"
+                className="tracks col"
                 key={data.trackId}
                 onClick={() => trackfunc(data.trackId)}
               >

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Helmet from "react-helmet";
 import "./App.scss";
 import { Header } from "./Header";
 import { About } from "./About";
@@ -11,10 +12,20 @@ import { Footer } from "./Footer";
 import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
 import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
+import HeaderData from "./content/HeaderData.json";
 
 function App() {
   return (
     <div className="container-fluid icss">
+      {HeaderData.map((data) => {
+        return (
+          <>
+            <Helmet>
+              <title>{data.siteTitle}</title>
+            </Helmet>
+          </>
+        );
+      })}
       <Header />
       <CountDownTimer />
       <About />
