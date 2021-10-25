@@ -39,6 +39,12 @@ function App() {
           <>
             <Helmet>
               <title>{data.siteTitle}</title>
+              <meta name="description" content={data.subTitle}></meta>
+              <meta
+                id="og-image"
+                property="og:image"
+                content="./images/website/transparentLogo.png"
+              />
             </Helmet>
           </>
         );
