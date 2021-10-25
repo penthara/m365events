@@ -39,7 +39,7 @@ function App() {
           <>
             <Helmet>
               <title>{data.siteTitle}</title>
-              <meta name="description" content={data.subTitle}></meta>
+              {/*<meta name="description" content={data.subTitle}></meta>
               <meta
                 id="og-image"
                 property="og:image"
@@ -48,7 +48,7 @@ function App() {
               <meta
                 name="description"
                 content="Hands-on sessions and labs, delivered to you by the experts and community leaders"
-              ></meta>
+              ></meta>*/}
             </Helmet>
           </>
         );
