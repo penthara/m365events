@@ -64,7 +64,8 @@ export const Agenda = () => {
           })}
         </div>
       </div>
-      <ShowSessionData CurrentTrackID={track} />
+      <div className="p-5 fs-1 mt-5"> Coming Soon...</div>
+      {/*<ShowSessionData CurrentTrackID={track} />*/}
     </div>
   );
 };

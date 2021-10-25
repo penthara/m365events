@@ -71,10 +71,7 @@ export const Footer = () => {
       </div>
       <div className="row copyright">
         <div className="col">
-          <span>
-            All Rights Reserved © Microsoft 365 ,Power Platform & Cloud Security
-            UG - India
-          </span>
+          <span>All Rights Reserved © Microsoft 365 Events</span>
         </div>
       </div>
     </div>

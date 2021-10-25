@@ -27,6 +27,11 @@
         box-shadow: 0 0 4px 0 rgba($color: #000000, $alpha: 0.25);
         padding: 15%;
         border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
       }
     }
     .sponsor-img {
@@ -35,6 +40,12 @@
       object-fit: contain;
     }
   }
+}
+.social-media-array {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 100%;
 }
 @media only screen and (max-width: 576px) {
   .sponsor-wrapper {

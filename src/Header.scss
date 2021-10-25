@@ -3,7 +3,9 @@ $havlock-blue: #479cda;
 body::-webkit-scrollbar {
   display: none;
 }
-
+.transparant {
+  background-color: transparent !important;
+}
 .header {
   background: linear-gradient(
       90.06deg,
@@ -16,7 +18,12 @@ body::-webkit-scrollbar {
   background-size: cover;
   min-height: 100vh;
   .head-nav {
-    min-height: 110px;
+    min-height: 80px;
+    position: fixed;
+    background-color: #20409b;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
   .nav-bar-logo-helper {
     display: inline-block;
@@ -24,7 +31,6 @@ body::-webkit-scrollbar {
     vertical-align: middle;
   }
   .nav-bar-logo {
-    padding-left: 80px;
     vertical-align: middle;
   }
   .bg-img {
@@ -60,13 +66,10 @@ body::-webkit-scrollbar {
   flex-direction: column;
   justify-content: center;
 }
-.head-nav {
-  min-height: 110px;
-}
 
 .head-data {
   min-height: 70vh;
-  padding: 0 5% 2% 5%;
+  padding: 80px 5% 2% 5%;
 
   .siteTitle {
     color: #fff;

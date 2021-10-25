@@ -24,9 +24,18 @@ export const Header = () => {
   const toggleHamburgerMenu = () => {
     setHamburgerOpen({ menuOpen: !HamburgerOpen.menuOpen });
   };
+  const [colorChange, setColorchange] = useState(true);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="header" id="header">
-      <Row className="head-nav">
+      <Row className={colorChange ? "head-nav" : "head-nav transparant"}>
         <Col className="col-6 col-sm-3 text-center">
           <span className="nav-bar-logo-helper"></span>
           <img src={logo} alt="ICSS-logo" className="nav-bar-logo" />
@@ -63,7 +72,14 @@ export const Header = () => {
             </Col>
           </>
         ) : (
-          <Col xs={9} className="nav-items">
+          <Col
+            xs={9}
+            className="nav-items"
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
+          >
             <Navbar>
               <Nav navbar>
                 {NavbarData.map((data) => {
@@ -151,11 +167,11 @@ export const Header = () => {
                     <span className="eventTitle">{data.eventTitle}</span>
                     <Row className="fields-row">
                       <Col className="sessionNumber">
-                        <span>{Speakers.length}</span>
+                        <span>-</span>
                         <span>SPEAKERS</span>
                       </Col>
                       <Col className="trackNumber">
-                        <span>{Sessions.length}</span>
+                        <span>-</span>
                         <span>SESSIONS</span>
                       </Col>
                       <Col className="sponserNumber">

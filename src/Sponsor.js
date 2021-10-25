@@ -1,6 +1,8 @@
 import React from "react";
 import "./Sponsor.scss";
 import SponsorData from "./content/SponsorData.json";
+import LinkedInlogo from "./images/website/LinkedInlogo.png";
+import Twitterlogo from "./images/website/twitterblue.png";
 
 export const Sponsor = () => {
   return (
@@ -21,6 +23,39 @@ export const Sponsor = () => {
                   alt={data.sponsorAltText}
                   src={`${data.sponsorImage}`}
                 />
+
+                <div className="social-media-array">
+                  {data.speakerLinkedIn !== null ? (
+                    <a
+                      href={data.speakerLinkedIn}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src={LinkedInlogo}
+                        alt="LinkedIn logo"
+                        className="card-linkedIn nopadding align-self-start"
+                      />
+                    </a>
+                  ) : (
+                    <></>
+                  )}
+                  {data.speakerTwitter !== null ? (
+                    <a
+                      href={data.speakerTwitter}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src={Twitterlogo}
+                        alt="Twitter logo"
+                        className="card-linkedIn nopadding align-self-start"
+                      />
+                    </a>
+                  ) : (
+                    <></>
+                  )}
+                </div>
               </a>
             </div>
           );
