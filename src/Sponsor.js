@@ -25,9 +25,9 @@ export const Sponsor = () => {
                 />
 
                 <div className="social-media-array">
-                  {data.speakerLinkedIn !== null ? (
+                  {data.sponsorLinkedIn !== null ? (
                     <a
-                      href={data.speakerLinkedIn}
+                      href={data.sponsorLinkedIn}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -40,9 +40,9 @@ export const Sponsor = () => {
                   ) : (
                     <></>
                   )}
-                  {data.speakerTwitter !== null ? (
+                  {data.sponsorTwitter !== null ? (
                     <a
-                      href={data.speakerTwitter}
+                      href={data.sponsorTwitter}
                       target="_blank"
                       rel="noreferrer"
                     >
