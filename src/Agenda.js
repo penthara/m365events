@@ -27,11 +27,11 @@ export const Agenda = () => {
     <div className="agenda" id="agenda">
       <h1 className="agenda-heading"> AGENDA </h1>
       <div className="agenda-para-text-1">
-        Check out the agenda and the sessions for the India Cloud Security
-        Summit 2021 event.
+        Check out the agenda and the sessions for the M365 SATURDAY BANGALORE
+        2021 event.
       </div>
       <div className="agenda-para-text-2">
-        This event has an ensemble of amazing workshops and seminars by
+        This event has a collection of fantastic sessions and demos by
         professionals.
       </div>
       <div className="container-fluid track-list">
