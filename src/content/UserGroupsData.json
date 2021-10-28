@@ -1,10 +1,10 @@
 [
   {
     "userGroupId": "1",
-    "groupImage": "./images/website/ms-az-bangalore-user-group.png",
-    "groupAltText": "Microsoft Azure Bangalore",
-    "groupName": "Microsoft Azure Bangalore",
-    "groupUrl": "https://www.meetup.com/Microsoft-Azure-Bangalore/"
+    "groupImage": "./images/website/transparentLogo.png",
+    "groupAltText": "Microsoft 365 Saturday Bangalore",
+    "groupName": "Microsoft 365 Saturday Bangalore",
+    "groupUrl": "https://www.eventbrite.co.uk/e/m365-saturday-bangalore-2021-tickets-194897984117"
   },
   {
     "userGroupId": "2",
@@ -13,12 +13,12 @@
     "groupName": "Microsoft Azure User Group - Chennai",
     "groupUrl": "https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/"
   },
-  {
+   {
     "userGroupId": "3",
-    "groupImage": "./images/website/ms-365-uk-user-group.png",
-    "groupAltText": "Microsoft 365 UK (M365UK) User Group",
-    "groupName": "Microsoft 365 UK (M365UK) User Group",
-    "groupUrl": "https://www.meetup.com/m365uk/"
+    "groupImage": "./images/website/ms-az-bangalore-user-group.png",
+    "groupAltText": "Microsoft Azure Bangalore",
+    "groupName": "Microsoft Azure Bangalore",
+    "groupUrl": "https://www.meetup.com/Microsoft-Azure-Bangalore/"
   },
   {
     "userGroupId": "4",
