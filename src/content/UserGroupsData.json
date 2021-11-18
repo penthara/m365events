@@ -1,7 +1,7 @@
 [
   {
     "userGroupId": "1",
-    "groupImage": "./images/website/transparentLogo.png",
+    "groupImage": "favicon.ico",
     "groupAltText": "Microsoft 365 Saturday Bangalore",
     "groupName": "Microsoft 365 Saturday Bangalore",
     "groupUrl": "https://www.eventbrite.co.uk/e/m365-saturday-bangalore-2021-tickets-194897984117"
