@@ -1,7 +1,7 @@
 [{
         "speakerId": "1",
         "speakerName": "Shalaka Verma",
-        "speakerImage": "./images/speakers/2021m365blr/ShakalaVerma.jpg",
+        "speakerImage": "./images/speakers/2021-m365blr/ShakalaVerma.jpg",
         "speakerAltText": "ShakalaVerma",
         "keynoteSpeaker": "true",
         "speakerTitle": "Director, Customer Success, Modern Work, Microsoft",
@@ -15,7 +15,7 @@
     {
         "speakerId": "2",
         "speakerName": "Deepak Rajendran",
-        "speakerImage": "./images/speakers/2021m365blr/DeepakRajendran.jpg",
+        "speakerImage": "./images/speakers/2021-m365blr/DeepakRajendran.jpg",
         "speakerAltText": "Deepak Rajendran",
         "keynoteSpeaker": "true",
         "speakerTitle": "Community Program Manager",
