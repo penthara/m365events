@@ -28,8 +28,10 @@ export const Speaker = () => {
     <>
       <div className="speakers" id="speakers">
         <h1 className="speaker-heading text-center">Speakers</h1>
+    {/*
         <div className="p-5 fs-1 mt-5 text-center"> Coming Soon...</div>
-        {/*<div className="row justify-content-center">
+        */}
+        <div className="row justify-content-center">
           {SpeakersData.map((data) => {
             return (
               <>
@@ -137,7 +139,7 @@ export const Speaker = () => {
               </>
             );
           })}
-        </div>*/}
+        </div>
       </div>
       {modal == true ? (
         <ModalSpeaker data={clickedData} modal={modal} toggle={toggle} />
