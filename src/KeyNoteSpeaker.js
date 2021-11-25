@@ -21,8 +21,8 @@ export const KeyNoteSpeaker = () => {
     <>
       <div className="keynote">
         <h1 className="keynote-heading text-center">KeyNote Speakers</h1>
-        <div className="p-5 fs-1 mt-5 text-center"> Coming Soon...</div>
-        {/*<div className="row justify-content-center">
+        {/* <div className="p-5 fs-1 mt-5 text-center"> Coming Soon...</div> */}
+        <div className="row justify-content-center">
           {SpeakersData.map((data) => {
             return (
               <>
@@ -128,7 +128,7 @@ export const KeyNoteSpeaker = () => {
               </>
             );
           })}
-        </div>*/}
+        </div>
       </div>
       {modal == true ? (
         <ModalKeynote data={clickedData} modal={modal} toggle={toggle} />
