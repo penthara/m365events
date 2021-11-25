@@ -58,7 +58,8 @@ export const ShowSessionData = (props) => {
                     <Col md={12} lg={4} className="event-speakers">
                       <div className="speaker-head"> Speakers </div>
                       <div>
-                        {data.speaker3Id != null ? (
+                        {data.speaker3Id != null &&
+                        data.speaker3Id < Speakers.length ? (
                           <div className="speaker3">
                             <LazyLoad height={70} width={70} debounce={false}>
                               <ImageLoader
@@ -90,7 +91,8 @@ export const ShowSessionData = (props) => {
                             </span>
                           </div>
                         ) : null}
-                        {data.speaker2Id != null ? (
+                        {data.speaker2Id != null &&
+                        data.speaker2Id < Speakers.length ? (
                           <div className="speaker2">
                             <LazyLoad height={70} width={70} debounce={false}>
                               <ImageLoader
@@ -123,7 +125,8 @@ export const ShowSessionData = (props) => {
                           </div>
                         ) : null}
 
-                        {data.speaker1Id != null ? (
+                        {data.speaker1Id != null &&
+                        data.speaker1Id < Speakers.length ? (
                           <div className="speaker1">
                             <LazyLoad height={70} width={70} debounce={false}>
                               <ImageLoader
@@ -174,7 +177,8 @@ export const ShowSessionData = (props) => {
                     <Col md={12} lg={4} className="event-speakers">
                       <div className="speaker-head"> Speakers </div>
                       <div className="speaker-wrapper-teams">
-                        {data.speaker3Id != null ? (
+                        {data.speaker3Id != null &&
+                        data.speaker3Id < Speakers.length ? (
                           <div className="speaker3">
                             <LazyLoad height={70} width={70} debounce={false}>
                               <ImageLoader
@@ -205,7 +209,8 @@ export const ShowSessionData = (props) => {
                             </span>
                           </div>
                         ) : null}
-                        {data.speaker2Id != null ? (
+                        {data.speaker2Id != null &&
+                        data.speaker2Id < Speakers.length ? (
                           <div className="speaker2">
                             <LazyLoad height={70} width={70} debounce={false}>
                               <ImageLoader
@@ -237,7 +242,8 @@ export const ShowSessionData = (props) => {
                           </div>
                         ) : null}
 
-                        {data.speaker1Id != null ? (
+                        {data.speaker1Id != null &&
+                        data.speaker1Id < Speakers.length ? (
                           <div className="speaker1">
                             <LazyLoad height={70} width={70} debounce={false}>
                               <ImageLoader

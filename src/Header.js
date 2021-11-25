@@ -24,9 +24,18 @@ export const Header = () => {
   const toggleHamburgerMenu = () => {
     setHamburgerOpen({ menuOpen: !HamburgerOpen.menuOpen });
   };
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="header" id="header">
-      <Row className="head-nav">
+      <Row className={colorChange ? "head-nav navbar-background" : "head-nav "}>
         <Col className="col-6 col-sm-3 text-center">
           <span className="nav-bar-logo-helper"></span>
           <img src={logo} alt="ICSS-logo" className="nav-bar-logo" />
@@ -63,7 +72,14 @@ export const Header = () => {
             </Col>
           </>
         ) : (
-          <Col xs={9} className="nav-items">
+          <Col
+            xs={9}
+            className="nav-items"
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
+          >
             <Navbar>
               <Nav navbar>
                 {NavbarData.map((data) => {

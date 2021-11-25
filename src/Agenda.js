@@ -27,11 +27,11 @@ export const Agenda = () => {
     <div className="agenda" id="agenda">
       <h1 className="agenda-heading"> AGENDA </h1>
       <div className="agenda-para-text-1">
-        Check out the agenda and the sessions for the India Cloud Security
-        Summit 2021 event.
+        Check out the agenda and the sessions for the M365 SATURDAY BANGALORE
+        2021 event.
       </div>
       <div className="agenda-para-text-2">
-        This event has an ensemble of amazing workshops and seminars by
+        This event has a collection of fantastic sessions and demos by
         professionals.
       </div>
       <div className="container-fluid track-list">
@@ -39,8 +39,7 @@ export const Agenda = () => {
           {trackDetailsState.map((data) => {
             return (
               <Col
-                xs="4"
-                className="tracks"
+                className="tracks col"
                 key={data.trackId}
                 onClick={() => trackfunc(data.trackId)}
               >
@@ -65,7 +64,8 @@ export const Agenda = () => {
           })}
         </div>
       </div>
-      <ShowSessionData CurrentTrackID={track} />
+      <div className="p-5 fs-1 mt-5"> Coming Soon...</div>
+      {/*<ShowSessionData CurrentTrackID={track} />*/}
     </div>
   );
 };

@@ -33,30 +33,36 @@ export const Footer = () => {
             {footerData.map((data) => {
               return (
                 <div className="col-10 col-xs-12 col-lg-12 media-array text-center">
-                  <a
-                    className="social-media-icon"
-                    target="_blank"
-                    href={data.linkedInLink}
-                    rel="noreferrer"
-                  >
-                    <img src={linkedInLogo} />
-                  </a>
-                  <a
-                    className="social-media-icon"
-                    target="_blank"
-                    href={data.TwitterLink}
-                    rel="noreferrer"
-                  >
-                    <img src={TwitterLogo} />
-                  </a>
-                  <a
-                    className="social-media-icon"
-                    target="_blank"
-                    href={data.facebookLink}
-                    rel="noreferrer"
-                  >
-                    <img src={FaceboolLogo} />
-                  </a>
+                  {data.linkedInLink != null ? (
+                    <a
+                      className="social-media-icon"
+                      target="_blank"
+                      href={data.linkedInLink}
+                      rel="noreferrer"
+                    >
+                      <img src={linkedInLogo} />
+                    </a>
+                  ) : null}
+                  {data.TwitterLink != null ? (
+                    <a
+                      className="social-media-icon"
+                      target="_blank"
+                      href={data.TwitterLink}
+                      rel="noreferrer"
+                    >
+                      <img src={TwitterLogo} />
+                    </a>
+                  ) : null}
+                  {data.facebookLink != null ? (
+                    <a
+                      className="social-media-icon"
+                      target="_blank"
+                      href={data.facebookLink}
+                      rel="noreferrer"
+                    >
+                      <img src={FaceboolLogo} />
+                    </a>
+                  ) : null}
                 </div>
               );
             })}
@@ -65,10 +71,7 @@ export const Footer = () => {
       </div>
       <div className="row copyright">
         <div className="col">
-          <span>
-            All Rights Reserved © Microsoft 365 ,Power Platform & Cloud Security
-            UG - India
-          </span>
+          <span>All Rights Reserved © Microsoft 365 Events</span>
         </div>
       </div>
     </div>

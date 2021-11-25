@@ -7,13 +7,19 @@ export const About = () => {
     <div className="about">
       <h1 className="about-heading"> ABOUT </h1>
       <div className="one-day-event">
-        A One Day Event Focusing On The <span> Microsoft </span> Cloud Security
-        Services
+        A One Day Event Focusing On The Microsoft 365{" "}
+        {/*<span> Microsoft </span> */}
       </div>
       <div className="about-para-text">
-        India Cloud Security Summit , 2021 is a one day virtual event organized
-        by the{" "}
-        <span>
+        M365 SATURDAY BANGALORE 2021 is a one day virtual event organized by the
+        Microsoft 365 Saturday Bangalore User group. This is a non-profit
+        community event which is free to all registered participants. This event
+        will completely focus on the Microsoft 365 services related to Microsoft
+        Teams, Microsoft Power Platform and SharePoint. Provide local Technology
+        professionals and users with excellent training and networking
+        opportunities and Help develop, grow, sharing and encourage new
+        speakers.
+        {/* <span>
           <a
             href="https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/"
             target="_blank"
@@ -22,14 +28,7 @@ export const About = () => {
             Microsoft 365 , Power Platform & Cloud Security India User group
           </a>
         </span>
-        . This event will completely focus on the Cloud Security services
-        related to Microsoft 365 , Microsoft Azure, Microsoft Power Platform
-        security and Dynamics 365 . This is the first of its kind from the
-        Microsoft Community at India and we’re planning to cover all the aspects
-        of Microsoft Cloud Security services in this event . In this one day
-        virtual event we will deep-dive into Microsoft’s Cloud Security stack
-        with hands-on sessions and labs, delivered to you by the experts and
-        community leaders.
+        */}
       </div>
       <div className="registration-text">
         <a
