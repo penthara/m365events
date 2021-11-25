@@ -167,11 +167,11 @@ export const Header = () => {
                     <span className="eventTitle">{data.eventTitle}</span>
                     <Row className="fields-row">
                       <Col className="sessionNumber">
-                        <span>-</span>
+                        <span>{Speakers.length}</span>
                         <span>SPEAKERS</span>
                       </Col>
                       <Col className="trackNumber">
-                        <span>-</span>
+                        <span>{Sessions.length}</span>
                         <span>SESSIONS</span>
                       </Col>
                       <Col className="sponserNumber">
