@@ -17,13 +17,13 @@
         "speaker3Id": null,
         "sessionTime": "9:30 AM to 10:00 AM",
         "sessionTitle": "Keynote",
-        "sessionDescription": " ",
+        "sessionDescription": "Staying in the flow of Work with Collaborative Apps",
         "sessionUrl": ""
     },
     {
         "sessionId": "5",
         "trackId": "1",
-        "speaker1Id": 22,
+        "speaker1Id": "22",
         "speaker2Id": null,
         "speaker3Id": null,
         "sessionTime": "10:05 AM to 10:50 AM",

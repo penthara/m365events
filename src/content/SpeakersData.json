@@ -39,7 +39,7 @@
         "MVPstatus": "false",
         "MicrosoftEmployee": "true",
         "speakerInformation": " "
-    }, 
+    },
     {
         "speakerId": "4",
         "speakerName": "Vesa Juvonen",
@@ -53,11 +53,11 @@
         "MVPstatus": "false",
         "MicrosoftEmployee": "true",
         "speakerInformation": " "
-    }, 
+    },
     {
         "speakerId": 11,
         "speakerName": "Nicole Enders",
-        "speakerImage": "./images/speakers/2021-m365blr/NicoleEnders.png",
+        "speakerImage": "./images/speakers/2021-m365blr/NicoleEnders.jpg",
         "speakerAltText": "Nicole Enders",
         "keynoteSpeaker": "false",
         "speakerTitle": "Office Apps & Services MVP | Managing Consultant - Modern Workplace, CONET Solutions GmbH",
@@ -71,7 +71,7 @@
     {
         "speakerId": 12,
         "speakerName": "Prashant G Bhoyar",
-        "speakerImage": "./images/speakers/2021-m365blr/PrashantGBhoyar.png",
+        "speakerImage": "./images/speakers/2021-m365blr/PrashantGBhoyar.jpg",
         "speakerAltText": "Prashant G Bhoyar",
         "keynoteSpeaker": "false",
         "speakerTitle": "Microsoft AI MVP, MCT, Cloud Solution Architect at AIS",
@@ -99,7 +99,7 @@
     {
         "speakerId": 14,
         "speakerName": "Sathish Nadarajan",
-        "speakerImage": "./images/speakers/2021-m365blr/SathishNadarajan.png",
+        "speakerImage": "./images/speakers/2021-m365blr/SathishNadarajan.jpg",
         "speakerAltText": "Sathish Nadarajan",
         "keynoteSpeaker": "false",
         "speakerTitle": "Solution Architect, AstraZeneca",
@@ -155,7 +155,7 @@
     {
         "speakerId": 18,
         "speakerName": "Hans Brender",
-        "speakerImage": "./images/speakers/2021-m365blr/HansBrender.png",
+        "speakerImage": "./images/speakers/2021-m365blr/HansBrender.jpg",
         "speakerAltText": "Hans Brender",
         "keynoteSpeaker": "false",
         "speakerTitle": "MVP Office Apps and Services",
@@ -211,7 +211,7 @@
     {
         "speakerId": 22,
         "speakerName": "Shrusti Shah",
-        "speakerImage": "./images/speakers/2021-m365blr/ShrustiShah.png",
+        "speakerImage": "./images/speakers/2021-m365blr/ShrustiShah.jpg",
         "speakerAltText": "Shrusti Shah",
         "keynoteSpeaker": "false",
         "speakerTitle": "Office 365 Consultant | Application Development Analyst ",
@@ -225,7 +225,7 @@
     {
         "speakerId": 23,
         "speakerName": "Anna Fritsch-Weninger",
-        "speakerImage": "./images/speakers/2021-m365blr/AnnaFritsch-Weninger.png",
+        "speakerImage": "./images/speakers/2021-m365blr/AnnaFritsch-Weninger.jpg",
         "speakerAltText": "Anna Fritsch-Weninger",
         "keynoteSpeaker": "false",
         "speakerTitle": "Cloud Solution Expert at ACP IT Solutions",
@@ -253,7 +253,7 @@
     {
         "speakerId": 25,
         "speakerName": "Bhargav Reddy",
-        "speakerImage": "./images/speakers/2021-m365blr/BhargavReddy.JPG",
+        "speakerImage": "./images/speakers/2021-m365blr/BhargavReddy.jpg",
         "speakerAltText": "Bhargav Reddy",
         "keynoteSpeaker": "false",
         "speakerTitle": "Senior Technical Lead",
@@ -267,7 +267,7 @@
     {
         "speakerId": 26,
         "speakerName": "Shari Oswald",
-        "speakerImage": "./images/speakers/2021-m365blr/ShariOswald.png",
+        "speakerImage": "./images/speakers/2021-m365blr/ShariOswald.jpg",
         "speakerAltText": "Shari Oswald",
         "keynoteSpeaker": "false",
         "speakerTitle": "It's My Job to Make Your Job Easier!",
@@ -295,7 +295,7 @@
     {
         "speakerId": 28,
         "speakerName": "Giuliano De Luca ",
-        "speakerImage": "./images/speakers/2021-m365blr/GiulianoDeLuca.png",
+        "speakerImage": "./images/speakers/2021-m365blr/GiulianoDeLuca.jpg",
         "speakerAltText": "Giuliano De Luca ",
         "keynoteSpeaker": "false",
         "speakerTitle": "Independent, Office Development MVP",
