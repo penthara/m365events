@@ -57,7 +57,7 @@
         "sessionId": "8",
         "trackId": "1",
         "speaker1Id": "15",
-        "speaker2Id": null,
+        "speaker2Id": "20",
         "speaker3Id": null,
         "sessionTime": "12:35 PM to 01:20 PM",
         "sessionTitle": "Microsoft Viva Connections - Set up and Extend with SPFx",
