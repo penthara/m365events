@@ -1,7 +1,7 @@
 [{
         "sessionId": "1",
         "trackId": "1",
-        "speaker1Id": "1",
+        "speaker1Id": "2",
         "speaker2Id": null,
         "speaker3Id": null,
         "sessionTime": "9:00 AM to 9:10 AM",
@@ -23,7 +23,7 @@
     {
         "sessionId": "3",
         "trackId": "1",
-        "speaker1Id": "1",
+        "speaker1Id": "4",
         "speaker2Id": null,
         "speaker3Id": null,
         "sessionTime": "9:20 AM to 9:30 AM",
@@ -34,35 +34,13 @@
     {
         "sessionId": "4",
         "trackId": "1",
-        "speaker1Id": "42",
-        "speaker2Id": "43",
-        "speaker3Id": "44",
+        "speaker1Id": "1",
+        "speaker2Id": null,
+        "speaker3Id": null,
         "sessionTime": "9:30 AM to 10:00 AM",
         "sessionTitle": "Keynote",
         "sessionDescription": " ",
         "sessionUrl": ""
-    },
-    {
-        "sessionId": "3",
-        "trackId": "1",
-        "speaker1Id": "1",
-        "speaker2Id": null,
-        "speaker3Id": null,
-        "sessionTime": "10:30 AM to 11:30 AM",
-        "sessionTitle": "Introduction to Office 365 Security: Configure, Manage and Monitor",
-        "sessionDescription": "Moving data and applications to cloud companies represents new security and need new approaches to IT security. We’ll discover the Office 365 and Azure security features that secure your organization's services and information. Finally, we’ll explore how to leverage your updated skills to monitor and respond to security incidents. When you’re done with this session, you will have the knowledge keep your organization safe & secure in the cloud.",
-        "sessionUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzFiNzNkMTctOTU2OC00MmFhLTlmYzEtYTIxOTk0ODc2MDUy%40thread.v2/0?context=%7b%22Tid%22%3a%227fc640cd-5b11-4cef-ba34-fc4d5a75bb86%22%2c%22Oid%22%3a%22c66f8d6b-803b-45ba-b3a9-5d043bb53349%22%7d"
-    },
-    {
-        "sessionId": "4",
-        "trackId": "1",
-        "speaker1Id": "2",
-        "speaker2Id": null,
-        "speaker3Id": null,
-        "sessionTime": "11:30 AM to 12:30 PM",
-        "sessionTitle": "Defender for Endpoint + MCAS = <3",
-        "sessionDescription": "Within the M365 E5 licensing, we have a lot of powerful products. Two of them are Microsoft Defender for Endpoint and Microsoft Cloud App Security. In this session I'll go over both platforms, show you some best practices. And I'll show you the power of them both combined in live demo's.",
-        "sessionUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDNhNWExMjgtMTgxOS00MjUxLTljYjMtMDJmMDUyMTNhYTg1%40thread.v2/0?context=%7b%22Tid%22%3a%227fc640cd-5b11-4cef-ba34-fc4d5a75bb86%22%2c%22Oid%22%3a%22c66f8d6b-803b-45ba-b3a9-5d043bb53349%22%7d"
     },
     {
         "sessionId": "5",
