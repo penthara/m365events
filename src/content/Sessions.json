@@ -45,7 +45,7 @@
     {
         "sessionId": "5",
         "trackId": "1",
-        "speaker1Id": "22",
+        "speaker1Id": 22,
         "speaker2Id": null,
         "speaker3Id": null,
         "sessionTime": "10:05 AM to 10:50 AM",
