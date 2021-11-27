@@ -6,70 +6,66 @@ import TrackDetails from "./content/TrackDetails.json";
 import { Container, Row, Col } from "reactstrap";
 
 export const Agenda = () => {
-        const trackfunc = (trackValue) => {
-            setTrack(trackValue);
-            var temptrack = trackDetailsState;
-            let i = 0;
-            for (i = 0; i < temptrack.length; i++) {
-                if (temptrack[i].trackId == trackValue) {
-                    temptrack[i].isActive = true;
-                } else {
-                    temptrack[i].isActive = false;
-                }
-            }
-            setTrackDetails(temptrack);
-        };
+  const trackfunc = (trackValue) => {
+    setTrack(trackValue);
+    var temptrack = trackDetailsState;
+    let i = 0;
+    for (i = 0; i < temptrack.length; i++) {
+      if (temptrack[i].trackId == trackValue) {
+        temptrack[i].isActive = true;
+      } else {
+        temptrack[i].isActive = false;
+      }
+    }
+    setTrackDetails(temptrack);
+  };
 
-        const [track, setTrack] = useState("1");
+  const [track, setTrack] = useState("1");
 
-        const [trackDetailsState, setTrackDetails] = useState(TrackDetails);
-        return ( <
-            div className = "agenda"
-            id = "agenda" >
-            <
-            h1 className = "agenda-heading" > AGENDA < /h1> <
-            div className = "agenda-para-text-1" >
-            Check out the agenda and the sessions
-            for the M365 SATURDAY BANGALORE 2021 event. <
-            /div> <
-            div className = "agenda-para-text-2" >
-            This event has a collection of fantastic sessions and demos by professionals. <
-            /div> <
-            div className = "container-fluid track-list" >
-            <
-            div className = "row track-row" > {
-                trackDetailsState.map((data) => {
-                    return ( <
-                        Col className = "tracks col"
-                        key = { data.trackId }
-                        onClick = {
-                            () => trackfunc(data.trackId) } >
-                        {
-                            data.isActive == true ? ( <
-                                div className = "track-data"
-                                style = {
-                                    { backgroundColor: "#20409B", color: "#fff" } } >
-                                <
-                                div className = "track-head" > { data.trackTitle } < /div> <
-                                span className = "track-span" > { data.trackSubTitle } < /span> <
-                                span className = "track-date" > { data.trackDate } < /span> <
-                                /div>
-                            ) : ( <
-                                div className = "track-data" >
-                                <
-                                div className = "track-head" > { data.trackTitle } < /div> <
-                                span className = "track-span" > { data.trackSubTitle } < /span> <
-                                span className = "track-date" > { data.trackDate } < /span> <
-                                /div>
-                            )
-                        } <
-                        /Col>
-                    );
-                })
-            } <
-            /div> <
-            /div> { /*<div className="p-5 fs-1 mt-5"> Coming Soon...</div>*/ } { < ShowSessionData CurrentTrackID = { track }
-                />} <
-                /div>
+  const [trackDetailsState, setTrackDetails] = useState(TrackDetails);
+  return (
+    <div className="agenda" id="agenda">
+      <h1 className="agenda-heading"> AGENDA </h1>
+      <div className="agenda-para-text-1">
+        Check out the agenda and the sessions for the M365 SATURDAY BANGALORE
+        2021 event.
+      </div>
+      <div className="agenda-para-text-2">
+        This event has a collection of fantastic sessions and demos by
+        professionals.
+      </div>
+      <div className="container-fluid track-list">
+        <div className="row track-row">
+          {trackDetailsState.map((data) => {
+            return (
+              <Col
+                className="tracks col"
+                key={data.trackId}
+                onClick={() => trackfunc(data.trackId)}
+              >
+                {data.isActive == true ? (
+                  <div
+                    className="track-data"
+                    style={{ backgroundColor: "#20409B", color: "#fff" }}
+                  >
+                    <div className="track-head"> {data.trackTitle} </div>
+                    <span className="track-span"> {data.trackSubTitle}</span>
+                    <span className="track-date"> {data.trackDate}</span>
+                  </div>
+                ) : (
+                  <div className="track-data">
+                    <div className="track-head"> {data.trackTitle} </div>
+                    <span className="track-span"> {data.trackSubTitle}</span>
+                    <span className="track-date"> {data.trackDate}</span>
+                  </div>
+                )}
+              </Col>
             );
-        };
+          })}
+        </div>
+      </div>
+      { /*<div className="p-5 fs-1 mt-5"> Coming Soon...</div>*/}
+      {<ShowSessionData CurrentTrackID={track} />}
+    </div>
+  );
+};
