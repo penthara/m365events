@@ -27,6 +27,34 @@
         "speakerInformation": "1. Marketing professional by choice and engineer by academics, with the strong entrepreneurial spirit of startups and rigorous operational discipline of corporates.\n2. Passionate tech story-teller with 15+ years at Fortune 500 companies and promising startups in the IT and IT-enabled services sectors - specifically cloud, developer and emerging technologies.\n3. Hands-on experience in building and nurturing long-term, high-value and result-oriented relationships with technology community heroes, thought leaders, influencers, BDMs and TDMs.\n4. CMO Award Winner (Forward Thinker award) at IBM, a top recognition personally awarded by the CMO – the first of the 3 award-winners globally in IBM to receive this honor in the very first year of award inception.\n5. Award winner for “Best Customer Passion” within the first year of employment with Microsoft India.\n6. Among the top 300 Young Leaders in India – per the Economic Times Young Leaders 2011 Program, a pan-India initiative to identify and recognize Indian managers between the age of 26 and 32."
     },
     {
+        "speakerId": "3",
+        "speakerName": "Jeff Tepper",
+        "speakerImage": "./images/speakers/2021-m365blr/JeffTepper.jpg",
+        "speakerAltText": "Jeff Tepper",
+        "keynoteSpeaker": "true",
+        "speakerTitle": "Corporate Vice President",
+        "speakerSubTitle": "Microsoft 365 Collaboration with Teams, SharePoint, OneDrive",
+        "speakerLinkedIn": "https://www.linkedin.com/in/jeffteper/",
+        "speakerTwitter": "https://twitter.com/jeffteper",
+        "MVPstatus": "false",
+        "MicrosoftEmployee": "true",
+        "speakerInformation": " "
+    }, 
+    {
+        "speakerId": "4",
+        "speakerName": "Vesa Juvonen",
+        "speakerImage": "./images/speakers/2021-m365blr/VesaJuvonen.jpg",
+        "speakerAltText": "Vesa Juvonen",
+        "keynoteSpeaker": "true",
+        "speakerTitle": "Principal Program Manager",
+        "speakerSubTitle": "Microsoft",
+        "speakerLinkedIn": "https://www.linkedin.com/in/vesajuvonen/",
+        "speakerTwitter": "https://twitter.com/vesajuvonen",
+        "MVPstatus": "false",
+        "MicrosoftEmployee": "true",
+        "speakerInformation": " "
+    }, 
+    {
         "speakerId": 11,
         "speakerName": "Nicole Enders",
         "speakerImage": "./images/speakers/2021-m365blr/NicoleEnders.png",
