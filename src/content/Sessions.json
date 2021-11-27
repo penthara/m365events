@@ -4,7 +4,7 @@
         "speaker1Id": "3",
         "speaker2Id": null,
         "speaker3Id": null,
-        "sessionTime": "9:30 AM to 9:45 AM",
+        "sessionTime": "9:15 AM to 9:45 AM",
         "sessionTitle": "Event Opening",
         "sessionDescription": " ",
         "sessionUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Njg3ZDgwMjQtZmRjYS00MWFkLTlmOTEtNjNlMDQ1MTIxODM2%40thread.v2/0?context=%7b%22Tid%22%3a%227fc640cd-5b11-4cef-ba34-fc4d5a75bb86%22%2c%22Oid%22%3a%22c66f8d6b-803b-45ba-b3a9-5d043bb53349%22%7d"
@@ -45,23 +45,187 @@
     {
         "sessionId": "5",
         "trackId": "1",
-        "speaker1Id": "47",
+        "speaker1Id": "22",
         "speaker2Id": null,
         "speaker3Id": null,
-        "sessionTime": "12:30 PM to 1:30 PM",
-        "sessionTitle": "M365 Security and Monitoring with Graph API",
-        "sessionDescription": "Security is the first thing customers have in thoughts when they talk about cloud. This is true as information is everything and keeping it secure for any business is top priority. Microsoft Graph API provide many options to connect specifically with security information and also provide ways to automate the process of managing security threats. In this session, we will explore the security Graph APIs and how we can build real world automation with Flow or custom applications to monitor and act upon threats. As a takeaway from this session, you will learn about the capabilities of security Graph APIs and what are use cases in real world.",
-        "sessionUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjU1ZWYxYzMtZDY4My00MDZiLWFlMzItZGVmZWU0M2ZlMjAx%40thread.v2/0?context=%7b%22Tid%22%3a%227fc640cd-5b11-4cef-ba34-fc4d5a75bb86%22%2c%22Oid%22%3a%22c66f8d6b-803b-45ba-b3a9-5d043bb53349%22%7d"
+        "sessionTime": "10:05 AM to 10:50 AM",
+        "sessionTitle": "Know everything about Microsoft Viva Topics",
+        "sessionDescription": "",
+        "sessionUrl": ""
     },
     {
         "sessionId": "6",
         "trackId": "1",
-        "speaker1Id": "4",
-        "speaker2Id": "5",
+        "speaker1Id": "25",
+        "speaker2Id": null,
         "speaker3Id": null,
-        "sessionTime": "1:30 PM to 2:30 PM ",
-        "sessionTitle": "Information Barriers in MS Teams",
-        "sessionDescription": "Information barriers help to define policies that are designed to allow certain segments of users to communicate or to be isolated with each other. \nIn this session, we will explore how to restrict communication and collaboration between groups to avoid a conflict of interest from occurring in your organization.",
-        "sessionUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjE0NzkxMmQtMWE0ZC00MmZkLWI4ZTgtZjYwODU3ZGUyMzEz%40thread.v2/0?context=%7b%22Tid%22%3a%227fc640cd-5b11-4cef-ba34-fc4d5a75bb86%22%2c%22Oid%22%3a%22c66f8d6b-803b-45ba-b3a9-5d043bb53349%22%7d"
+        "sessionTime": "10:55 AM to 11:40 AM",
+        "sessionTitle": "Automating Document Processing using SharePoint Syntex & Power Platform",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "7",
+        "trackId": "1",
+        "speaker1Id": "17",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "11:45 AM to 12:30 PM",
+        "sessionTitle": "A Deep Dive - PowerApps Portals",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "8",
+        "trackId": "1",
+        "speaker1Id": "15",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "12:35 PM to 01:20 PM",
+        "sessionTitle": "Microsoft Viva Connections - Set up and Extend with SPFx",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "9",
+        "trackId": "1",
+        "speaker1Id": "21",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "01:25 PM to 02:10 PM",
+        "sessionTitle": "Building Teams App with VS Code Teams Toolkit",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "10",
+        "trackId": "1",
+        "speaker1Id": "28",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "02:15 PM to 03:00 PM",
+        "sessionTitle": "Building real-time processes and notifications on Microsoft 365 with webhooks",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "11",
+        "trackId": "1",
+        "speaker1Id": "13",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "03:05 PM to 03:50 PM",
+        "sessionTitle": "POWERTEAMS - The ultimate guide to approval tasks in Teams using Adaptive Cards",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "12",
+        "trackId": "1",
+        "speaker1Id": "23",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "03:55 PM to 04:40 PM",
+        "sessionTitle": "Cloud Development with Microsoft's APIs, PowerShell and PowerAutomate",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "13",
+        "trackId": "1",
+        "speaker1Id": "12",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "04:45 PM to 05:25 PM",
+        "sessionTitle": "Battle Royale : Azure Logic Apps Vs Power Automate ( Microsoft Flow )",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "14",
+        "trackId": "2",
+        "speaker1Id": "16",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "10:05 AM to 10:50 AM",
+        "sessionTitle": "Secure your M365 resources using Azure AD Identity governance",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "15",
+        "trackId": "2",
+        "speaker1Id": "14",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "10:55 AM to 11:40 AM",
+        "sessionTitle": "People Powered Workspace using Microsoft Viva",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "16",
+        "trackId": "2",
+        "speaker1Id": "24",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "11:45 AM to 12:30 PM",
+        "sessionTitle": "Lets dissect Document Automation in Power Platform",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "17",
+        "trackId": "2",
+        "speaker1Id": "18",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "12:35 PM to 01:20 PM",
+        "sessionTitle": "Add to OneDrive  -  new way to sync?",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "18",
+        "trackId": "2",
+        "speaker1Id": "19",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "01:25 PM to 02:10 PM",
+        "sessionTitle": "How to manage apps in Microsoft Teams",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "19",
+        "trackId": "2",
+        "speaker1Id": "27",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "02:15 PM to 03:00 PM",
+        "sessionTitle": "Build a Teams creation workflow using Power Automate",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    },
+    {
+        "sessionId": "20",
+        "trackId": "2",
+        "speaker1Id": "11",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "03:05 PM to 03:50 PM",
+        "sessionTitle": "Build a business application with the Power Platform in less than 30 minutes",
+        "sessionDescription": "",
+        "sessionUrl": ""
+    }, {
+        "sessionId": "21",
+        "trackId": "2",
+        "speaker1Id": "26",
+        "speaker2Id": null,
+        "speaker3Id": null,
+        "sessionTime": "03:55 PM to 04:40 PM",
+        "sessionTitle": "Spoiler Alert!  Nothing Actually Lives in Teams!  Managing Your Files in Office 365",
+        "sessionDescription": "",
+        "sessionUrl": ""
     }
 ]
