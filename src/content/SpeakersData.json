@@ -223,6 +223,20 @@
         "speakerInformation": "Speaker, Working professional with 3.5+ years of experience as SharePoint Framework Developer, Building usecases in Microsoft Teams and Microsoft Power Platform based on the latest features by Microsoft."
     },
     {
+        "speakerId": "17",
+        "speakerName": "TBD",
+        "speakerImage": "./images/speakers/2021-m365blr/TBD.jpg",
+        "speakerAltText": "TBD",
+        "keynoteSpeaker": "false",
+        "speakerTitle": "TBD",
+        "speakerSubTitle": "TBD",
+        "speakerLinkedIn": "",
+        "speakerTwitter": "",
+        "MVPstatus": "false",
+        "MicrosoftEmployee": "false",
+        "speakerInformation": ""
+    }, 
+    {
         "speakerId": "18",
         "speakerName": "Shakir Majeed Khan",
         "speakerImage": "./images/speakers/2021-m365blr/ShakirMajeedKhan.jpg",
@@ -250,6 +264,20 @@
         "MicrosoftEmployee": "false",
         "speakerInformation": "I am a Lead Developer having over 10+ years of experience in designing, architecting & developing applications for O365, Microsoft Azure, SharePoint Online, SharePoint 2013, SharePoint 2010, MOSS 2007 and ASP.NET.\n\nI am a poet by passion, an avid reader who loves music and movies along with dining, travelling and spending quality times with friends & family. "
     },
+    {
+        "speakerId": "20",
+        "speakerName": "TBD",
+        "speakerImage": "./images/speakers/2021-m365blr/TBD.jpg",
+        "speakerAltText": "TBD",
+        "keynoteSpeaker": "false",
+        "speakerTitle": "TBD",
+        "speakerSubTitle": "TBD",
+        "speakerLinkedIn": "",
+        "speakerTwitter": "",
+        "MVPstatus": "false",
+        "MicrosoftEmployee": "false",
+        "speakerInformation": ""
+    }, 
     {
         "speakerId": "21",
         "speakerName": "Nikki Chapple",
