@@ -253,7 +253,7 @@
     {
         "speakerId": "19",
         "speakerName": "Bhargav Reddy",
-        "speakerImage": "./images/speakers/2021-m365blr/BhargavReddy.jpg",
+        "speakerImage": "./images/speakers/2021-m365blr/BhargavReddy.JPG",
         "speakerAltText": "Bhargav Reddy",
         "keynoteSpeaker": "false",
         "speakerTitle": "Senior Technical Lead",
@@ -294,9 +294,9 @@
     },
     {
         "speakerId": "22",
-        "speakerName": "Giuliano De Luca ",
+        "speakerName": "Giuliano De Luca",
         "speakerImage": "./images/speakers/2021-m365blr/GiulianoDeLuca.jpg",
-        "speakerAltText": "Giuliano De Luca ",
+        "speakerAltText": "Giuliano De Luca",
         "keynoteSpeaker": "false",
         "speakerTitle": "Independent, Office Development MVP",
         "speakerSubTitle": "",
@@ -305,5 +305,33 @@
         "MVPstatus": "true",
         "MicrosoftEmployee": "false",
         "speakerInformation": "Giuliano is an independent technical architect Microsoft Office Development MVP, passionate and lover of his job, he is a specialist in Microsoft technologies like Microsoft 365 and Azure.\nDuring his career has achieved several Microsoft certifications he is also a blogger and international speaker.\ndelucagiuliano.com\n@delucagiulian\nhttps://www.linkedin.com/in/delucagiuliano/\nhttps://www.youtube.com/GiulianoDeLuca"
+    },
+    {
+        "speakerId": "23",
+        "speakerName": "Anna Jhaveri",
+        "speakerImage": "./images/speakers/2021-m365blr/AnnaJhaveri.jpg",
+        "speakerAltText": "Anna Jhaveri",
+        "keynoteSpeaker": "false",
+        "speakerTitle": "Technical Lead",
+        "speakerSubTitle": "/nSoHo Dragon",
+        "speakerLinkedIn": "https://www.linkedin.com/in/annajhaveri/",
+        "speakerTwitter": "https://twitter.com/AnnaJhaveri",
+        "MVPstatus": "false",
+        "MicrosoftEmployee": "false",
+        "speakerInformation": "Over 12+ years of experience on various Microsoft Technologies. Vast experience on solution design, implementation and product customization on different versions of Microsoft 365 apps."
+    },
+    {
+        "speakerId": "24",
+        "speakerName": "Zara (Sara) Jhangiryan",
+        "speakerImage": "./images/speakers/2021-m365blr/ZaraJhangiryan.jpg",
+        "speakerAltText": "Zara (Sara) Jhangiryan",
+        "keynoteSpeaker": "false",
+        "speakerTitle": "Marketing Manager",
+        "speakerSubTitle": "/nKWizCom",
+        "speakerLinkedIn": "https://www.linkedin.com/in/zjhangiryan/",
+        "speakerTwitter": "https://twitter.com/AnnaJhaveri",
+        "MVPstatus": "false",
+        "MicrosoftEmployee": "false",
+        "speakerInformation": "A highly motivated and data driven marketer with proven ability to deliver innovative digital marketing campaigns from strategy to execution & optimization, and significantly increase revenue, sales and brand recognition. Great experience and ability in developing high-quality marketing programs and content that open new markets and increase demand generation."
     }
 ]
