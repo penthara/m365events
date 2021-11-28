@@ -126,7 +126,7 @@ export const ShowSessionData = (props) => {
                         ) : null}
 
                         {data.speaker1Id != null &&
-                        data.speaker1Id < Speakers.length ? (
+                        data.speaker1Id < Speakers.length + 2 ? (
                           <div className="speaker1">
                             <LazyLoad height={70} width={70} debounce={false}>
                               <ImageLoader
