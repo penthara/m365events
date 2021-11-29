@@ -28,7 +28,7 @@
         "speaker3Id": null,
         "sessionTime": "10:05 AM to 10:50 AM",
         "sessionTitle": "Know everything about Microsoft Viva Topics",
-        "sessionDescription": "",
+        "sessionDescription": "Want to know what is Viva Topics? How to set that up for your organization and how to make access viva Topics. This session will cover all the aspects of Viva, including managing Viva Topics.",
         "sessionUrl": ""
     },
     {
@@ -39,7 +39,7 @@
         "speaker3Id": null,
         "sessionTime": "10:55 AM to 11:40 AM",
         "sessionTitle": "Automating Document Processing using SharePoint Syntex & Power Platform",
-        "sessionDescription": "",
+        "sessionDescription": "The session will provide an understanding of automating the Electronic and Non-Electronic Processes using SharePoint Syntex and also eliminate any third-party dependencies such as Kofax. It will also cover the scenarios of end-to-end usage of SharePoint syntex and Power Platform in order to Classify, Extract, Validate the metadata of the Documents.\nThe session will cover the following topics.\n- Introduction on SharePoint Syntex \n- Overview of Form Processing with Demo\n- Overview of Document Understanding Model with Demo\n- Differences between Form Processing and Document Understanding Models\n- When to use each of them and Licensing Models\n- Performance Benchmarks of SharePoint Syntex\n- Demo with Major Banking Customer's Case Study",
         "sessionUrl": ""
     },
     {
@@ -50,7 +50,7 @@
         "speaker3Id": null,
         "sessionTime": "11:45 AM to 12:30 PM",
         "sessionTitle": "A Deep Dive - PowerApps Portals",
-        "sessionDescription": "",
+        "sessionDescription": "PowerApps Portals are a new feature to Power Apps dealing with the incredible functionality of sharing the app to the users outside the organization. Power Apps Portals can build low-code apps and responsive websites, allowing external users to access the app.\nIn this session I will explain:\n• An introduction - PowerApps Portal\n• Setting up a new instance\n• Portal Branding\n• CRUD operations in PowerApps Portals",
         "sessionUrl": ""
     },
     {
@@ -61,7 +61,7 @@
         "speaker3Id": null,
         "sessionTime": "12:35 PM to 01:20 PM",
         "sessionTitle": "Microsoft Viva Connections - Set up and Extend with SPFx",
-        "sessionDescription": "",
+        "sessionDescription": "Viva Connection integration with SharePoint enables a dynamic, engaging, and personalized employee experience for your organization. These innovations power the intelligent workplace, where teams can collaborate and streamline workflows, organizations can engage employees and communicate effectively, and individuals can be more creative and productive with experiences and insights powered by artificial intelligence (AI).\nIn this session we will dive into setting up Viva connections using SharePoint and integrating with Microsoft Teams.\nWe will explore how the Developers can extend Microsoft Viva Connections for building engaging experiences with the widely adopted SharePoint Framework (SPFx).",
         "sessionUrl": ""
     },
     {
@@ -72,7 +72,7 @@
         "speaker3Id": null,
         "sessionTime": "01:25 PM to 02:10 PM",
         "sessionTitle": "Building Teams App with VS Code Teams Toolkit",
-        "sessionDescription": "",
+        "sessionDescription": "Everything is about Teams nowadays in Microsoft 365 space and with everything being virtual for almost 2 years, Teams popularity and its app development are very popular. There are many ways to do Teams App development and in this particular session, we will go into depth to learn about Teams toolkit, a Visual Studio Code extension for developing Teams App.\nThe Teams Toolkit helps developers create and deploy Teams apps with integrated Identity, access to cloud storage, data from Microsoft Graph, and other services in Azure and M365 with a 'zero-configuration' approach to the developer experience.\nThe agenda for the session would be \nOverview of Team App Development\nType of Teams App \nIntroduction to Teams Toolkit \nSetting up Toolkit \nDemos \nConclusion",
         "sessionUrl": ""
     },
     {
@@ -83,7 +83,7 @@
         "speaker3Id": null,
         "sessionTime": "02:15 PM to 03:00 PM",
         "sessionTitle": "Building real-time processes and notifications on Microsoft 365 with webhooks",
-        "sessionDescription": "",
+        "sessionDescription": "Keep informed the end-user in real-time with new changes by displaying notifications.\nIn this session, we will explore how to leverage the capabilities of SharePoint and Graph API webhooks, in order to trigger your business processes.\nWe will see how to subscribe webhooks and automatically renew the subscription, we will see several scenarios using SharePoint Framework, Power Automate, and Azure Function with webhooks.",
         "sessionUrl": ""
     },
     {
@@ -94,7 +94,7 @@
         "speaker3Id": null,
         "sessionTime": "03:05 PM to 03:50 PM",
         "sessionTitle": "POWERTEAMS - The ultimate guide to approval tasks in Teams using Adaptive Cards",
-        "sessionDescription": "",
+        "sessionDescription": "Getting approvals to important processes is crucial in ensuring quick decision making and getting things done quickly. Many organisations suffer from time wasted and poor end-user experience by lengthy approval processes.\nMicrosoft Adaptive cards and Approvals in Teams introduces a comprehensive, easy to use service for organisations to improve their important processes and increase time to decision making. It also provides a positive user experience with adaptive cards being used directly in the place of work - Microsoft Teams!\nJoin this session to find out the art of the possible with Approvals and Adaptive Cards in Microsoft Teams, and get a good look at how to begin implementing this in your own organisation.",
         "sessionUrl": ""
     },
     {
@@ -105,7 +105,7 @@
         "speaker3Id": null,
         "sessionTime": "03:55 PM to 04:40 PM",
         "sessionTitle": "Power Virtual Agents",
-        "sessionDescription": "",
+        "sessionDescription": "Overview of Power Virtual Agents and Demo",
         "sessionUrl": ""
     },
     {
@@ -116,7 +116,7 @@
         "speaker3Id": null,
         "sessionTime": "04:45 PM to 05:25 PM",
         "sessionTitle": "Battle Royale : Azure Logic Apps Vs Power Automate ( Microsoft Flow )",
-        "sessionDescription": "",
+        "sessionDescription": "Power Automate ( Microsoft Flow ) is built on the top of Azure Logic Apps and offers a comprehensive offering to build low code/no-code automation.\nOften the developers and architects have to decide which product to use while building automation.\nIn this demo-driven session, we will cover in-depth the key differences between Logic Apps and Power Automate ( Microsoft Flow ) and their suitable use cases. We will also cover the pricing and the extensibility model.\nYou will learn:\nKey differences between Azure Logic Apps and Power Automate ( Microsoft Flow )\nHow to extend Power Automate ( Microsoft Flow ) using Azure Logic Apps\nBest Practices of Azure Logic Apps and Power Automate (Microsoft Flow)",
         "sessionUrl": ""
     },
     {
@@ -127,7 +127,7 @@
         "speaker3Id": null,
         "sessionTime": "10:05 AM to 10:50 AM",
         "sessionTitle": "Secure your M365 resources using Azure AD Identity governance",
-        "sessionDescription": "",
+        "sessionDescription": "With remote work becoming the new normal ,a lot of organizations are looking for a secure way to share their data with customers, vendors and business partners for a better collaboration . While this really helps to improve productivity it also brings in a lot of concerns around data security . So in this session we will be discussing about how Azure AD Identity governance can help to solve these four key problems listed below.\n1.Which users should have access to which resources?\n2.What are those users doing with that access?\n3.Are there effective organizational controls for managing access?\n4.Can auditors verify that the controls are working?",
         "sessionUrl": ""
     },
     {
@@ -138,7 +138,7 @@
         "speaker3Id": null,
         "sessionTime": "10:55 AM to 11:40 AM",
         "sessionTitle": "People Powered Workspace using Microsoft Viva",
-        "sessionDescription": "",
+        "sessionDescription": "Let us discusses the need for a more modern employee experience, and how Microsoft and the partners are bringing this vision to life through Microsoft Viva. This new, integrated employee experience within Microsoft Teams helps people manage communications, knowledge, learning, resources, and insights as part of their natural workflow, and in the apps and services they use every day.",
         "sessionUrl": ""
     },
     {
@@ -149,7 +149,7 @@
         "speaker3Id": null,
         "sessionTime": "11:45 AM to 12:30 PM",
         "sessionTitle": "Lets dissect Document Automation in Power Platform",
-        "sessionDescription": "",
+        "sessionDescription": "We will start our session discussing AI in Power Platform, then we will explore different AI models in Power Platform. In the latter half of our session, we will then deep dive into Document automation and explore the underlying technologies present in Document Automation.",
         "sessionUrl": ""
     },
     {
@@ -160,7 +160,7 @@
         "speaker3Id": null,
         "sessionTime": "12:35 PM to 01:20 PM",
         "sessionTitle": "Add to OneDrive  -  new way to sync?",
-        "sessionDescription": "",
+        "sessionDescription": "This session tells you the different of “classic” sync and “Add to OneDrive”, the Pro’s and Contra’s, the Limits of sync and why Microsoft implement another way of sync. It includes a lot of demo’s to explain, that the new way of sync is much more better.",
         "sessionUrl": ""
     },
     {
@@ -171,7 +171,7 @@
         "speaker3Id": null,
         "sessionTime": "01:25 PM to 02:10 PM",
         "sessionTitle": "How to manage apps in Microsoft Teams",
-        "sessionDescription": "",
+        "sessionDescription": "Microsoft Teams is a platform for apps. There are several ways to bring apps available to your users and users can even bring their own apps to the environment.Should there be some governance as well?\nIn this session, we will take a look at how to manage and publish apps to your users, how to bring your organization's custom apps to Teams and what are app templates. We will explore Teams settings for apps, Teams app policies, and recent app store functionalities.\nAt the end of this session, you will understand the capabilities to manage apps in Teams and what are the options to bring custom apps to Teams.",
         "sessionUrl": ""
     },
     {
@@ -182,7 +182,7 @@
         "speaker3Id": null,
         "sessionTime": "02:15 PM to 03:00 PM",
         "sessionTitle": "Build a Teams creation workflow using Power Automate",
-        "sessionDescription": "",
+        "sessionDescription": "Use Lists and Power Automate to build a Team creation process to govern the creation of Teams. Build on the standard process to require a justification, an approval step, add multiple owners and apply your own naming standard.",
         "sessionUrl": ""
     },
     {
@@ -193,7 +193,7 @@
         "speaker3Id": null,
         "sessionTime": "03:05 PM to 03:50 PM",
         "sessionTitle": "Build a business application with the Power Platform in less than 30 minutes",
-        "sessionDescription": "",
+        "sessionDescription": "The Power Platform offers a wide range of possibilities to create your individual workspace and support your business processes. And just in case that these possibilities don't fit your needs, there are many third party tools and services to be combined with the services. This session shows how to use standard functionalities of Teams, Power Automate and Planner in combination to build custom applications. We will focus on:\n- Introduction: Standard vs. Low Code vs. individual development\n- Building a custom application with the Power Platform",
         "sessionUrl": ""
     }, {
         "sessionId": "21",
@@ -203,7 +203,7 @@
         "speaker3Id": null,
         "sessionTime": "03:55 PM to 04:40 PM",
         "sessionTitle": "Approvals in Microsoft Teams",
-        "sessionDescription": "",
+        "sessionDescription": "Approvals play important role in documents life-cycle, projects, company processes, IT management and many other areas. It's really hard to imagine company without any approval process. Holiday requests, project proposals, agreements, IT requests and more.\nWith latest updates Microsoft Teams become powerful approval center. \nIn this session I will go through approval options available in Teams and show how to use them and when.\nIn details:\n • Available approval options in Teams\n• What is Approval app\n• Integration with Teams\n• Management options\n• DEMOS",
         "sessionUrl": ""
     }, {
         "sessionId": "22",
