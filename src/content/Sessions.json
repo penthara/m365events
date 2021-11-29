@@ -212,8 +212,8 @@
         "speaker2Id": null,
         "speaker3Id": null,
         "sessionTime": "04:45 PM to 05:05 PM",
-        "sessionTitle": "Sponser Session",
-        "sessionDescription": "",
+        "sessionTitle": "SoHo Dragon Sponser Session",
+        "sessionDescription": "SoHo Dragon Sponsor Session by Anna Dharav",
         "sessionUrl": ""
     }, {
         "sessionId": "23",
@@ -222,8 +222,8 @@
         "speaker2Id": null,
         "speaker3Id": null,
         "sessionTime": "05:10 PM to 05:30 PM",
-        "sessionTitle": "Sponser Session",
-        "sessionDescription": "",
+        "sessionTitle": "KWizCom Sponser Session",
+        "sessionDescription": "KWizCom Sponser Session by Zara (Sara) Jhangiryan",
         "sessionUrl": ""
     }
 ]
