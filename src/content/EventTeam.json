@@ -21,6 +21,13 @@
     },
     {
         "OrganizerID": "6",
+        "OrganizerImage": "./images/website/VijaiAnand.jpg",
+        "OrganizerName": "Vijai Anand Ramalingam",
+        "isVolunteer": "false",
+        "speakerLinkedIn": "https://www.linkedin.com/in/vijai-anand-ramalingam-77439736/"
+    },
+    {
+        "OrganizerID": "7",
         "OrganizerImage": "./images/website/Chendrayan.jpg",
         "OrganizerName": "Chendrayan Venkatesan",
         "isVolunteer": "false",
