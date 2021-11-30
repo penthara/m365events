@@ -1,23 +1,29 @@
-[
-  {
-    "OrganizerID": "3",
-    "OrganizerImage": "./images/website/Jasjit.jpg",
-    "OrganizerName": "Jasjit Chopra",
-    "isVolunteer": "false",
-    "speakerLinkedIn": "https://www.linkedin.com/in/jasjitchopra/"
-  },
-  {
-    "OrganizerID": "4",
-    "OrganizerImage": "./images/website/Jenkins.jpg",
-    "OrganizerName": "Jenkins NS",
-    "isVolunteer": "false",
-    "speakerLinkedIn": "https://www.linkedin.com/in/jenkinsns/"
-  },
-  {
-    "OrganizerID": "5",
-    "OrganizerImage": "./images/website/Kamlesh.jpg",
-    "OrganizerName": "Kamlesh Rao",
-    "isVolunteer": "false",
-    "speakerLinkedIn": "https://www.linkedin.com/in/kamleshrao/"
-  }
+[{
+        "OrganizerID": "3",
+        "OrganizerImage": "./images/website/Jasjit.jpg",
+        "OrganizerName": "Jasjit Chopra",
+        "isVolunteer": "false",
+        "speakerLinkedIn": "https://www.linkedin.com/in/jasjitchopra/"
+    },
+    {
+        "OrganizerID": "4",
+        "OrganizerImage": "./images/website/Jenkins.jpg",
+        "OrganizerName": "Jenkins NS",
+        "isVolunteer": "false",
+        "speakerLinkedIn": "https://www.linkedin.com/in/jenkinsns/"
+    },
+    {
+        "OrganizerID": "5",
+        "OrganizerImage": "./images/website/Kamlesh.jpg",
+        "OrganizerName": "Kamlesh Rao",
+        "isVolunteer": "false",
+        "speakerLinkedIn": "https://www.linkedin.com/in/kamleshrao/"
+    },
+    {
+        "OrganizerID": "6",
+        "OrganizerImage": "./images/website/Chendrayan.jpg",
+        "OrganizerName": "Chendrayan Venkatesan",
+        "isVolunteer": "false",
+        "speakerLinkedIn": "https://www.linkedin.com/in/chendrayanv/"
+    }
 ]
