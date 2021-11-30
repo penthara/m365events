@@ -322,16 +322,16 @@
     },
     {
         "speakerId": "24",
-        "speakerName": "Zara (Sara) Jhangiryan",
-        "speakerImage": "./images/speakers/2021-m365blr/ZaraJhangiryan.jpg",
-        "speakerAltText": "Zara (Sara) Jhangiryan",
+        "speakerName": "Nimrod Geva",
+        "speakerImage": "./images/speakers/2021-m365blr/NimrodGeva.jpg",
+        "speakerAltText": "Nimrod Geva",
         "keynoteSpeaker": "false",
-        "speakerTitle": "Marketing Manager",
+        "speakerTitle": "Product Group Manager",
         "speakerSubTitle": "KWizCom",
-        "speakerLinkedIn": "https://www.linkedin.com/in/zjhangiryan/",
-        "speakerTwitter": "https://twitter.com/AnnaJhaveri",
+        "speakerLinkedIn": "https://www.linkedin.com/in/nimrodgeva/",
+        "speakerTwitter": "https://twitter.com/nimrodgeva",
         "MVPstatus": "false",
         "MicrosoftEmployee": "false",
-        "speakerInformation": "A highly motivated and data driven marketer with proven ability to deliver innovative digital marketing campaigns from strategy to execution & optimization, and significantly increase revenue, sales and brand recognition. Great experience and ability in developing high-quality marketing programs and content that open new markets and increase demand generation."
+        "speakerInformation": "With over 25 years of experience in software design and development, Nimrod Geva heads KWizCom’s Product group. He manages the roadmap of KWizCom products which includes finding ways to improve SharePoint and designing various SharePoint apps and web parts. Nimrod constantly communicates with customers about their business challenges and feature requests. His goal is to design KWizCom products to empower customers to overcome their business challenges."
     }
 ]
