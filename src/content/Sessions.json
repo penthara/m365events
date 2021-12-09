@@ -93,8 +93,8 @@
         "speaker2Id": null,
         "speaker3Id": null,
         "sessionTime": "03:05 PM to 03:50 PM",
-        "sessionTitle": "POWERTEAMS - The ultimate guide to approval tasks in Teams using Adaptive Cards",
-        "sessionDescription": "Getting approvals to important processes is crucial in ensuring quick decision making and getting things done quickly. Many organisations suffer from time wasted and poor end-user experience by lengthy approval processes.\nMicrosoft Adaptive cards and Approvals in Teams introduces a comprehensive, easy to use service for organisations to improve their important processes and increase time to decision making. It also provides a positive user experience with adaptive cards being used directly in the place of work - Microsoft Teams!\nJoin this session to find out the art of the possible with Approvals and Adaptive Cards in Microsoft Teams, and get a good look at how to begin implementing this in your own organisation.",
+        "sessionTitle": "Manage Microsoft 365 Group Lifecycle with Microsoft Graph",
+        "sessionDescription": "In this session we will discuss - 1. Use case for managing Microsoft 365 Group Lifecycle in an organization / company - managing groups in organization / company 2. Create Group with Microsoft Graph 3. Create Microsoft Team from Microsoft Group 4. Registering Azure app and certificate 5. Discussing permissions required for Azure App - Application Permissions - Delegate Permissions 6. Demo / Steps - Creating .Net core application for creating Microsoft 365 Group, Microsoft Team using GRAPH API",
         "sessionUrl": "https://bit.ly/dev-m365saturday2021blr"
     },
     {
