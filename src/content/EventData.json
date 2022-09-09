@@ -1,4 +1,5 @@
-[{
+[
+  {
     "siteTitle": "Microsoft 365 Saturday Bangalore 2021",
     "presentedUserGroup": "Microsoft 365 Bangalore User group \n\nPROUDLY PRESENTS",
     "subTitle": "Hands-on sessions and labs, delivered to you by the experts and community leaders",
@@ -7,8 +8,9 @@
     "twitterHashTag": "#M365BLR",
     "twitterHandle": "@m365blr",
     "eventDate": "December 11th, 2021",
-    "eventTitle": "A 1-Day Virtual Event with ",
+    "eventTitle": "A 1-Day In Person Event with ",
     "eventBgImage": "#",
     "eventBgImageAltText": "Background Image",
     "showSessionUrl": "true"
-}]
+  }
+]

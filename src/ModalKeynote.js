@@ -1,43 +1,49 @@
 import React from "react";
-import { Modal, ModalHeader, ModalBody } from "reactstrap";
-import "./Modal.scss";
+import {
+  Modal,
+  ModalHeader,
+  //  ModalBody
+} from "reactstrap";
+import "./css/Modal.scss";
 import LinkedInlogo from "./images/website/LinkedInlogo.png";
 import twitterlogo from "./images/website/twitterblue.png";
 
 const ModalKeynote = ({ modal, toggle, data }) => {
-  const closeBtn = <button className="close" onClick={toggle}></button>;
-  console.log("modal data", data);
+  const closeBtn = <button className="dec2022-close" onClick={toggle}></button>;
+  // console.log("modal data", data);
   return (
     <div>
       <Modal isOpen={modal} toggle={toggle}>
-        <ModalHeader toggle={toggle} close={closeBtn}>
-          {data.speakerName}
-          {/* <button type="button" className="close-icon"></button> */}
-        </ModalHeader>
-        <ModalBody className="nopadding">
+        <div className="dec2022-modalHeader">
+          <ModalHeader toggle={toggle} close={closeBtn}>
+            {data.speakerName}
+            {/* <button type="button" className="dec2022-close-icon"></button> */}
+          </ModalHeader>
+        </div>
+        <div className="nopadding">
           <div className="p-5 text-center">
             <img
               src={`${data.speakerImage}`}
               alt={data.speakerAltText}
-              className="modal-image"
+              className="dec2022-modal-image"
             />
           </div>
-          <div className="bg-grey p-5">
+          <div className="dec2022-bg-grey bg-grey p-5">
             <h4 className="mb-4">BIO</h4>
-            <p className="speaker-information">{data.speakerInformation}</p>
+            <p className="dec2022-speaker-information">
+              {data.speakerInformation}
+            </p>
 
-            <div className="divider"></div>
-            <div className="image-array">
-              {data.speakerLinkedIn !== null ? (
+            <div className="dec2022-divider"></div>
+            <div className="dec2022-image-array">
+              {data.speakerLinkedIn !== null && (
                 <a href={data.speakerLinkedIn} target="_blank" rel="noreferrer">
                   <img
                     src={LinkedInlogo}
                     alt="LinkedIn logo"
-                    className="mr-4"
+                    className="mr-4 mx-4"
                   />
                 </a>
-              ) : (
-                <></>
               )}
               {data.speakerTwitter !== null ? (
                 <a href={data.speakerTwitter} target="_blank" rel="noreferrer">
@@ -48,7 +54,7 @@ const ModalKeynote = ({ modal, toggle, data }) => {
               )}
             </div>
           </div>
-        </ModalBody>
+        </div>
       </Modal>
     </div>
   );

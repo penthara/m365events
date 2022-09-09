@@ -1,0 +1,35 @@
+import React, { useEffect } from "react";
+import "./css/App.scss";
+import { Header } from "./Header";
+import { About } from "./About";
+// import { Donate } from "./Donate";
+import { Agenda } from "./Agenda";
+import { Speaker } from "./Speaker";
+import { Sponsor } from "./Sponsor";
+import { UserGroups } from "./UserGroups";
+import { Footer } from "./Footer";
+import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
+import { CountDownTimer } from "./CountDownTimer";
+import { EventTeam } from "./EventTeam";
+import { SessionRecordings } from "./SessionRecordings";
+export const Prev = () => {
+  useEffect(() => {
+    document.title = "M365 SPS Banglore Dec2021";
+  }, []);
+  return (
+    <>
+      <Header />
+      <CountDownTimer />
+      <About />
+      <SessionRecordings />
+      {/* <Donate /> */}
+      <Agenda />
+      <KeyNoteSpeaker />
+      <Speaker />
+      <Sponsor />
+      <UserGroups />
+      <EventTeam />
+      <Footer />
+    </>
+  );
+};

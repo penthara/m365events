@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Speaker.scss";
+import "./css/Speaker.scss";
 import SpeakersData from "./content/SpeakersData.json";
 import ModalSpeaker from "./ModalSpeaker";
 import LinkedInlogo from "./images/website/LinkedInlogo.png";
@@ -8,7 +8,7 @@ import Microsoftlogo from "./images/website/microsoft_logo.png";
 import Twitterlogo from "./images/website/twitterblue.png";
 import {
   Card,
-  CardImg,
+  // CardImg,
   CardText,
   CardBody,
   CardTitle,
@@ -20,31 +20,29 @@ import ImageLoader from "./ImageLoader.js";
 export const Speaker = () => {
   const [modal, setModal] = useState(false);
   const [clickedData, setClickedData] = useState([]);
+
   const toggle = (data) => {
     setClickedData(data);
     setModal(!modal);
   };
   return (
     <>
-      <div className="speakers" id="speakers">
-        <h1 className="speaker-heading text-center">Speakers</h1>
-    {/*
-        <div className="p-5 fs-1 mt-5 text-center"> Coming Soon...</div>
-        */}
-        <div className="row justify-content-center">
+      <div className="dec2022-speakers" id="speakers">
+        <h1 className="dec2022-speaker-heading text-center">Speakers</h1>
+        <div className="dec2022-speaker-grid" style={{ width: "100%" }}>
           {SpeakersData.map((data) => {
             return (
               <>
-                {data.keynoteSpeaker == "false" && (
+                {data.keynoteSpeaker === "false" && (
                   <div
-                    className="col-xs-12 col-md-6 speaker-card-wrapper col-xl-4"
+                    className="col-xs-12 col-md-6 dec2022-speaker-card-wrapper col-xl-4"
                     key={data.speakerId}
                   >
-                    <Card className="speaker-card shadow nopadding">
-                      <div className="speaker-image">
-                        <div id="cube">
-                          <div class="square-holder">
-                            <div class="square" id="square"></div>
+                    <Card className="dec2022-speaker-card shadow nopadding">
+                      <div className="dec2022-speaker-image">
+                        <div id="dec2022-cube">
+                          <div className="dec2022-square-holder">
+                            <div className="dec2022-square" id="square"></div>
                           </div>
                         </div>
                         <LazyLoad height={400} debounce={false}>
@@ -57,15 +55,18 @@ export const Speaker = () => {
                       </div>
 
                       <div
-                        className="card-title-wrapper"
+                        className="dec2022-card-title-wrapper"
                         onClick={() => toggle(data)}
                       >
-                        <CardTitle tag="h3" className="text-center ">
+                        <CardTitle
+                          tag="h3"
+                          className="dec2022-card-title text-center "
+                        >
                           {data.speakerName}
                         </CardTitle>
                       </div>
                       <CardBody>
-                        <div className="cursor-click">
+                        <div className="dec2022-cursor-click">
                           <CardSubtitle
                             onClick={() => toggle(data)}
                             tag="p"
@@ -73,29 +74,32 @@ export const Speaker = () => {
                           >
                             {data.speakerTitle}
                           </CardSubtitle>
-                          <CardText onClick={() => toggle(data)}>
+                          <CardText
+                            className="dec2022-card-text"
+                            onClick={() => toggle(data)}
+                          >
                             {data.speakerSubTitle}
                           </CardText>
                         </div>
 
-                        <div className="social-media-array">
-                          {data.MVPstatus == "true" ? (
+                        <div className="dec2022-social-media-array">
+                          {data.MVPstatus === "true" ? (
                             <div>
                               <img
                                 src={MVPlogo}
                                 alt="MVP"
-                                className="card-socialmedia nopadding align-self-start cursor-none"
+                                className="dec2022-card-socialmedia nopadding align-self-start dec2022-cursor-none"
                               />
                             </div>
                           ) : (
                             <></>
                           )}
-                          {data.MicrosoftEmployee == "true" ? (
+                          {data.MicrosoftEmployee === "true" ? (
                             <div>
                               <img
                                 src={Microsoftlogo}
                                 alt="Microsoft Employee"
-                                className="card-socialmedia nopadding align-self-start"
+                                className="dec2022-card-socialmedia nopadding align-self-start"
                               />
                             </div>
                           ) : (
@@ -110,7 +114,7 @@ export const Speaker = () => {
                               <img
                                 src={LinkedInlogo}
                                 alt="LinkedIn logo"
-                                className="card-socialmedia nopadding align-self-start"
+                                className="dec2022-card-socialmedia nopadding align-self-start"
                               />
                             </a>
                           ) : (
@@ -125,7 +129,7 @@ export const Speaker = () => {
                               <img
                                 src={Twitterlogo}
                                 alt="Twitter logo"
-                                className="card-socialmedia nopadding align-self-start"
+                                className="dec2022-card-socialmedia nopadding align-self-start"
                               />
                             </a>
                           ) : (
@@ -141,7 +145,7 @@ export const Speaker = () => {
           })}
         </div>
       </div>
-      {modal == true ? (
+      {modal === true ? (
         <ModalSpeaker data={clickedData} modal={modal} toggle={toggle} />
       ) : (
         <></>

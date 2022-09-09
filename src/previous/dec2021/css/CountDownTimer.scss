@@ -1,0 +1,144 @@
+$base-color-blue: #20409b;
+$base-color-black: #636363;
+.dec2021-countDown {
+  text-align: center;
+  padding: 4rem 0;
+  margin: auto;
+  max-width: 60%;
+  .dec2021-countDown-row {
+    padding: 35px 0px;
+    border-radius: 40px;
+    background-color: hsl(0, 0%, 97%);
+    background: linear-gradient(
+      90deg,
+      rgba(132, 164, 255, 0.2109) 14.89%,
+      rgba(255, 255, 255, 0.37) 99.95%
+    );
+    box-shadow: 0px 4px 10px 2px #0000001a;
+    // min-width: 50%;
+    // margin: auto;
+    .dec2021-timer-date {
+      color: $base-color-black;
+      font-weight: 600;
+      font-size: 2.2vw;
+      letter-spacing: 2px !important;
+    }
+    .dec2021-timer-title {
+      color: $base-color-black;
+      font-weight: 400;
+      font-size: 1.1vw;
+    }
+    .dec2021-react-countdown {
+      li {
+        padding: 0 4%;
+        margin: auto;
+      }
+      .dec2021-digit {
+        font-size: 2vw;
+        color: $base-color-black;
+      }
+      .dec2021-text {
+        font-size: 1.1vw;
+        color: $base-color-blue !important;
+        text-transform: capitalize !important;
+        letter-spacing: 3px !important;
+        margin-top: 0vw;
+      }
+      li:after {
+        position: absolute;
+        top: -1vw;
+        right: -7px;
+        font-size: 3vw;
+        color: #c4c4c4;
+      }
+    }
+  }
+}
+
+// for only mobiile
+@media only screen and (max-width: 768px) {
+  .dec2021-col {
+    padding: 0;
+  }
+  .dec2021-countDown-mobile {
+    text-align: center;
+    .dec2021-timer-data-row {
+      padding-top: 42px;
+      padding-bottom: 12px;
+    }
+    .dec2021-timer-date-mobile {
+      color: $base-color-black;
+      font-weight: 600;
+      font-size: 35px !important;
+      letter-spacing: 2px !important;
+    }
+    .dec2021-timer-title-mobile {
+      color: $base-color-black;
+      font-weight: 400;
+      font-size: 20px;
+    }
+    .dec2021-timer-mobile {
+      padding: 36px 10px 0 10px;
+    }
+    .dec2021-react-countdown {
+      background: linear-gradient(
+        90deg,
+        rgba(132, 164, 255, 0.2109) 14.89%,
+        rgba(255, 255, 255, 0.37) 99.95%
+      );
+      padding: 18px 0;
+      border-radius: 20px;
+      li {
+        padding: 0 20px;
+        margin: auto;
+      }
+      .dec2021-digit {
+        font-size: 36px !important;
+        color: $base-color-black;
+      }
+      .dec2021-text {
+        font-size: 16px !important;
+        color: $base-color-blue !important;
+        text-transform: capitalize !important;
+        letter-spacing: 3px !important;
+        margin-top: -2px !important;
+      }
+      li:after {
+        top: 1px;
+        right: -4px;
+        font-size: 32px;
+      }
+    }
+  }
+}
+
+// for tablet
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+  .dec2021-countDown {
+    max-width: 70%;
+    .dec2021-countDown-row .dec2021-react-countdown li {
+      padding: 0 14px;
+      margin: auto;
+    }
+    .dec2021-countDown-row {
+      .dec2021-timer-date {
+        font-size: 3.2vw;
+      }
+      .dec2021-timer-title {
+        font-size: 1.5vw;
+      }
+    }
+    .dec2021-countDown-row .dec2021-react-countdown {
+      .dec2021-digit {
+        font-size: 3vw;
+      }
+      .dec2021-text {
+        font-size: 1.6vw;
+      }
+    }
+    // .dec2021-countDown-row .dec2021-react-countdown li:after {
+    //   top: -18px;
+    //   right: -6px;
+    // }
+  }
+}

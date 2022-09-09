@@ -1,0 +1,530 @@
+$White: #ffffff;
+$havlock-blue: #479cda;
+$base-color-green: #4faaaa;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.dec2022-navbar-background {
+  background: linear-gradient(325.49deg, #082c4a 12.41%, #154166 100.31%);
+}
+
+.dec2022-header {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-between;
+  background: linear-gradient(
+      125.2deg,
+      #133e62 5.87%,
+      rgba(9, 45, 74, 0.86) 47.79%,
+      #00213c 90.9%
+    ),
+    url("../images/website/BG\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+  .dec2022-head-nav {
+    min-height: 80px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: auto;
+  }
+  .dec2022-nav-bar-logo {
+    height: 54px !important;
+    padding: 3%;
+  }
+  .dec2022-nav-bar-logo-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .dec2022-bg-img {
+    width: 100%;
+  }
+  .dec2022-nav-bar {
+    &-logo {
+      height: 10%;
+    }
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .nav-item {
+    padding: 0 30px;
+    .nav-link:hover {
+      color: #fff;
+    }
+  }
+  a {
+    color: #ffffff;
+    font-size: 22px;
+  }
+}
+
+.dec2022-navbar-expand-md {
+  justify-content: flex-end !important;
+}
+.dec2022-content-left {
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.dec2022-head-data {
+  display: flex;
+  min-height: 70vh;
+  padding: 5% 2%;
+  min-width: 90%;
+  margin: auto;
+
+  .dec2022-siteTitle {
+    color: #fff;
+
+    span {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      white-space: pre-wrap;
+    }
+    h1 {
+      font-size: 60px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      max-width: 570px;
+      padding-top: 30px;
+    }
+  }
+  .dec2022-subTitle,
+  .dec2022-address {
+    color: #fff;
+    font-size: 25px;
+    padding-top: 5rem;
+    width: 570px;
+    max-width: 570px;
+  }
+
+  .dec2022-registrationBtn {
+    padding-top: 5rem;
+    .dec2022-register-btn {
+      background-color: #fff;
+      border-radius: 40px;
+      border: none;
+      padding: 15px 70px;
+      cursor: default;
+      // transition: all 0.3s ease-in-out;
+      // &:hover {
+      //   transform: scale(1.02);
+      // }
+      span {
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #0a2f4e !important;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    }
+  }
+  .dec2022-content-right {
+    padding-top: 80px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .dec2022-handles {
+    margin: 0 auto;
+    &:first-child {
+      a {
+        padding-bottom: 15px;
+      }
+    }
+    a {
+      text-decoration: none;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+    img {
+      width: 32px;
+      padding: 0;
+    }
+    .dec2022-twitterHashTag {
+      color: #fff;
+      font-size: 22px;
+    }
+    .dec2022-twitterHandle {
+      color: #fff;
+      font-size: 22px;
+    }
+  }
+  .dec2022-eventDate {
+    padding-top: 5rem;
+    justify-content: center;
+    text-align: center;
+    .dec2022-eventData-border {
+      border: 6px solid #ffffff;
+      width: auto;
+      padding: 20px;
+      background: #0a2f4e;
+    }
+    span {
+      text-transform: uppercase;
+      font-size: 30px;
+      font-family: "Roboto";
+      color: #ffffff;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+  }
+  .dec2022-fields {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5rem;
+    .dec2022-col:nth-child(1) {
+      max-width: 70%;
+      margin: auto;
+    }
+    .dec2022-eventTitle {
+      font-size: 30px;
+    }
+    .dec2022-fields-row {
+      // padding: 35px 140px 0 140px;
+      padding-top: 40px;
+      flex-wrap: nowrap;
+      .dec2022-sessionNumber,
+      .dec2022-sponserNumber,
+      .dec2022-trackNumber {
+        span {
+          display: block;
+        }
+        span:nth-child(1) {
+          background-color: #fff;
+          // padding: 19px;
+          color: #f66d10;
+          font-size: 50px;
+          font-weight: 600;
+          width: 100px;
+          height: 100px;
+          line-height: 100px;
+          border-radius: 7px;
+          margin: auto;
+        }
+        span:nth-child(2) {
+          padding-top: 20px;
+          font-size: 22px;
+          font-weight: 500;
+        }
+      }
+      .dec2022-trackNumber {
+        span:nth-child(1) {
+          display: block;
+          color: #ffbb00;
+          font-size: 50px;
+          font-weight: 600;
+        }
+      }
+      .dec2022-sponserNumber {
+        span:nth-child(1) {
+          display: block;
+          color: #7cbb00;
+          font-size: 50px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+// hamburger menu css
+.bm-burger-button {
+  // position: absolute !important;
+  span:nth-child(1) {
+    top: 24% !important;
+    height: 4% !important;
+    width: 100%;
+  }
+  span:nth-child(2) {
+    top: 37% !important;
+    height: 4% !important;
+    width: 100%;
+  }
+  span:nth-child(3) {
+    top: 51% !important;
+    height: 4% !important;
+    width: 100%;
+  }
+}
+
+.dec2022-Be-Sponsor {
+  height: 5.5rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    125.2deg,
+    #174469 5.87%,
+    #0d3556 47.79%,
+    #001d34 90.9%
+  );
+  &-wrapper {
+    display: flex;
+    height: 100%;
+    width: 85%;
+
+    margin: auto;
+    align-items: center;
+  }
+  &-text {
+    width: 70%;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 300;
+    // font-size: 1.8rem;
+    text-align: start;
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+  }
+
+  &-btn {
+    width: clamp(1rem, 26vw, 18rem);
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    padding: 3.5% 2%;
+    color: #0a2f4e;
+    font-weight: 600;
+    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.dec2022-locImg {
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  height: 110px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #fff;
+  width: 50px !important;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #fff;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  width: 30px !important;
+  height: 30px !important;
+  right: 30px !important;
+  top: 25px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: transparent;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  top: 0;
+}
+
+.dec2022-slidebar {
+  background: #0a2f4e;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: transparent;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 60px 10px 10px 10px;
+  text-align: center;
+  a {
+    text-decoration: none;
+    padding-bottom: 20px;
+  }
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  border: none;
+}
+.bm-item:active {
+  border: none;
+}
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 1200px) {
+  .dec2022-Be-Sponsor {
+    position: static;
+    &-text {
+      font-size: 1rem;
+      width: 70%;
+      text-align: start;
+    }
+    &-btn {
+      &-wrapper {
+        width: 30%;
+        text-align: start;
+      }
+    }
+  }
+
+  .dec2022-locImg {
+    margin: auto;
+  }
+
+  .dec2022-content-left {
+    text-align: center;
+    .dec2022-siteTitle {
+      h1 {
+        font-size: 40px;
+        max-width: none;
+      }
+    }
+    .dec2022-subTitle {
+      width: auto;
+      max-width: none;
+    }
+    .dec2022-address {
+      margin: auto;
+      width: 80%;
+      text-align: center;
+      max-width: none;
+      display: flex;
+      flex-direction: column;
+      .dec2022-locAddr {
+        margin-top: 1%;
+      }
+    }
+  }
+  .dec2022-head-data {
+    flex-direction: column;
+    padding: 10% 5%;
+    width: 100%;
+    .dec2022-eventDate {
+      span {
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dec2022-Be-Sponsor {
+    height: 8.5rem;
+    position: static;
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 90%;
+      margin: auto;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    &-text {
+      text-align: center;
+      font-weight: 500;
+    }
+    &-btn {
+      padding: 2% 3%;
+      &-wrapper {
+        width: 100%;
+        text-align: center;
+      }
+      width: 200px;
+      margin-bottom: 2px;
+    }
+  }
+
+  .dec2022-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .dec2022-locAddr {
+      margin-top: 5%;
+      text-align: center;
+      font-size: medium;
+    }
+  }
+
+  .dec2022-header .dec2022-nav-bar-logo {
+    padding-left: 0px;
+    // height: 35px !important;
+    vertical-align: middle;
+  }
+  .dec2022-fields {
+    .dec2022-col:nth-child(1) {
+      max-width: 100% !important;
+      margin: auto;
+    }
+  }
+  .dec2022-head-nav {
+    position: static !important;
+  }
+}
+
+// for tablet
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+  .bm-burger-button {
+    span:nth-child(1) {
+      width: 35%;
+    }
+    span:nth-child(2) {
+      width: 35%;
+    }
+    span:nth-child(3) {
+      width: 35%;
+    }
+  }
+  .bm-cross-button {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .bm-item-list {
+    padding: 80px 10px 10px 10px;
+    a {
+      padding-bottom: 60px;
+    }
+  }
+}

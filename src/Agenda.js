@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
-import "./Agenda.scss";
+import React, { useState } from "react";
+import "./css/Agenda.scss";
 import { ShowSessionData } from "./ShowSessionData";
-import Sessions from "./content/Sessions.json";
+// import Sessions from "./content/Sessions.json";
 import TrackDetails from "./content/TrackDetails.json";
-import { Container, Row, Col } from "reactstrap";
+import { Col } from "reactstrap";
+import { ComingSoon } from "./ComingSoon";
 
 export const Agenda = () => {
   const trackfunc = (trackValue) => {
@@ -19,44 +20,53 @@ export const Agenda = () => {
     }
     setTrackDetails(temptrack);
   };
-
   const [track, setTrack] = useState("1");
 
   const [trackDetailsState, setTrackDetails] = useState(TrackDetails);
+
   return (
-    <div className="agenda" id="agenda">
-      <h1 className="agenda-heading"> AGENDA </h1>
-      <div className="agenda-para-text-1">
+    <div className="dec2022-agenda" id="agenda">
+      <h1 className="dec2022-agenda-heading"> AGENDA </h1>
+      {/* Remove Following div after Agenda Availability */}
+      <div className="mt-4">
+        <ComingSoon />
+      </div>
+      {/* <div className="dec2022-agenda-para-text-1">
         Check out the agenda and the sessions for the M365 SATURDAY BANGALORE
         2021 event.
       </div>
-      <div className="agenda-para-text-2">
+      <div className="dec2022-agenda-para-text-2">
         This event has a collection of fantastic sessions and demos by
         professionals.
       </div>
-      <div className="container-fluid track-list">
-        <div className="row track-row">
+      <div className="container-fluid dec2022-track-list">
+        <div className="row dec2022-track-row">
           {trackDetailsState.map((data) => {
             return (
               <Col
-                className="tracks col"
+                xs="4"
+                className="dec2022-tracks"
                 key={data.trackId}
                 onClick={() => trackfunc(data.trackId)}
               >
-                {data.isActive == true ? (
+                {data.isActive === true ? (
                   <div
-                    className="track-data"
-                    style={{ backgroundColor: "#20409B", color: "#fff" }}
+                    className="dec2022-track-data"
+                    style={{ backgroundColor: "#2c4fb4", color: "#fff" }}
                   >
-                    <div className="track-head"> {data.trackTitle} </div>
-                    <span className="track-span"> {data.trackSubTitle}</span>
-                    <span className="track-date"> {data.trackDate}</span>
+                    <div className="dec2022-track-head">{data.trackTitle}</div>
+                    <span className="dec2022-track-span">
+                      {data.trackSubTitle}
+                    </span>
+                    <span className="dec2022-track-date">{data.trackDate}</span>
                   </div>
                 ) : (
-                  <div className="track-data">
-                    <div className="track-head"> {data.trackTitle} </div>
-                    <span className="track-span"> {data.trackSubTitle}</span>
-                    <span className="track-date"> {data.trackDate}</span>
+                  <div className="dec2022-track-data">
+                    <div className="dec2022-track-head">{data.trackTitle}</div>
+                    <span className="dec2022-track-span">
+                      {data.trackSubTitle}
+                    </span>
+                    <span className="dec2022-track-date">{data.trackDate}</span>
                   </div>
                 )}
               </Col>
@@ -64,8 +74,7 @@ export const Agenda = () => {
           })}
         </div>
       </div>
-      { /*<div className="p-5 fs-1 mt-5"> Coming Soon...</div>*/}
-      {<ShowSessionData CurrentTrackID={track} />}
+      <ShowSessionData CurrentTrackID={track} /> */}
     </div>
   );
 };

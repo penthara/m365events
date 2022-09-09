@@ -1,0 +1,25 @@
+.back-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  font-size: 100px;
+  background: #20419b7e;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0px 10px #aaa;
+}
+
+.back-to-top:hover {
+  background: #20409b;
+}
+.bi-arrow-up-short {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

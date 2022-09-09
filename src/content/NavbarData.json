@@ -1,4 +1,4 @@
- [
+[
   {
     "title": "HOME",
     "url": "#header",
@@ -7,11 +7,6 @@
   {
     "title": "AGENDA",
     "url": "#agenda",
-    "target": "_self"
-  },
-  {
-    "title": "SPEAKERS",
-    "url": "#speakers",
     "target": "_self"
   },
   {
