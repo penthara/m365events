@@ -5,7 +5,6 @@ import Speakers from "./content/SpeakersData.json";
 import Sessions from "./content/Sessions.json";
 import NavbarData from "./content/NavbarData.json";
 import HeaderData from "./content/HeaderData.json";
-// import bgImg from "./images/website/bg-img.png";
 import logo from "./images/website/transparentLogo.png";
 import twitterLogo from "./images/website/twittericon.png";
 import { Navbar, Nav, NavItem, NavLink, Row, Col } from "reactstrap";
