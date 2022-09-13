@@ -8,7 +8,7 @@ export const CallForSpeaker = () => {
 
       <div className="dec2022-cfs-para-text">
         Register today for the chance to speak at the event. M365 Saturday
-        Bangalore 2022 is calling for speakers. If you are a Microsoft Security
+        Bangalore 2022 is calling for speakers. If you are a Microsoft 365
         Expert and have an interesting topic to share Register today.
       </div>
       <div className="dec2022-cfs-text">
