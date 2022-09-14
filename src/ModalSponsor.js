@@ -198,12 +198,12 @@ export const ModalSponsor = ({ modal, toggle }) => {
                         <li>Company Logo in the pre-event mail.</li>
                         <div className="dec2022-Sponsor-divider" />
                         <li>
-                          A forty slot to present or talk about your product or any
+                          A forty minutes slot to present or talk about your product or any
                           Microsoft 365 product that you recently worked on.
                         </li>
                         <div className="dec2022-Sponsor-divider" />
                         <li>
-                          Exhibition stall to feature your brand.
+                          An Exhibition stall to feature your brand.
                         </li>
                       </ul>
                     </div>
