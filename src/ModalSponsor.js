@@ -203,7 +203,7 @@ export const ModalSponsor = ({ modal, toggle }) => {
                         </li>
                         <div className="dec2022-Sponsor-divider" />
                         <li>
-                          An Exhibition stall to feature your brand.
+                          An exhibition stall to feature your brand.
                         </li>
                       </ul>
                     </div>
