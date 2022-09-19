@@ -19,11 +19,6 @@ export const EventTeam = () => {
                     src={data.OrganizerImage}
                     className="dec2022-organizer-image"
                     alt="organizer"
-                    style={
-                      data.OrganizerName === "Kamlesh Rao"
-                        ? { transform: "scaleX(-1)" }
-                        : {}
-                    }
                   />
                   <h4 className="dec2022-organizer-name">
                     <span>{data.OrganizerName}</span>
