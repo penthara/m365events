@@ -127,6 +127,10 @@ export const ModalSponsor = ({ modal, toggle }) => {
                           Company logos on the event banners, session slides,
                           swags, and giveaways.
                         </li>
+                        <div className="dec2022-Sponsor-divider" />
+                        <li>
+                          Attendee opt. in contact details.
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -158,6 +162,14 @@ export const ModalSponsor = ({ modal, toggle }) => {
                         <li>
                           5% off M365 Saturday Banglore 2023 Sponsorship Fee.
                         </li>
+                        <div className="dec2022-Sponsor-divider" />
+                        <li>
+                          Attendee opt. in contact details.
+                        </li>                        
+                        <div className="dec2022-Sponsor-divider" />
+                        <li>
+                          A ten minutes slot to present or talk about your product or any Microsoft 365 product that you recently worked on.
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -186,8 +198,12 @@ export const ModalSponsor = ({ modal, toggle }) => {
                         <li>Company Logo in the pre-event mail.</li>
                         <div className="dec2022-Sponsor-divider" />
                         <li>
-                          A slot to present or talk about your product or any
+                          A forty minutes slot to present or talk about your product or any
                           Microsoft 365 product that you recently worked on.
+                        </li>
+                        <div className="dec2022-Sponsor-divider" />
+                        <li>
+                          An exhibition stall to feature your brand.
                         </li>
                       </ul>
                     </div>
