@@ -105,7 +105,7 @@ export const ModalSponsor = ({ modal, toggle }) => {
             <div className="dec2022-modalSponsor-title dec2022-modalSponsor-schemes-title">
               <div className="pt-5">SPONSORSHIP SCHEMES</div>
             </div>
-            <div class="row p-4 align-items-start gx-4">
+            <div class="row p-4 align-items-stretch gx-4">
               <div class="col-12 col-md-4 ">
                 <div className="scheme-card">
                   <div className="dec2022-modalSponsor-schemes-header1">
@@ -128,9 +128,7 @@ export const ModalSponsor = ({ modal, toggle }) => {
                           swags, and giveaways.
                         </li>
                         <div className="dec2022-Sponsor-divider" />
-                        <li>
-                          Attendee opt. in contact details.
-                        </li>
+                        <li>Attendee opt. in contact details.</li>
                       </ul>
                     </div>
                   </div>
@@ -163,12 +161,12 @@ export const ModalSponsor = ({ modal, toggle }) => {
                           5% off M365 Saturday Banglore 2023 Sponsorship Fee.
                         </li>
                         <div className="dec2022-Sponsor-divider" />
-                        <li>
-                          Attendee opt. in contact details.
-                        </li>                        
+                        <li>Attendee opt. in contact details.</li>
                         <div className="dec2022-Sponsor-divider" />
                         <li>
-                          A ten minutes slot to present or talk about your product or any Microsoft 365 product that you recently worked on.
+                          A ten minutes slot to present or talk about your
+                          product or any Microsoft 365 product that you recently
+                          worked on.
                         </li>
                       </ul>
                     </div>
@@ -176,7 +174,7 @@ export const ModalSponsor = ({ modal, toggle }) => {
                 </div>
               </div>
 
-              <div class="col-12 col-md-4 ">
+              <div class="col-12 col-md-4">
                 <div className="scheme-card">
                   <div className="dec2022-modalSponsor-schemes-header3">
                     <div>Diamond Sponsor</div>
@@ -198,13 +196,12 @@ export const ModalSponsor = ({ modal, toggle }) => {
                         <li>Company Logo in the pre-event mail.</li>
                         <div className="dec2022-Sponsor-divider" />
                         <li>
-                          A forty minutes slot to present or talk about your product or any
-                          Microsoft 365 product that you recently worked on.
+                          A forty minutes slot to present or talk about your
+                          product or any Microsoft 365 product that you recently
+                          worked on.
                         </li>
                         <div className="dec2022-Sponsor-divider" />
-                        <li>
-                          An exhibition stall to feature your brand.
-                        </li>
+                        <li>An exhibition stall to feature your brand.</li>
                       </ul>
                     </div>
                   </div>
