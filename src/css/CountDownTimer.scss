@@ -65,14 +65,14 @@ $base-color-black: #606060;
 
 // for only mobiile
 @media only screen and (max-width: 768px) {
-  .oct2022-countDown-mobile {
+  .dec2022-countDown-mobile {
     margin: 3rem auto !important;
     padding: 0 !important;
     background: transparent;
     box-shadow: none;
     border-radius: 40px;
-    width: 100% !important;
-    max-width: 100%;
+    width: 90% !important;
+    max-width: 95%;
   }
   .dec2022-col {
     padding: 0;
