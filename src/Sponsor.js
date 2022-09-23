@@ -163,17 +163,7 @@ export const Sponsor = () => {
         <div className="dec2022-sponsor-StatusHeading gold">
           Gold
           <div className="dec2022-horizontal-divider mt-2" />
-          <button
-            onClick={toggle}
-            className="dec2022-applySponsorLink"
-            style={{
-              cursor: "pointer",
-              fontSize: "1.5rem",
-              textDecoration: "underline",
-              paddingTop: "4rem",
-              color: "#eaaf0e",
-            }}
-          >
+          <button onClick={toggle} className="dec2022-applySponsorLink-gold">
             Apply for the Sponsorship
           </button>
         </div>
