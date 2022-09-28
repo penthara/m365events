@@ -14,7 +14,7 @@ export const CallForSpeaker = () => {
       <div className="dec2022-cfs-text">
         <a
           className="dec2022-cfs-button"
-          href={eventdata.speakerRegistrationLink}
+          href={eventdata[0].registrationLink}
           target="_blank"
           rel="noreferrer"
         >
