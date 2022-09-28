@@ -55,67 +55,73 @@ export const Header = () => {
               : "dec2022-head-nav"
           }
         >
-          <div className="col-6 col-sm-3 text-center">
-            <a href="/" className="dec2022-nav-bar-logo-helper" alt="">
-              <img src={logo} alt="sps-logo" className="dec2022-nav-bar-logo" />
-            </a>
-          </div>
+          <div className="dec2022-head-nav-align">
+            <div className="col-6 col-sm-3 text-center">
+              <a href="/" className="dec2022-nav-bar-logo-helper" alt="">
+                <img
+                  src={logo}
+                  alt="sps-logo"
+                  className="dec2022-nav-bar-logo"
+                />
+              </a>
+            </div>
 
-          {isMobile && (
-            <>
-              <Col className="col-3 col-sm-6"> </Col>
-              <Col>
-                <Menu
-                  isOpen={HamburgerOpen.menuOpen}
-                  onStateChange={(state) =>
-                    handleHambugerMenuStateChange(state)
-                  }
-                  right
-                  width={"100%"}
-                  className={"dec2022-slidebar"}
-                  customCrossIcon={
-                    <img
-                      src={hamburgerclose}
-                      onClick={toggleHamburgerMenu}
-                      alt="hamburger-menu"
-                    />
-                  }
-                >
-                  {NavbarData.map((data) => {
-                    return (
-                      <a
-                        className="menu-item"
-                        href={data.url}
-                        onClick={() => closeHamburgerMenu()}
-                      >
-                        <span>{data.title}</span>
-                      </a>
-                    );
-                  })}
-                </Menu>
-              </Col>
-            </>
-          )}
-
-          {!isMobile && (
-            <>
-              <Col xs={9} className="dec2022-nav-item">
-                <Navbar>
-                  <Nav navbar>
+            {isMobile && (
+              <>
+                <Col className="col-3 col-sm-6"> </Col>
+                <Col>
+                  <Menu
+                    isOpen={HamburgerOpen.menuOpen}
+                    onStateChange={(state) =>
+                      handleHambugerMenuStateChange(state)
+                    }
+                    right
+                    width={"100%"}
+                    className={"dec2022-slidebar"}
+                    customCrossIcon={
+                      <img
+                        src={hamburgerclose}
+                        onClick={toggleHamburgerMenu}
+                        alt="hamburger-menu"
+                      />
+                    }
+                  >
                     {NavbarData.map((data) => {
                       return (
-                        <NavItem>
-                          <NavLink href={encodeURI(data.url)}>
-                            {data.title}
-                          </NavLink>
-                        </NavItem>
+                        <a
+                          className="menu-item"
+                          href={data.url}
+                          onClick={() => closeHamburgerMenu()}
+                        >
+                          <span>{data.title}</span>
+                        </a>
                       );
                     })}
-                  </Nav>
-                </Navbar>
-              </Col>
-            </>
-          )}
+                  </Menu>
+                </Col>
+              </>
+            )}
+
+            {!isMobile && (
+              <>
+                <Col xs={9} className="dec2022-nav-item">
+                  <Navbar>
+                    <Nav navbar>
+                      {NavbarData.map((data) => {
+                        return (
+                          <NavItem>
+                            <NavLink href={encodeURI(data.url)}>
+                              {data.title}
+                            </NavLink>
+                          </NavItem>
+                        );
+                      })}
+                    </Nav>
+                  </Navbar>
+                </Col>
+              </>
+            )}
+          </div>
         </div>
         <div className="dec2022-head-data">
           {HeaderData.map((data) => {

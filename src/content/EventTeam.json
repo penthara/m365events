@@ -19,5 +19,12 @@
     "OrganizerName": "Kamlesh Rao",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/kamleshrao/"
+  },
+  {
+    "OrganizerID": "4",
+    "OrganizerImage": "./images/website/Bijay.jfif",
+    "OrganizerName": "Bijay Kumar",
+    "isVolunteer": "false",
+    "speakerLinkedIn": "https://www.linkedin.com/in/fewlines4biju/"
   }
 ]

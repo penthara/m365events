@@ -58,7 +58,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
   }
   .navbar {
-    justify-content: center;
+    justify-content: flex-end;
   }
   .nav-item {
     padding: 0 30px;
@@ -79,6 +79,11 @@ body::-webkit-scrollbar {
   flex-direction: column;
   justify-content: center;
   font-family: "Roboto", sans-serif;
+}
+
+.dec2022-head-nav-align {
+  width: 90%;
+  display: flex;
 }
 
 .dec2022-head-data {
@@ -137,6 +142,7 @@ body::-webkit-scrollbar {
   }
   .dec2022-content-right {
     padding-top: 80px;
+    padding-left: 10%;
     flex-direction: column;
     justify-content: center;
   }
