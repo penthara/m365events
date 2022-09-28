@@ -20,7 +20,7 @@
     "sponsorStatus": "diamond"
   },
   {
-    "sponsorId": "2",
+    "sponsorId": "3",
     "sponsorImage": "./images/website/j4.png",
     "sponsorAltText": "JPOWER",
     "sponsorName": "JPOWER",
@@ -28,5 +28,15 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
     "sponsorTwitter": "https://twitter.com/Jpower4S",
     "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": "4",
+    "sponsorImage": "./images/website/athenEps.svg",
+    "sponsorAltText": "ATHEN",
+    "sponsorName": "ATHEN",
+    "sponsorUrl": "https://www.athen.tech/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/athen-tech",
+    "sponsorTwitter": "https://twitter.com/AthenTech",
+    "sponsorStatus": "gold"
   }
 ]
