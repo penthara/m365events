@@ -163,9 +163,9 @@ export const Sponsor = () => {
         <div className="dec2022-sponsor-StatusHeading gold">
           Gold
           <div className="dec2022-horizontal-divider mt-2" />
-          <button onClick={toggle} className="dec2022-applySponsorLink-gold">
+          {/* <button onClick={toggle} className="dec2022-applySponsorLink-gold">
             Apply for the Sponsorship
-          </button>
+          </button> */}
         </div>
 
         {SponsorData.filter((data) => {
@@ -181,11 +181,6 @@ export const Sponsor = () => {
                 className="dec2022-sponsor-border"
               >
                 <img
-                  style={
-                    data.sponsorName === "Rapid Circle"
-                      ? { transform: "scale(1.3)" }
-                      : ""
-                  }
                   className="dec2022-sponsor-img"
                   alt={data.sponsorAltText}
                   src={`${data.sponsorImage}`}
