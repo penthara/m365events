@@ -121,18 +121,7 @@ export const Sponsor = () => {
           Platinum
           <div className="dec2022-horizontal-divider mt-2" />
         </div>
-        <div
-          className="mt-4 dec2022-applySponsorText d-flex justify-content-center align-items-center"
-          style={{ height: "10rem" }}
-        >
-          <button
-            onClick={toggle}
-            className="dec2022-applySponsorLink"
-            style={{ cursor: "pointer" }}
-          >
-            Apply for the Sponsorship
-          </button>
-        </div>
+
         {SponsorData.filter((data) => {
           return data.sponsorStatus === "platinum";
         }).map((data) => {

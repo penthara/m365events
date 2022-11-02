@@ -27,7 +27,7 @@
     "sponsorUrl": "http://www.jpower4.com/",
     "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
     "sponsorTwitter": "https://twitter.com/Jpower4S",
-    "sponsorStatus": "gold"
+    "sponsorStatus": "platinum"
   },
   {
     "sponsorId": "4",
@@ -41,12 +41,22 @@
   },
   {
     "sponsorId": "5",
-    "sponsorImage": "./images/website/rapidCircle.webp",
+    "sponsorImage": "./images/website/RapidCircle.png",
     "sponsorAltText": "Rapid Circle",
     "sponsorName": "Rapid Circle",
     "sponsorUrl": "https://en.rapidcircle.com/",
     "sponsorLinkedIn": "https://in.linkedin.com/company/rapid-circle",
     "sponsorTwitter": "https://twitter.com/rapidcircle",
+    "sponsorStatus": "gold"
+  },
+  {
+    "sponsorId": "6",
+    "sponsorImage": "./images/website/sohoDragon.jpg",
+    "sponsorAltText": "SOHO DRAGON",
+    "sponsorName": "SOHO DRAGON",
+    "sponsorUrl": "https://sohodragon.nyc/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
+    "sponsorTwitter": "https://twitter.com/sohodragon",
     "sponsorStatus": "gold"
   }
 ]
