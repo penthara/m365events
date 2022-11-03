@@ -126,11 +126,11 @@ body::-webkit-scrollbar {
       border-radius: 40px;
       border: none;
       padding: 15px 70px;
-      cursor: default;
-      // transition: all 0.3s ease-in-out;
-      // &:hover {
-      //   transform: scale(1.02);
-      // }
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.02);
+      }
       span {
         font-size: 25px;
         text-transform: uppercase;

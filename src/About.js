@@ -34,8 +34,12 @@ export const About = () => {
         {/* <a className="dec2022-registration-button" href="#sessions-recordings">
           <p>Coming Soon</p>
         </a> */}
-        <a className="dec2022-registration-button" href="#sessions-recordings">
-          <p>Coming Soon</p>
+        <a
+          target={"_blank"}
+          className="dec2022-registration-button"
+          href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
+        >
+          <p>Register Now</p>
         </a>
       </div>
     </div>
