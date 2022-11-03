@@ -230,7 +230,23 @@ export const Header = () => {
                         <span>{Sponsors.length}</span>
                         <span>SPONSORS</span>
                       </Col> */}
-                        <ComingSoon />
+                        {/* <ComingSoon /> */}
+                        <Row
+                          className="dec2022-registrationBtn"
+                          style={{ marginTop: "0px", paddingTop: "5%" }}
+                        >
+                          <Col>
+                            <a
+                              href={data.RegLink}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <button className="dec2022-register-btn">
+                                <span>{data.RegBtn}</span>
+                              </button>
+                            </a>
+                          </Col>
+                        </Row>
                       </div>
                     </Col>
                   </Row>
