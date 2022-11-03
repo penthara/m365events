@@ -14,6 +14,7 @@ import { ComingSoon } from "./ComingSoon";
 import LocationIcon from "./images/website/LocationIcon.png";
 import hamburgerclose from "./images/website/close.png";
 import { ModalSponsor } from "./ModalSponsor";
+import "./css/ComingSoon.scss";
 
 export const Header = () => {
   const [HamburgerOpen, setHamburgerOpen] = useState({ menuOpen: false });
@@ -230,8 +231,16 @@ export const Header = () => {
                         <span>{Sponsors.length}</span>
                         <span>SPONSORS</span>
                       </Col> */}
-                        {/* <ComingSoon /> */}
-                        <Row
+                        <a
+                          target={"_blank"}
+                          href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
+                          className="dec2022-coming-soon-RegNow text-center"
+                        >
+                          <span className="dec2022-coming-soon-txt">
+                            Register Now
+                          </span>
+                        </a>
+                        {/* <Row
                           className="dec2022-registrationBtn"
                           style={{ marginTop: "0px", paddingTop: "5%" }}
                         >
@@ -246,7 +255,7 @@ export const Header = () => {
                               </button>
                             </a>
                           </Col>
-                        </Row>
+                        </Row> */}
                       </div>
                     </Col>
                   </Row>
