@@ -58,5 +58,15 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
     "sponsorTwitter": "https://twitter.com/sohodragon",
     "sponsorStatus": "gold"
+  },
+  {
+    "sponsorId": "7",
+    "sponsorImage": "./images/website/Quest.png",
+    "sponsorAltText": "Quest",
+    "sponsorName": "Quest",
+    "sponsorUrl": "https://www.quest.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/quest-software/",
+    "sponsorTwitter": "https://twitter.com/quest",
+    "sponsorStatus": "platinum"
   }
 ]
