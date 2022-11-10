@@ -39,7 +39,7 @@ export const About = () => {
           className="dec2022-registration-button"
           href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
         >
-          <p>Register Now</p>
+          <p> Register Now </p>
         </a>
       </div>
     </div>
