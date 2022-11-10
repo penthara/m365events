@@ -236,7 +236,7 @@ export const Header = () => {
                           href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
                           className="dec2022-coming-soon-RegNow text-center"
                         >
-                          <span className="dec2022-coming-soon-txt font-weight-bold">
+                          <span className="dec2022-coming-soon-txt">
                             Register Now
                           </span>
                         </a>
