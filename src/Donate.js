@@ -16,7 +16,10 @@ export const Donate = () => {
     <div className="dec2022-donate">
       <div className="dec2022-donate-bg">
         <h1 className="dec2022-donate-heading"> SUPPORT A CAUSE </h1>
-        <Row className="dec2022-donate-imgs">
+        <Row
+          className="dec2022-donate-imgs"
+          style={{ width: "100%", margin: "0px" }}
+        >
           <Col xs={6} md={3} className="dec2022-donate-imgs1">
             <LazyLoad className="dec2022-dono-images" debounce={false}>
               <ImageLoader src={DonateImg1} alt="donate-imgs1" />
@@ -52,21 +55,28 @@ export const Donate = () => {
           />
         </div>
         <div className="dec2022-donate-para-text">
-          <b>Youth Ubaal Foundation</b> is a small organisation that works for
-          the betterment of society by raising social awareness amongst the
-          youth. They have actively been working towards providing disaster
-          relief during the pandemic and also opened mini kitchens to provide
-          two time healthy meals to the children residing in the slums of Delhi.
-          We have joined hands with Youth Ubaal in an attempt to raise awareness
-          about this beautiful cause. Let us do our part to contribute and make
-          sure no one sleeps hungry during this challenging time.
+          To bring a lasting change in the lives of underprivileged students who
+          are living in utter poverty and unable to access basic education, we
+          are fundraising for them under the project Give India - Hamein Padhao
+          Hamein Badhao in collaboration with{" "}
+          <a
+            href="https://scopeforchange.org/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "white", textDecoration: "underline" }}
+          >
+            Scope For Change
+          </a>
+          . To help us create more impact and touch more lives, we need your
+          support and contribution. Please back our fundraising so that together
+          we can build a better India for all of us.
         </div>
         <div className="dec2022-donation-btn">
           <div className="dec2022-donate-btn btn">
             <a
-            // href={HeaderData[0].donationLink}
-            // target="_blank"
-            // rel="noreferrer"
+              href={HeaderData[0].donationLink}
+              target="_blank"
+              rel="noreferrer"
             >
               DONATE
             </a>
