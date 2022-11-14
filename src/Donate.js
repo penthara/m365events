@@ -1,10 +1,10 @@
 import React from "react";
 import "./css/Donate.scss";
 import { Row, Col } from "reactstrap";
-import DonateImg1 from "./images/website/DonateImg-1.jpg";
-import DonateImg2 from "./images/website/DonateImg-2.jpg";
-import DonateImg3 from "./images/website/DonateImg-3.jpg";
-import DonateImg4 from "./images/website/DonateImg-4.jpg";
+import DonateImg1 from "./images/website/Donate-1.webp";
+import DonateImg2 from "./images/website/Donate-2.webp";
+import DonateImg3 from "./images/website/Donate-3.webp";
+import DonateImg4 from "./images/website/Donate-4.webp";
 import OpenQuotes from "./images/website/open-quotes.png";
 import ClosedQuotes from "./images/website/closed-quotes.png";
 import HeaderData from "./content/HeaderData.json";
