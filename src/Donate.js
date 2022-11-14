@@ -22,12 +22,12 @@ export const Donate = () => {
         >
           <Col xs={6} md={3} className="dec2022-donate-imgs1">
             <LazyLoad className="dec2022-dono-images" debounce={false}>
-              <ImageLoader src={DonateImg1} alt="donate-imgs1" />
+              <ImageLoader src={DonateImg2} alt="donate-imgs1" />
             </LazyLoad>
           </Col>
           <Col xs={6} md={3} className="dec2022-donate-imgs2">
             <LazyLoad className="dec2022-dono-images" debounce={false}>
-              <ImageLoader src={DonateImg2} alt="donate-imgs2" />
+              <ImageLoader src={DonateImg1} alt="donate-imgs2" />
             </LazyLoad>
           </Col>
           <Col xs={6} md={3} className="dec2022-donate-imgs3">
