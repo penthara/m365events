@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   Modal,
   ModalHeader,
@@ -6,79 +6,122 @@ import {
 } from "reactstrap";
 import "./css/Modal.scss";
 import LinkedInlogo from "./images/website/LinkedInlogo.png";
-import twitterlogo from "./images/website/twitterblue.png";
-import Sessions from "./content/Sessions.json";
+import Twitterlogo from "./images/website/twitterblue.png";
+// import Sessions from "./content/Sessions.json";
+import { ApiSession } from "./services/Api";
 
 const ModalSpeaker = ({ modal, toggle, data }) => {
   const closeBtn = <button className="dec2022-close" onClick={toggle}></button>;
-  const CurrentSessions = Sessions.filter(
-    (s) =>
-      s.speaker1Id === data.speakerId ||
-      s.speaker2Id === data.speakerId ||
-      s.speaker3Id === data.speakerId
-  );
+  const [sessData, setSessData] = useState();
+
+  useEffect(() => {
+    ApiSession().then((data) => {
+      console.log("Grid api called spkr mdl", data);
+      setSessData(data);
+    });
+  }, []);
+
   return (
     <div>
       <Modal isOpen={modal} toggle={toggle}>
         <div className="dec2022-modalHeader">
           <ModalHeader toggle={toggle} close={closeBtn}>
-            {data.speakerName}
+            {data.fullName}
             {/* <button type="button" className="dec2022-close-icon"></button> */}
           </ModalHeader>
         </div>
         <div className="nopadding">
-          <div className="p-5 text-center">
+          <div className="pt-4 p-2 text-center">
             <img
-              src={`${data.speakerImage}`}
-              alt={data.speakerAltText}
-              className="dec2022-modal-image"
+              src={data.profilePicture}
+              alt={data.fullName}
+              className="dec2022-modal-image modal-image"
             />
           </div>
-          <div className="dec2022-bg-grey bg-grey dec2022-speaker-details">
+          <div className="dec2022-bg-grey bg-grey dec2022-speaker-details speaker-details">
             <h4 className="mb-4">BIO</h4>
-            <p className="dec2022-speaker-information">
-              {data.speakerInformation}
+            <p className="dec2022-speaker-information speaker-information">
+              {data.bio}
             </p>
+            {data.sessions.map((dt) => {
+              let strDt =
+                sessData &&
+                sessData[0].sessions.filter((s) => s.id == dt.id)[0].startsAt;
+              let edDt =
+                sessData &&
+                sessData[0].sessions.filter((s) => s.id == dt.id)[0].endsAt;
+              console.log("strDt", strDt && strDt.split("T"));
+              let startHour =
+                strDt && strDt.split("T")[1].split(":")[0] % 12 == 0
+                  ? 12
+                  : strDt && strDt.split("T")[1].split(":")[0] % 12;
 
-            {CurrentSessions.length > 0
-              ? CurrentSessions.map((sdata) => {
-                  return (
-                    <div className="dec2022-speaker-session-details">
-                      <div className="dec2022-divider"></div>
-                      <div className="dec2022-row row">
-                        <div className="dec2022-modal-track-num col-4">
-                          Track {sdata.trackId}
-                        </div>
-                        <div className="col-8 dec2022-speaker-session-time">
-                          <span>{sdata.sessionTime}</span>
-                        </div>
-                      </div>
-                      <div className="dec2022-speaker-session-title">
-                        {sdata.sessionTitle}
-                      </div>
+              let startMinutes = strDt && strDt.split("T")[1].split(":")[1];
+
+              let startM =
+                strDt && strDt.split("T")[1].split(":")[0] < 12 ? "AM" : "PM";
+
+              let endHour =
+                edDt && edDt.split("T")[1].split(":")[0] % 12 == 0
+                  ? 12
+                  : edDt && edDt.split("T")[1].split(":")[0] % 12;
+
+              let endMinutes = edDt && edDt.split("T")[1].split(":")[1];
+
+              let endM =
+                edDt && edDt.split("T")[1].split(":")[0] < 12 ? "AM" : "PM";
+              return (
+                <div className="dec2022-speaker-session-details">
+                  <div className="dec2022-divider"></div>
+                  <div className="dec2022-row row">
+                    <div className="dec2022-modal-track-num col-4">
+                      {/* // Track {dt.trackId} */}
+                      Topic
                     </div>
-                  );
-                })
-              : null}
+                    <div className="col-8 dec2022-speaker-session-time">
+                      {/* {dt.sessionTime} */}
+                      {console.log(dt)}
+                      {console.log(
+                        sessData &&
+                          sessData[0].sessions.filter((s) => s.id == dt.id)[0]
+                      )}
+                      {sessData && (
+                        <span className="dec2022-event-time">
+                          {startHour + ":" + startMinutes + " " + startM} -{" "}
+                          {endHour + ":" + endMinutes + " " + endM}{" "}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <div className="dec2022-speaker-session-title">{dt.name}</div>
+                </div>
+              );
+            })}
 
             <div className="dec2022-divider"></div>
-            <div className="dec2022-image-array">
-              {data.speakerLinkedIn !== null && (
-                <a href={data.speakerLinkedIn} target="_blank" rel="noreferrer">
-                  <img
-                    src={LinkedInlogo}
-                    alt="LinkedIn logo"
-                    className="mr-4 mx-4"
-                  />
-                </a>
-              )}
-              {data.speakerTwitter !== null ? (
-                <a href={data.speakerTwitter} target="_blank" rel="noreferrer">
-                  <img src={twitterlogo} alt="Twitter logo" />
-                </a>
-              ) : (
-                <></>
-              )}
+            <div className="d-flex flex-row-reverse justify-content-end">
+              {data.links
+                .filter(
+                  (data) =>
+                    data.title === "Twitter" || data.title === "LinkedIn"
+                )
+                .map((link) => {
+                  return (
+                    <a href={link.url} target="_blank" rel="noreferrer">
+                      <img
+                        src={
+                          link.title === "Twitter" ? Twitterlogo : LinkedInlogo
+                        }
+                        alt={
+                          link.title === "Twitter"
+                            ? "Twitter logo"
+                            : "LinkedIn logo"
+                        }
+                        className="dec2022-card-socialmedia align-self-start pr-4"
+                      />
+                    </a>
+                  );
+                })}
             </div>
           </div>
         </div>

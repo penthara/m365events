@@ -2,15 +2,15 @@
   {
     "trackId": "1",
     "trackTitle": "Track 1",
-    "trackSubTitle": "(Developer)",
-    "trackDate": "11th December 2021",
+    "trackSubTitle": "",
+    "trackDate": "3rd December 2022",
     "isActive": true
   },
   {
     "trackId": "2",
     "trackTitle": "Track 2",
-    "trackSubTitle": "(IT Pro)",
-    "trackDate": "11th December 2021",
+    "trackSubTitle": "",
+    "trackDate": "3rd December 2022",
     "isActive": false
   }
 ]
