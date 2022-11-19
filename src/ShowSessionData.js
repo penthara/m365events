@@ -191,6 +191,16 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
                               </span>
                             </div>
                           )}
+
+                          {data.title == "Sponsors Session" && (
+                            <div className="dec2022-speaker  pr-2 pl-2">
+                              <img
+                                src="./images/website/Quest.png"
+                                width="150px"
+                              />
+                            </div>
+                          )}
+
                           {data.title !== "Keynote" &&
                             data.speakers.map((spkr) => {
                               return (
