@@ -219,19 +219,19 @@ export const Header = () => {
                             : "dec2022-fields-row row"
                         }
                       >
-                        {/* <Col className="dec2022-sessionNumber">
-                        <span>{Speakers.length}</span>
-                        <span>SPEAKERS</span>
-                      </Col>
-                      <Col className="dec2022-trackNumber">
-                        <span>{Sessions.length}</span>
-                        <span>SESSIONS</span>
-                      </Col>
-                      <Col className="dec2022-sponserNumber">
-                        <span>{Sponsors.length}</span>
-                        <span>SPONSORS</span>
-                      </Col> */}
-                        <a
+                        <Col className="dec2022-sessionNumber">
+                          <span>14</span>
+                          <span>SPEAKERS</span>
+                        </Col>
+                        <Col className="dec2022-trackNumber">
+                          <span>14</span>
+                          <span>SESSIONS</span>
+                        </Col>
+                        <Col className="dec2022-sponserNumber">
+                          <span>7</span>
+                          <span>SPONSORS</span>
+                        </Col>
+                        {/* <a
                           target={"_blank"}
                           href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
                           className="dec2022-coming-soon-RegNow text-center"
@@ -239,7 +239,7 @@ export const Header = () => {
                           <span className="dec2022-coming-soon-txt font-weight-bold">
                             Register Now
                           </span>
-                        </a>
+                        </a> */}
                         {/* <Row
                           className="dec2022-registrationBtn"
                           style={{ marginTop: "0px", paddingTop: "5%" }}

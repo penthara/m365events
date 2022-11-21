@@ -27,12 +27,12 @@ function App() {
               <>
                 <Header />
                 <CountDownTimer />
-                <CallForSpeaker />
+                {/* <CallForSpeaker /> */}
                 <About />
                 <Donate />
                 <Agenda />
                 {/* <KeyNoteSpeaker /> */}
-                {/* <Speaker /> */}
+                <Speaker />
                 <Sponsor />
                 {/* <UserGroups /> */}
                 <EventTeam />
