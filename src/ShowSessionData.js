@@ -196,7 +196,7 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
                             <div className="dec2022-speaker  pr-2 pl-2">
                               <img
                                 src="./images/website/Quest.png"
-                                width="150px"
+                                width="110px"
                               />
                             </div>
                           )}
