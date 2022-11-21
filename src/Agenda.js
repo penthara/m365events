@@ -68,7 +68,7 @@ export const Agenda = () => {
                 {data.isActive === true ? (
                   <div
                     className="dec2022-track-data"
-                    style={{ backgroundColor: "#2c4fb4", color: "#fff" }}
+                    style={{ backgroundColor: "#0a2f4ee3", color: "#fff" }}
                   >
                     <div className="dec2022-track-head">{data.trackTitle}</div>
                     <span className="dec2022-track-span">
