@@ -76,7 +76,7 @@ const ModalAgenda = ({ modal, toggle, data }) => {
                 </span>
               </div>
             )}
-            {data.title === "Keynote" && (
+            {data.title === "Keynote: Discover Microsoft Viva Pillars" && (
               <div className="dec2022-speaker pr-2 pl-2">
                 <img
                   src={sessions[0].profilePicture}
@@ -119,7 +119,7 @@ const ModalAgenda = ({ modal, toggle, data }) => {
                 </span>
               </div>
             )}
-            {data.title !== "Keynote" &&
+            {data.title !== "Keynote: Discover Microsoft Viva Pillars" &&
               data.speakers.map((spkr) => {
                 return (
                   <div className="dec2022-speaker pr-2 pl-2">

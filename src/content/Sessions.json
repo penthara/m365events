@@ -1,56 +1,26 @@
 [
   {
-    "fullName": "Gaurav Aggarwal",
-    "profilePicture": "https://cache.sessionize.com/image/3f98-400o400o2-4JX4S37ta1W5B5Jv83wySj.jpg",
-
-    "questionAnswers": [
-      {
-        "id": 43958,
-        "question": "Company Name",
-        "questionType": "Short_Text",
-        "answer": "Avanade",
-        "sort": 26,
-        "answerExtra": null
-      },
-      {
-        "id": 43959,
-        "question": "Designation",
-        "questionType": "Short_Text",
-        "answer": "Senior Vice President, Global Lead - Cybersecurity",
-        "sort": 27,
-        "answerExtra": null
-      },
-      {
-        "id": 44032,
-        "question": "About",
-        "questionType": "Long_Text",
-        "answer": "I currently serve as Senior Vice President, Global Lead Cybersecurity - Cloud, App & Data Domains at Avanade Inc. I am responsible for Cybersecurity solutions development in Cloud Security, Application Security, Data Security, and Managed Security Services domains and Go-To-Market strategy to grow the global cybersecurity business with the power of Avanade, Microsoft, and Accenture ecosystem. \r\n\r\nI work with a diverse team tasked to provide a holistic approach through advisory, implementation, human-centric cybersecurity approach, and managed services, to help secure enterprises faster and with less risk and protect the trust of every business and organization. I specialize in Disruptive Approaches to Technology, Cybersecurity, AI/ML Solutions, Cloud Transformation, Digital Transformation, System Integration Business, Mentoring & Coaching High Performing Teams.",
-        "sort": 28,
-        "answerExtra": null
-      }
-    ],
+    "fullName": "SkandaRamana Suryanarayana",
+    "profilePicture": "https://sessionize.com/image/8095-400o400o2-a2-24e1-4323-991f-68e7f764e667.ea64c9dd-5295-49f4-af03-f107b1faf691.jpg",
+    "bio": "Ramana is a senior technology Architect with specialized skillset in implementing Social Communities, multi lingual Intranet Portals, ECM and Enterprise Search. He has 17+ years of experience and has worked on SharePoint from 2001 to current o365.",
+    "questionAnswers": [],
     "sessions": [
       {
-        "id": "1529e8e6-1b48-4ebb-97d2-d3e6d44476b3",
-        "id2": "1b0c3c35-9751-4218-8727-cf3a6b3fbc7d",
-        "name": "Keynote"
+        "id": "408094",
+        "id2": "e747234a-cf66-4e0d-8b19-8d372ffaec09",
+        "name": "Keynote: Discover Microsoft Viva Pillars"
       }
     ],
     "links": [
       {
         "title": "Twitter",
-        "url": "https://twitter.com/GauravAgg2016",
+        "url": "https://twitter.com/skandaramana",
         "linkType": "Twitter"
       },
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/gauravagg/",
+        "url": "https://www.linkedin.com/in/skandaramana/",
         "linkType": "LinkedIn"
-      },
-      {
-        "title": "Company Website",
-        "url": "http://avanade.com",
-        "linkType": "Company_Website"
       }
     ]
   },
