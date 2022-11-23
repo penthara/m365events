@@ -12,6 +12,13 @@ $purple-color: #9653ca;
   }
 }
 
+.dec2022-learningPartner {
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
 .dec2022-modalSponsor {
   font-family: "Roboto", sans-serif;
   margin: 5% auto;
