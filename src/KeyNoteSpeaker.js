@@ -74,7 +74,9 @@ export const KeyNoteSpeaker = () => {
                         {data.fullName}
                       </CardTitle>
                     </div>
-                    <CardBody style={{ backgroundColor: "rgb(227, 238, 251)" }}>
+                    <CardBody
+                      style={{ backgroundColor: "rgba(63, 105, 129, 0.1)" }}
+                    >
                       <div className="dec2022-cursor-click">
                         <CardSubtitle
                           onClick={() => toggle(data)}
