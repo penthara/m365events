@@ -14,7 +14,10 @@ const ModalLearning = () => {
   return (
     <>
       <div className="dec2022-keynote">
-        <h1 className="dec2022-keynote-heading text-center">
+        <h1
+          className=".dec2022-sponsor-StatusHeading text-center mb-2"
+          style={{ color: "#999999" }}
+        >
           Learning Partners
         </h1>
       </div>
@@ -32,7 +35,7 @@ const ModalLearning = () => {
           style={{ textDecoration: "none" }}
           target="_blank"
         >
-          <ImageLoader src={data[0].image} />
+          <img src={data[0].image} style={{ width: "100%" }} />
         </a>
         <a
           href="https://books.google.co.in/books/about/Developers_Road_ahead.html?id=SqsxEAAAQBAJ&redir_esc=y"
