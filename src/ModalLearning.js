@@ -12,7 +12,7 @@ import data from "./content/LearningPartner.json";
 
 const ModalLearning = () => {
   return (
-    <>
+    <div className="mb-4">
       <div className="dec2022-keynote">
         <h1
           className=".dec2022-sponsor-StatusHeading text-center mb-2"
@@ -69,7 +69,7 @@ const ModalLearning = () => {
           </CardSubtitle>
         </a>
       </Card>
-    </>
+    </div>
   );
 };
 

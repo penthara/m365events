@@ -11,6 +11,8 @@ import { UserGroups } from "./UserGroups";
 import { PreviousEvents } from "./PreviousEvents";
 import { Footer } from "./Footer";
 import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
+import { QuizPrizes } from "./QuizPrizes";
+
 import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
 import ModalLearning from "./ModalLearning";
@@ -31,6 +33,8 @@ function App() {
                 {/* <CallForSpeaker /> */}
                 <About />
                 <Donate />
+                <QuizPrizes />
+
                 <Agenda />
                 <KeyNoteSpeaker />
                 <Speaker />
