@@ -3,7 +3,12 @@ import "./css/Modal.scss";
 import { Modal, ModalHeader } from "reactstrap";
 
 export const ModalSponsor = ({ modal, toggle }) => {
-  const closeBtn = <button className="dec2022-close" onClick={toggle}></button>;
+  const closeBtn = (
+    <button
+      className="dec2022-sponsor-close-modal dec2022-close"
+      onClick={toggle}
+    ></button>
+  );
 
   return (
     <>

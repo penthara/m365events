@@ -188,7 +188,7 @@ export const Sponsor = () => {
         style={{ display: "flex", justifyContent: "center" }}
       >
         <div className="dec2022-sponsor-StatusHeading learning">
-          LEARNING PARTNERS
+          Learning Partners
           <div className="dec2022-horizontal-divider mt-2 mb-4" />
         </div>
         <Card
