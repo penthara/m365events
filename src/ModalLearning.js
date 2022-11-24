@@ -24,7 +24,8 @@ const ModalLearning = () => {
 
       <Card
         style={{
-          width: "320px",
+          minWidth: "280px",
+          maxWidth: "350px",
           marginTop: "5rem",
           margin: "auto",
         }}
