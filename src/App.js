@@ -15,7 +15,6 @@ import { QuizPrizes } from "./QuizPrizes";
 
 import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
-import ModalLearning from "./ModalLearning";
 import { Prev } from "./previous/dec2021/Prev";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -39,7 +38,6 @@ function App() {
                 <KeyNoteSpeaker />
                 <Speaker />
                 <Sponsor />
-                <ModalLearning />
                 {/* <UserGroups /> */}
                 <EventTeam />
                 <PreviousEvents />
