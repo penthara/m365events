@@ -6,7 +6,7 @@ import LinkedInlogo from "./images/website/LinkedInlogo.png";
 
 export const EventTeam = () => {
   return (
-    <div className="dec2022-eventTeam" id="eventTeam">
+    <div className="dec2022-eventTeam pb-8 mb-4" id="eventTeam">
       <h1 className="dec2022-eventTeam-heading">EVENT TEAM</h1>
       <h2 className="dec2022-event-organizers">Organizers</h2>
       <div className="row">

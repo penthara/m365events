@@ -32,7 +32,7 @@ export const KeyNoteSpeaker = () => {
   };
   return (
     <>
-      <div className="dec2022-keynote">
+      <div className="dec2022-keynote pb-8">
         <h1 className="dec2022-keynote-heading text-center">
           KeyNote Speakers
         </h1>

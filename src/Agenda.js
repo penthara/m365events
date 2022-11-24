@@ -38,7 +38,7 @@ export const Agenda = () => {
   const [trackDetailsState, setTrackDetails] = useState(TrackDetails);
 
   return (
-    <div className="dec2022-agenda" id="agenda">
+    <div className="dec2022-agenda pb-8" id="agenda">
       <h1 className="dec2022-agenda-heading"> AGENDA </h1>
       {/* Remove Following div after Agenda Availability */}
       {/* <div className="mt-4">

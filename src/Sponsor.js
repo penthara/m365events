@@ -69,6 +69,9 @@
 import React, { useState } from "react";
 import "./css/Sponsor.scss";
 import SponsorData from "./content/SponsorData.json";
+import { Card, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
+
+import dataLearning from "./content/LearningPartner.json";
 import { ModalSponsor } from "./ModalSponsor";
 export const Sponsor = () => {
   const [modalSponsor, setModalSponsor] = useState(false);
@@ -178,6 +181,63 @@ export const Sponsor = () => {
             </div>
           );
         })}
+      </div>
+
+      <div
+        className="row dec2022-sponsor-wrapper text-center"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <div className="dec2022-sponsor-StatusHeading learning">
+          LEARNING PARTNERS
+          <div className="dec2022-horizontal-divider mt-2 mb-4" />
+        </div>
+        <Card
+          style={{
+            minWidth: "280px",
+            maxWidth: "350px",
+            marginTop: "5rem",
+            margin: "auto",
+          }}
+          className="dec2022-speaker-card shadow nopadding card dec2022-learningPartner"
+        >
+          <a
+            href="https://books.google.co.in/books/about/Developers_Road_ahead.html?id=SqsxEAAAQBAJ&redir_esc=y"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            <img src={dataLearning[0].image} style={{ width: "100%" }} />
+          </a>
+          <a
+            href="https://books.google.co.in/books/about/Developers_Road_ahead.html?id=SqsxEAAAQBAJ&redir_esc=y"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            <CardSubtitle
+              tag="h3"
+              style={{
+                color: "black",
+                fontSize: "1.5rem",
+                paddingTop: "1.5rem",
+              }}
+              className="mb-2 text-start nopadding col "
+            >
+              {dataLearning[0].title}
+            </CardSubtitle>
+          </a>
+          <a
+            href="https://books.google.co.in/books/about/Developers_Road_ahead.html?id=SqsxEAAAQBAJ&redir_esc=y"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            <CardSubtitle
+              tag="p"
+              style={{ fontSize: "1.2rem", paddingBlock: "0.5rem" }}
+              className="mb-2 pt-2 text-start nopadding col"
+            >
+              {dataLearning[0].writer}
+            </CardSubtitle>
+          </a>
+        </Card>
       </div>
       <ModalSponsor modal={modalSponsor} toggle={toggle} />
     </div>

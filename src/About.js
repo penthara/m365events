@@ -4,7 +4,7 @@ import "./css/About.scss";
 
 export const About = () => {
   return (
-    <div className="dec2022-about">
+    <div className="dec2022-about pb-8">
       <h1 className="dec2022-about-heading"> ABOUT </h1>
       <div className="dec2022-one-day-event">
         A One Day Event Focusing On The Microsoft 365{" "}

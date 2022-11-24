@@ -6,7 +6,7 @@ import { isMobileOnly } from "react-device-detect";
 
 export const CountDownTimer = () => {
   return (
-    <div className="dec2022-CountDownTimer">
+    <div className="dec2022-CountDownTimer mb-4">
       {!isMobileOnly ? (
         <Container fluid={true} className="dec2022-countDown">
           <Row className="dec2022-countDown-row">

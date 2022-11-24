@@ -40,7 +40,7 @@ export const Speaker = () => {
   };
   return (
     <>
-      <div className="dec2022-speakers" id="speakers">
+      <div className="dec2022-speakers pb-8" id="speakers">
         <h1 className="dec2022-speaker-heading text-center">Speakers</h1>
         {/* <div className="mt-4 mb-4">
           <ComingSoon />

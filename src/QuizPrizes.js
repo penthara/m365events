@@ -5,7 +5,7 @@ import prizesNew from "./content/Prizes2.json";
 
 export const QuizPrizes = () => {
   return (
-    <div className="dec2022-QuizPrizes mb-4" id="dec2022-Prizes">
+    <div className="dec2022-QuizPrizes mb-4 pb-8" id="dec2022-Prizes">
       <h1 className="dec2022-QuizPrizes-heading my-5 text-center">
         Win exciting prizes
       </h1>
@@ -53,9 +53,9 @@ export const QuizPrizes = () => {
                   className="dec2022-QuizPrizes-card-img"
                 />
               </div>
-              {/* <div className="dec2022-QuizPrizes-card-desc">
+              <div className="dec2022-QuizPrizes-card-desc">
                 {data.description}
-              </div> */}
+              </div>
             </div>
           );
         })}

@@ -13,7 +13,7 @@ import ImageLoader from "./ImageLoader.js";
 
 export const Donate = () => {
   return (
-    <div className="dec2022-donate">
+    <div className="dec2022-donate pb-8">
       <div className="dec2022-donate-bg">
         <h1 className="dec2022-donate-heading"> SUPPORT A CAUSE </h1>
         <Row

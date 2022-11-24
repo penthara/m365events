@@ -48,7 +48,7 @@ export const Header = () => {
   return (
     <>
       {/* <div className="dec2022-header" id="header"> */}
-      <div className="dec2022-header" id="header">
+      <div className="dec2022-header mb-4" id="header">
         <div
           className={
             colorChange
@@ -57,11 +57,15 @@ export const Header = () => {
           }
         >
           <div className="dec2022-head-nav-align">
-            <div className="col-6 col-sm-3 text-center">
+            <div
+              className="col-6 col-sm-3 text-center"
+              style={{ margin: "0", padding: "0" }}
+            >
               <a href="/" className="dec2022-nav-bar-logo-helper" alt="">
                 <img
                   src={logo}
                   alt="sps-logo"
+                  style={{ marginTop: "0.9rem" }}
                   className="dec2022-nav-bar-logo"
                 />
               </a>
