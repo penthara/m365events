@@ -232,7 +232,7 @@ export const Header = () => {
                           <span>SESSIONS</span>
                         </Col>
                         <Col className="dec2022-sponserNumber">
-                          <span>7</span>
+                          <span>8</span>
                           <span>SPONSORS</span>
                         </Col>
                         {/* <a

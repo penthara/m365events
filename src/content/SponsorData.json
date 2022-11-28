@@ -68,5 +68,15 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/quest-software/",
     "sponsorTwitter": "https://twitter.com/quest",
     "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": "8",
+    "sponsorImage": "./images/website/atna.png",
+    "sponsorAltText": "Atna",
+    "sponsorName": "Atna",
+    "sponsorUrl": "https://www.atnatechnologies.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/atna-technologies-india-pvt-ltd/",
+    "sponsorTwitter": "https://twitter.com/",
+    "sponsorStatus": "gold"
   }
 ]
