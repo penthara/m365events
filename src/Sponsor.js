@@ -185,9 +185,14 @@ export const Sponsor = () => {
 
       <div
         className="row dec2022-sponsor-wrapper text-center"
-        style={{ display: "flex", justifyContent: "center" }}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
-        <div className="dec2022-sponsor-StatusHeading learning">
+        <div className="dec2022-sponsor-StatusHeading learning mb-4">
           Learning Partners
           <div className="dec2022-horizontal-divider mt-2 mb-4" />
         </div>
@@ -197,6 +202,7 @@ export const Sponsor = () => {
             maxWidth: "350px",
             marginTop: "5rem",
             margin: "auto",
+            paddingInline: "0px",
           }}
           className="dec2022-speaker-card shadow nopadding card dec2022-learningPartner"
         >
@@ -238,7 +244,30 @@ export const Sponsor = () => {
             </CardSubtitle>
           </a>
         </Card>
+        <div
+          style={{
+            height: "fit-content",
+          }}
+          className="col-xs-12 col-md-6 col-lg-4 mt-4 dec2022-sponsor-card"
+        >
+          <a
+            href={dataLearning[1].title}
+            target="_blank"
+            rel="noreferrer"
+            className="dec2022-sponsor-border"
+          >
+            <img
+              style={{
+                scale: "1.2",
+              }}
+              className="dec2022-sponsor-img"
+              alt={dataLearning[1].writer}
+              src={`${dataLearning[1].image}`}
+            />
+          </a>
+        </div>
       </div>
+
       <ModalSponsor modal={modalSponsor} toggle={toggle} />
     </div>
   );

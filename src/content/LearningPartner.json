@@ -3,5 +3,10 @@
     "image": "/images/website/bookImg.png",
     "title": "Developers Road Ahead: A Complete Guide For Software Architects To Succeed At Work And Life",
     "writer": "Karthikeyan Vk"
+  },
+  {
+    "image": "/images/website/azConf.png",
+    "title": "https://azconf.dev/",
+    "writer": "AzConf"
   }
 ]
