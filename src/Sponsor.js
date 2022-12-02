@@ -248,7 +248,7 @@ export const Sponsor = () => {
           style={{
             height: "fit-content",
           }}
-          className="col-xs-12 col-md-6 col-lg-4 mt-4 dec2022-sponsor-card"
+          className="col-xs-12 col-md-6 col-lg-4 mt-4 dec2022-sponsor-card dec2022-learning-card"
         >
           <a
             href={dataLearning[1].title}
@@ -257,10 +257,7 @@ export const Sponsor = () => {
             className="dec2022-sponsor-border"
           >
             <img
-              style={{
-                scale: "1.2",
-              }}
-              className="dec2022-sponsor-img"
+              className="dec2022-Learningsponsor-img"
               alt={dataLearning[1].writer}
               src={`${dataLearning[1].image}`}
             />

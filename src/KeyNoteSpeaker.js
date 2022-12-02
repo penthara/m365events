@@ -39,7 +39,7 @@ export const KeyNoteSpeaker = () => {
         {/* <div className="mt-4 mb-4">
           <ComingSoon />
         </div> */}
-        <div className="row justify-content-center ">
+        <div style={{ display: "flex", justifyContent: "center" }}>
           {KeyNoteSpeaker.filter((data) => data.isTopSpeaker).map((data) => {
             return (
               <>

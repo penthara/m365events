@@ -69,7 +69,9 @@ h3 {
   }
 }
 .dec2021-speaker-card-wrapper {
-  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .dec2021-speaker-card {
   border: none;

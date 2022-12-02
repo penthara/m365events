@@ -46,7 +46,13 @@ export const Speaker = () => {
           <ComingSoon />
         </div> */}
         {/* {console.log(Speakers && Speakers, "Speakers")} */}
-        <div className="row justify-content-center">
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            flexWrap: "wrap",
+          }}
+        >
           {Speakers.filter((d) => !d.isTopSpeaker).map((data) => {
             return (
               <>
