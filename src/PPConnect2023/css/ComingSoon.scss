@@ -1,0 +1,102 @@
+$base-color-blue: #0a2f4e;
+.dec2022-coming-soon {
+  padding: 35px 0px;
+  margin: auto;
+  max-width: 60%;
+  border-radius: 40px;
+  background-color: #f7f7f7;
+  background: linear-gradient(0.25turn, $base-color-blue, 1%, white);
+  box-shadow: 0px 4px 10px 2px #0000001a;
+
+  .dec2022-coming-soon-txt {
+    text-transform: uppercase;
+    color: $base-color-blue !important;
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 2px !important;
+  }
+}
+
+.dec2022-coming-soon-RegNow {
+  padding: 30px 40px;
+  margin: auto;
+  max-width: 60%;
+  border-radius: 40px;
+  background-color: #f7f7f7;
+  background: linear-gradient(0.25turn, $base-color-blue, 1%, white);
+  box-shadow: 0px 4px 10px 2px #0000001a;
+  text-decoration: none;
+
+  .dec2022-coming-soon-txt {
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: $base-color-blue !important;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px !important;
+  }
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.02);
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .dec2022-coming-soon {
+    padding: 35px 0px;
+    margin: auto;
+    max-width: 70%;
+    border-radius: 40px;
+    background-color: #f7f7f7;
+    background: linear-gradient(0.25turn, $base-color-blue, 1%, white);
+    box-shadow: 0px 4px 10px 2px #0000001a;
+
+    .dec2022-coming-soon-txt {
+      text-transform: uppercase;
+      color: $base-color-blue !important;
+      font-weight: 600;
+      // font-size: 2.5rem;
+      font-size: calc(1rem + 2vmin);
+
+      letter-spacing: 2px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dec2022-coming-soon {
+    padding: 10px 2px;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 40px;
+    background-color: #f7f7f7;
+    background: linear-gradient(0.25turn, $base-color-blue, 1%, white);
+    box-shadow: 0px 4px 10px 2px #0000001a;
+
+    .dec2022-coming-soon-txt {
+      text-transform: uppercase;
+      color: $base-color-blue !important;
+      font-weight: 600;
+      // font-size: 2.5rem;
+      font-size: calc(1rem + 2vmin);
+
+      letter-spacing: 2px !important;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .dec2022-coming-soon-RegNow{
+    padding: 10px 28px;
+  
+  .dec2022-coming-soon-txt {
+      text-transform: uppercase;
+      color: $base-color-blue !important;
+      font-weight: 600;
+      // font-size: 2.5rem;
+      font-size: calc(1rem + 2vmin);
+
+      letter-spacing: 2px !important;
+    }}
+}

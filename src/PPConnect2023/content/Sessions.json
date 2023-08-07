@@ -1,0 +1,127 @@
+[
+  {
+    "fullName": "SkandaRamana Suryanarayana",
+    "profilePicture": "https://sessionize.com/image/8095-400o400o2-a2-24e1-4323-991f-68e7f764e667.ea64c9dd-5295-49f4-af03-f107b1faf691.jpg",
+    "bio": "Ramana is a senior technology Architect with specialized skillset in implementing Social Communities, multi lingual Intranet Portals, ECM and Enterprise Search. He has 17+ years of experience and has worked on SharePoint from 2001 to current o365.",
+    "questionAnswers": [],
+    "sessions": [
+      {
+        "id": "408094",
+        "id2": "e747234a-cf66-4e0d-8b19-8d372ffaec09",
+        "name": "Keynote: Discover Microsoft Viva Pillars"
+      }
+    ],
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/skandaramana",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/skandaramana/",
+        "linkType": "LinkedIn"
+      }
+    ]
+  },
+  {
+    "fullName": "Deepak Rajendran",
+    "profilePicture": "./images/website/Deepak Rajrndran.jfif",
+    "bio": "1. Passionate tech story-teller with 18+ years at Fortune 500 companies and promising startups in the IT and IT-enabled services sectors - specifically cloud, developer and emerging technologies. 2. Award winner for “Best Customer Passion” within the first year of employment with Microsoft India. 3. Among the top 300 Young Leaders in India – per the Economic Times Young Leaders 2011 Program, a pan-India initiative to identify and recognize Indian managers between the age of 26 and 32. 4. CMO Award Winner (Forward Thinker award) at IBM, a top recognition personally awarded by the CMO – the first of the 3 award-winners globally in IBM to receive this honor in the very first year of award inception. ",
+    "questionAnswers": [
+      {
+        "id": 43958,
+        "question": "Company Name",
+        "questionType": "Short_Text",
+        "answer": "Deepak Rajendran",
+        "sort": 26,
+        "answerExtra": null
+      },
+      {
+        "id": 43959,
+        "question": "Designation",
+        "questionType": "Short_Text",
+        "answer": "Deepak Rajendran",
+        "sort": 27,
+        "answerExtra": null
+      },
+      {
+        "id": 44032,
+        "question": "About",
+        "questionType": "Long_Text",
+        "answer": "Vignesh Ganesan is an Enterprise Cloud Architect with 10+ years of experience . He specializes in technical presales, designing and implementing SaaS, IaaS and PaaS environments including on-premises and hybrid infrastructures. In addition to that he also has a sound knowledge in designing and implementing security solutions for customers using native cloud controls along with 3rd party tools to build a secure Cloud environment. During his stint with Microsoft , he designed technical solutions that can meet his customer’s needs and helped in driving their Digital Transformation so that they can get the best out of their Office 365, EMS & Azure implementation . He has worked on many products/technologies so far such as Active Directory , Windows Server , SharePoint & Exchange Server , Microsoft 365 , Azure AD ,Azure IaaS & PaaS , Slack , Google Workspace&Enterprise Mobility & Security etc .He has spoken on plethora of user groups , conferences & events across the globe and you can find all his work on his blog site i.e. Vignesh’s SharePoint Thought’s and his YouTube Channel . Over the years he has written almost 400 technical articles and has involved himself in many technical community related engagements for which he was awarded the prestigious C Sharp corner MVP award three times in a row for all his contributions . He always has a thirst to constantly learn something new which is what made him to complete almost 18+ Microsoft certifications.",
+        "sort": 28,
+        "answerExtra": null
+      }
+    ],
+    "sessions": [
+      {
+        "id": "482e2b88-ed79-4e27-b1c3-cc46fb09fbfb",
+        "id2": "7cf5eb46-6a92-4bfc-a836-3a3ed076f908",
+        "name": "Welcone Note"
+      }
+    ],
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/deraje",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/deepakrajendran/",
+        "linkType": "LinkedIn"
+      }
+    ]
+  },
+  {
+    "fullName": "Jasjit Chopra",
+    "profilePicture": "./images/website/Jasjit.jpg",
+    "bio": "Jasjit Chopra is a Microsoft Azure MVP and a Cloud Solutions Architect with strong background in SharePoint, Office 365 and Azure. CEO of a small company called Penthara Technologies (Microsoft Gold Partner). Jasjit holds a Masters of Business Administration in Technology and Management from CERAM, Sophia Antipolis, France. Having worked for different clients across the United States Jasjit has gained insight knowledge on Business Processes for the State Government and Manufacturing, Nuclear, Pharmaceutical and Music industries",
+    "questionAnswers": [],
+    "sessions": [
+      {
+        "id": "8899d213-871f-4c01-b768-4f4da5d40523",
+        "id2": "18b6fdcd-6dd2-4b45-886e-7ef7df88fd03",
+        "name": "Quiz / Closing Notes"
+      }
+    ],
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jasjitchopra/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/jasjitchopra",
+        "linkType": "Twitter"
+      }
+    ]
+  },
+  {
+    "fullName": "Kamlesh Rao",
+    "profilePicture": "./images/website/Kamlesh.jpg",
+    "bio": "Microsoft MVP Reconnect Regional Rep (India), Consultant/Developer/Trainer - SharePoint, .NET, Open Source Stack",
+    "questionAnswers": [],
+    "sessions": [
+      {
+        "id": "8899d213-871f-4c01-b768-4f4da5d40523",
+        "id2": "18b6fdcd-6dd2-4b45-886e-7ef7df88fd03",
+        "name": "Quiz / Closing Notes"
+      }
+    ],
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kamleshrao/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/kamleshrao",
+        "linkType": "Twitter"
+      }
+    ]
+  }
+]
