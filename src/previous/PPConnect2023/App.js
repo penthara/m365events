@@ -15,7 +15,7 @@ import { QuizPrizes } from "./QuizPrizes";
 
 import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
-import { PPConnect } from "./previous/ppconnect2023";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -45,7 +45,6 @@ function App() {
               </>
             }
           />
-          <Route path="/ppconnect2023" element={<PPConnect />} />
         </Routes>
       </BrowserRouter>
     </div>
