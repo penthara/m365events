@@ -30,7 +30,7 @@ function App() {
               <>
                 <Header />
                 <CountDownTimer />
-                {/* <CallForSpeaker /> */}
+                {/* <CallForSpeaker />  */}
                 <About />
                 <Donate />
                 <QuizPrizes />
