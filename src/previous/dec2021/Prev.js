@@ -14,7 +14,7 @@ import { EventTeam } from "./EventTeam";
 import { SessionRecordings } from "./SessionRecordings";
 export const Prev = () => {
   useEffect(() => {
-    document.title = "M365 SPS Banglore Dec2021";
+    document.title = "M365 SPS Banglore Dec2021 1";
   }, []);
   return (
     <>

@@ -18,7 +18,6 @@ export const PPConnect = () => {
   }, []);
   return (
     <>
-    <h1>Hello</h1>
       <Header />
       <CountDownTimer />
       <About />
