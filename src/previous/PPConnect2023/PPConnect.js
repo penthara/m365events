@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./css/App.scss";
 import { Header } from "./Header";
-import { About } from "./About";
+import { About } from "./ppconnect2023/About";
 // import { Donate } from "./Donate";
 import { Agenda } from "./Agenda";
 import { Speaker } from "./Speaker";
