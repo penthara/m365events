@@ -11,7 +11,7 @@ import { Footer } from "./Footer";
 import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
 import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
-import { SessionRecordings } from "./SessionRecordings";
+/*import { SessionRecordings } from "./SessionRecordings";*/
 export const PPConnect = () => {
   useEffect(() => {
     document.title = "Microsoft Power Platform Connect 2023 Bangalore";
