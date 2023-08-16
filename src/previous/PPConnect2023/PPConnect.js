@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./css/App.scss";
 import { Header } from "./Header";
 import { About } from "./About";
-// import { Donate } from "./Donate";
 import { Agenda } from "./Agenda";
 import { Speaker } from "./Speaker";
 import { Sponsor } from "./Sponsor";
@@ -11,7 +10,6 @@ import { Footer } from "./Footer";
 import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
 import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
-/*import { SessionRecordings } from "./SessionRecordings";*/
 export const PPConnect = () => {
   useEffect(() => {
     document.title = "Microsoft Power Platform Connect 2023 Bangalore";
@@ -21,8 +19,6 @@ export const PPConnect = () => {
       <Header />
       <CountDownTimer />
       <About />
-      {/*<SessionRecordings />*/}
-      {/* <Donate /> */}
       <Agenda />
       <KeyNoteSpeaker />
       <Speaker />
