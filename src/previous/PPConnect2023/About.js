@@ -37,7 +37,7 @@ export const About = () => {
         <a
           target={"_blank"}
           className="dec2022-registration-button"
-          href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
+          href="https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957?aff=oddtdtcreator"
         >
           <p> Register Now </p>
         </a>
