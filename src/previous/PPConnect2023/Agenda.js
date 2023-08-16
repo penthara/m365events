@@ -45,8 +45,7 @@ export const Agenda = () => {
         <ComingSoon />
       </div> */}
       <div className="dec2022-agenda-para-text-1">
-        Check out the agenda and the sessions for the M365 SATURDAY BANGALORE
-        2022 event.
+        Check out the agenda and the sessions for the MICROSOFT POWER PLATFORM CONNECT 2023 BANGALORE event.
       </div>
       <div className="dec2022-agenda-para-text-2">
         This event has a collection of fantastic sessions and demos by

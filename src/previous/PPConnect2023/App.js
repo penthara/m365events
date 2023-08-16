@@ -30,7 +30,6 @@ function App() {
                 <Header />
                 <CountDownTimer />
                 <About />
-                <Donate />
                 <QuizPrizes />
                 <Agenda />
                 <KeyNoteSpeaker />
