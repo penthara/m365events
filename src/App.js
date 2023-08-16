@@ -26,25 +26,26 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={
-              <>
-                <Header />
-                <CountDownTimer />
-                {/* <CallForSpeaker />  */}
-                <About />
-                <Donate />
-                <QuizPrizes />
+            element={<PPConnect />}
+            //element={
+           //   <>
+            //    <Header />
+             //   <CountDownTimer />
+              //  {/* <CallForSpeaker />  */}
+              //  <About />
+              //  <Donate />
+              //  <QuizPrizes />
 
-                <Agenda />
-                <KeyNoteSpeaker />
-                <Speaker />
-                <Sponsor />
-                {/* <UserGroups /> */}
-                <EventTeam />
-                <PreviousEvents />
-                <Footer />
-              </>
-            }
+              //  <Agenda />
+              //  <KeyNoteSpeaker />
+              //  <Speaker />
+              //  <Sponsor />
+              //  {/* <UserGroups /> */}
+              //  <EventTeam />
+              //  <PreviousEvents />
+              //</>  <Footer />
+              //</>
+            //}
           />
           <Route path="/dec2021" element={<Prev />} />
           <Route path="/ppconnect2023" element={<PPConnect />} />
