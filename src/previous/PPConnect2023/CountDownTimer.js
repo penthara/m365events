@@ -13,19 +13,19 @@ export const CountDownTimer = () => {
             <Col>
               <Row>
                 <Col>
-                  <span className="dec2022-timer-date">3rd December 2022</span>
+                  <span className="dec2022-timer-date">26th August 2023</span>
                 </Col>
               </Row>
               <Row>
                 <Col>
                   <span className="dec2022-timer-title">
-                    M365 Saturday Bangalore 2022
+                  MICROSOFT POWER PLATFORM CONNECT 2023 BANGALORE
                   </span>
                 </Col>
               </Row>
             </Col>
             <Col>
-              <CountDown end="December 03, 2022  09:00" />
+              <CountDown end="August 26, 2023  09:00" />
             </Col>
           </Row>
         </Container>
@@ -35,7 +35,7 @@ export const CountDownTimer = () => {
             <Col>
               <span className="dec2022-timer-date-mobile">
                 {" "}
-                3rd December 2022{" "}
+                26th August 2023{" "}
               </span>
             </Col>
           </Row>
@@ -43,14 +43,14 @@ export const CountDownTimer = () => {
             <Col>
               <span className="dec2022-timer-title-mobile">
                 {" "}
-                M365 Saturday Bangalore 2022{" "}
+                MICROSOFT POWER PLATFORM CONNECT 2023 BANGALORE{" "}
               </span>
             </Col>
           </Row>
           <Row className="dec2022-timer-mobile">
             <Col>
               {/* Sets the coundown to mentioned date */}
-              <CountDown end="December 03, 2022  09:00" />
+              <CountDown end="August 26, 2023  09:00" />
             </Col>
           </Row>
         </Container>

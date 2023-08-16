@@ -224,42 +224,18 @@ export const Header = () => {
                         }
                       >
                         <Col className="dec2022-sessionNumber">
-                          <span>14</span>
+                          <span>10</span>
                           <span>SPEAKERS</span>
                         </Col>
                         <Col className="dec2022-trackNumber">
-                          <span>14</span>
+                          <span>9</span>
                           <span>SESSIONS</span>
                         </Col>
                         <Col className="dec2022-sponserNumber">
-                          <span>8</span>
+                          <span>2</span>
                           <span>SPONSORS</span>
                         </Col>
-                        {/* <a
-                          target={"_blank"}
-                          href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
-                          className="dec2022-coming-soon-RegNow text-center"
-                        >
-                          <span className="dec2022-coming-soon-txt font-weight-bold">
-                            Register Now
-                          </span>
-                        </a> */}
-                        {/* <Row
-                          className="dec2022-registrationBtn"
-                          style={{ marginTop: "0px", paddingTop: "5%" }}
-                        >
-                          <Col>
-                            <a
-                              href={data.RegLink}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <button className="dec2022-register-btn">
-                                <span>{data.RegBtn}</span>
-                              </button>
-                            </a>
-                          </Col>
-                        </Row> */}
+                        
                       </div>
                     </Col>
                   </Row>
@@ -269,18 +245,7 @@ export const Header = () => {
           })}
         </div>
         <div>
-          <div className="dec2022-Be-Sponsor">
-            <div className="dec2022-Be-Sponsor-wrapper">
-              <div className="dec2022-Be-Sponsor-text">
-                Sponsorships for M365 Saturday Bangalore 2022 are Now Open!
-              </div>
-              <div className="dec2022-Be-Sponsor-btn-wrapper">
-                <button className="dec2022-Be-Sponsor-btn" onClick={toggle}>
-                  <span>Become A Sponsor</span>
-                </button>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
       <ModalSponsor modal={modalSponsor} toggle={toggle} />

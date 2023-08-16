@@ -29,16 +29,13 @@ function App() {
               <>
                 <Header />
                 <CountDownTimer />
-                {/* <CallForSpeaker /> */}
                 <About />
                 <Donate />
                 <QuizPrizes />
-
                 <Agenda />
                 <KeyNoteSpeaker />
                 <Speaker />
                 <Sponsor />
-                {/* <UserGroups /> */}
                 <EventTeam />
                 <PreviousEvents />
                 <Footer />
