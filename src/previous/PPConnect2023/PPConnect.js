@@ -21,7 +21,7 @@ export const PPConnect = () => {
       <Header />
       <CountDownTimer />
       <About />
-      <SessionRecordings />
+      {/*<SessionRecordings />*/}
       {/* <Donate /> */}
       <Agenda />
       <KeyNoteSpeaker />
