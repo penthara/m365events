@@ -1,14 +1,14 @@
 [
   {
     "speakerId": "1",
-    "speakerName": "Shalaka Verma",
-    "speakerImage": "./images/speakers/2021-m365blr/ShakalaVerma.jpg",
-    "speakerAltText": "ShakalaVerma",
+    "speakerName": "Manoj Mittal",
+    "speakerImage": "./images/PPPhotos/ManojMittal.jpg",
+    "speakerAltText": "Manoj Mittal",
     "keynoteSpeaker": "true",
-    "speakerTitle": "Director, Customer Success, Modern Work",
+    "speakerTitle": "Sr. Consultant, App Innovation | Modern Work",
     "speakerSubTitle": "\nMicrosoft",
-    "speakerLinkedIn": "https://www.linkedin.com/in/shalakaverma/",
-    "speakerTwitter": "null",
+    "speakerLinkedIn": "https://www.linkedin.com/in/manojmittal12/",
+    "speakerTwitter": "https://twitter.com/manojmcans",
     "MVPstatus": "false",
     "MicrosoftEmployee": "true",
     "speakerInformation": " "
@@ -16,7 +16,7 @@
   {
     "speakerId": "2",
     "speakerName": "Deepak Rajendran",
-    "speakerImage": "./images/speakers/2021-m365blr/DeepakRajendran.jpg",
+    "speakerImage": "./images/PPPhotos/DeepakRajendran.jpg",
     "speakerAltText": "Deepak Rajendran",
     "keynoteSpeaker": "true",
     "speakerTitle": "Community Program Manager",
@@ -26,34 +26,6 @@
     "MVPstatus": "false",
     "MicrosoftEmployee": "true",
     "speakerInformation": "1. Marketing professional by choice and engineer by academics, with the strong entrepreneurial spirit of startups and rigorous operational discipline of corporates.\n2. Passionate tech story-teller with 15+ years at Fortune 500 companies and promising startups in the IT and IT-enabled services sectors - specifically cloud, developer and emerging technologies.\n3. Hands-on experience in building and nurturing long-term, high-value and result-oriented relationships with technology community heroes, thought leaders, influencers, BDMs and TDMs.\n4. CMO Award Winner (Forward Thinker award) at IBM, a top recognition personally awarded by the CMO – the first of the 3 award-winners globally in IBM to receive this honor in the very first year of award inception.\n5. Award winner for “Best Customer Passion” within the first year of employment with Microsoft India.\n6. Among the top 300 Young Leaders in India – per the Economic Times Young Leaders 2011 Program, a pan-India initiative to identify and recognize Indian managers between the age of 26 and 32."
-  },
-  {
-    "speakerId": "3",
-    "speakerName": "Jeff Tepper",
-    "speakerImage": "./images/speakers/2021-m365blr/JeffTepper.jpg",
-    "speakerAltText": "Jeff Tepper",
-    "keynoteSpeaker": "true",
-    "speakerTitle": "Corporate Vice President",
-    "speakerSubTitle": "Microsoft 365 Collaboration with Teams, SharePoint, OneDrive",
-    "speakerLinkedIn": "https://www.linkedin.com/in/jeffteper/",
-    "speakerTwitter": "https://twitter.com/jeffteper",
-    "MVPstatus": "false",
-    "MicrosoftEmployee": "true",
-    "speakerInformation": "I lead product, design, and engineering teams for Microsoft 365, including Teams, SharePoint, OneDrive, Viva, and more which empower people and organizations around the world to collaborate at work, home, and school.\nAfter more than 25 years at Microsoft, I’m still inspired by our core mission — connecting people everywhere with tools and technologies to create, build, and achieve more together.\nI joined Microsoft as a developer evangelist because I believed in empowering others with the Microsoft platform. Today, I am more energized than ever about the power of Microsoft Teams and SharePoint as platform for organizations to transform how they work and partners to grow their businesses on Microsoft 365.\nWhen I’m not working, you may find me binging Disney movies with my family, training for marathons, and listening or recording music."
-  },
-  {
-    "speakerId": "4",
-    "speakerName": "Vesa Juvonen",
-    "speakerImage": "./images/speakers/2021-m365blr/VesaJuvonen.jpg",
-    "speakerAltText": "Vesa Juvonen",
-    "keynoteSpeaker": "true",
-    "speakerTitle": "Principal Program Manager",
-    "speakerSubTitle": "Microsoft",
-    "speakerLinkedIn": "https://www.linkedin.com/in/vesajuvonen/",
-    "speakerTwitter": "https://twitter.com/vesajuvonen",
-    "MVPstatus": "false",
-    "MicrosoftEmployee": "true",
-    "speakerInformation": "Principal Program Manager in SharePoint/OneDrive engineering responsible for the developer ecosystem engagement worldwide, including documentation, guidance, sample, and open-source activities. Before that in Senior Program Manager role at Office 365 CXP/CAT team and Principal Consultant at Microsoft Enterprise Services. Executing programs like SharePoint/Office 365 Patterns and Practices and Office 365 Dedicated JDP for add-in model transition."
   },
   {
     "speakerId": "5",
