@@ -19,11 +19,10 @@ export const PPConnect = () => {
       <Header />
       <CountDownTimer />
       <About />
-      <Agenda />
-      <KeyNoteSpeaker />
+
       <Speaker />
       <Sponsor />
-      <UserGroups />
+
       <EventTeam />
       <Footer />
     </>
