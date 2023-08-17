@@ -1,35 +1,35 @@
 [
   {
     "OrganizerID": "1",
-    "OrganizerImage": "./images/website/Jenkins.jpg",
+    "OrganizerImage": "./images/website/PPPhotos/Jenkins.jpg",
     "OrganizerName": "Jenkins NS",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/jenkinsns/"
   },
   {
     "OrganizerID": "2",
-    "OrganizerImage": "./images/website/Bijay.jpg",
+    "OrganizerImage": "./images/website/PPPhotos/Bijay.jpg",
     "OrganizerName": "Bijay Kumar Sahoo",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/fewlines4biju/"
   },
   {
     "OrganizerID": "3",
-    "OrganizerImage": "./images/website/Sujith.jpg",
+    "OrganizerImage": "./images/website/PPPhotos/Sujith.jpg",
     "OrganizerName": "Sujithkumar P Sukumaran",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/sujithkumarps"
   },
   {
     "OrganizerID": "4",
-    "OrganizerImage": "./images/website/MandarPalsodkar.jpg",
+    "OrganizerImage": "./images/website/PPPhotos/MandarPalsodkar.jpg",
     "OrganizerName": "Mandar Palsodkar",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/mandar-palsodkar-0658b02/"
   },
   {
     "OrganizerID": "5",
-    "OrganizerImage": "./images/website/RachitaMattoo.jpg",
+    "OrganizerImage": "./images/website/PPPhotos/RachitaMattoo.jpg",
     "OrganizerName": "Rachita Mattoo",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/rachita-mattoo-04429a17"
@@ -37,7 +37,7 @@
   ,
   {
     "OrganizerID": "6",
-    "OrganizerImage": "./images/website/Lalit.jpg",
+    "OrganizerImage": "./images/website/PPPhotos/Lalit.jpg",
     "OrganizerName": "Lalit Rawat",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/lrawat1"
