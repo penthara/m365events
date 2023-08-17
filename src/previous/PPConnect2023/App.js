@@ -31,8 +31,7 @@ function App() {
                 <CountDownTimer />
                 <About />
                 <QuizPrizes />
-                <Agenda />
-                <KeyNoteSpeaker />
+
                 <Speaker />
                 <Sponsor />
                 <EventTeam />
