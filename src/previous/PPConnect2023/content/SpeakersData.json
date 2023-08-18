@@ -2,7 +2,7 @@
   {
     "speakerId": "1",
     "speakerName": "Manoj Mittal",
-    "speakerImage": "./images/PPPhotos/ManojMittal.jpg",
+    "speakerImage": "/images/PPPhotos/ManojMittal.jpg",
     "speakerAltText": "Manoj Mittal",
     "keynoteSpeaker": "true",
     "speakerTitle": "Sr. Consultant, App Innovation | Modern Work",
@@ -16,7 +16,7 @@
   {
     "speakerId": "2",
     "speakerName": "Deepak Rajendran",
-    "speakerImage": "./images/PPPhotos/DeepakRajendran.jpg",
+    "speakerImage": "/images/PPPhotos/DeepakRajendran.jpg",
     "speakerAltText": "Deepak Rajendran",
     "keynoteSpeaker": "true",
     "speakerTitle": "Community Program Manager",
@@ -28,18 +28,18 @@
     "speakerInformation": "1. Marketing professional by choice and engineer by academics, with the strong entrepreneurial spirit of startups and rigorous operational discipline of corporates.\n2. Passionate tech story-teller with 15+ years at Fortune 500 companies and promising startups in the IT and IT-enabled services sectors - specifically cloud, developer and emerging technologies.\n3. Hands-on experience in building and nurturing long-term, high-value and result-oriented relationships with technology community heroes, thought leaders, influencers, BDMs and TDMs.\n4. CMO Award Winner (Forward Thinker award) at IBM, a top recognition personally awarded by the CMO – the first of the 3 award-winners globally in IBM to receive this honor in the very first year of award inception.\n5. Award winner for “Best Customer Passion” within the first year of employment with Microsoft India.\n6. Among the top 300 Young Leaders in India – per the Economic Times Young Leaders 2011 Program, a pan-India initiative to identify and recognize Indian managers between the age of 26 and 32."
   },
   {
-    "speakerId": "5",
-    "speakerName": "Nicole Enders",
-    "speakerImage": "./images/speakers/2021-m365blr/NicoleEnders.jpg",
-    "speakerAltText": "Nicole Enders",
+    "speakerId": "3",
+    "speakerName": "Arvind SR",
+    "speakerImage": "/images/PPPhotos/ArvindSR.jpg",
+    "speakerAltText": "Arvind SR",
     "keynoteSpeaker": "false",
-    "speakerTitle": "Managing Consultant - Modern Workplace",
-    "speakerSubTitle": "CONET Solutions GmbH",
-    "speakerLinkedIn": "https://www.linkedin.com/in/nicole-enders-380414135/",
-    "speakerTwitter": "https://twitter.com/nicolenders",
+    "speakerTitle": "Power partner to propel digital transformation",
+    "speakerSubTitle": "CGI",
+    "speakerLinkedIn": "https://www.linkedin.com/in/arvindsr/",
+    "speakerTwitter": "null",
     "MVPstatus": "true",
     "MicrosoftEmployee": "false",
-    "speakerInformation": "Nicole Enders is a Modern Workplace and Collaboration Expert and she works at CONET Solutions GmbH as a Managing Consultant. As a MVP for Office Apps & Services she shares her knowledge at many events, on her own blog as well as in her books.\n\nAs a consultant and developer, she has been dealing with the requirements for efficient collaboration in companies since more than 14 years. She is convinced of the advantages that Microsoft 365 (especially Microsoft Teams and the Power Platform) offers to improve collaboration.\n\nTogether with her customers, she combines proven standard products from this product range and adapts them with the help of various development tools. This creates working environments for social intranet, modern workplace and collaboration that are individually tailored to the customer's needs."
-  },
+    "speakerInformation": "Arvind is a seasoned business transformation leader focusing on delivering effective and targeted business solutions that drive real results. As a transformation leader, he identifies opportunities to improve efficiency, enable cost reduction, and consolidate resources, delivering process improvements and organizational change. He is a trusted adviser and partner to key stakeholders, providing thoughtful analysis and counsel to implement change management programs such as digitization, cloud migration, standardization, and citizen development."
+  }
   
 ]
