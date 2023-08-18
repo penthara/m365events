@@ -22,8 +22,6 @@ export const PPConnect = () => {
       <Agenda />
       <KeyNoteSpeaker />
       <Speaker />
-      <Sponsor />
-
       <EventTeam />
       <Footer />
     </>

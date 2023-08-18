@@ -1,5 +1,4 @@
 [
-  
   {
     "sponsorId": "1",
     "sponsorImage": "./images/website/microsoftLogo.png",
@@ -9,6 +8,15 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/microsoft/",
     "sponsorTwitter": "https://twitter.com/microsoftindia",
     "sponsorStatus": "platinum"
+  },
+  {
+    "sponsorId": "2",
+    "sponsorImage": "./images/ppphotos/cgi.png",
+    "sponsorAltText": "CGI",
+    "sponsorName": "CGI",
+    "sponsorUrl": "https://www.cgi.com/en",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/cgi/",
+    "sponsorTwitter": "https://twitter.com/cgi_global",
+    "sponsorStatus": "platinum"
   }
-  
 ]
