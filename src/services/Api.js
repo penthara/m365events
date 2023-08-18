@@ -1,12 +1,12 @@
 export function ApiAll() {
-  return fetch("https://sessionize.com/api/v2/ybx73zxv/view/All")
+  return fetch("https://sessionize.com/api/v2/8gznf17f/view/All")
     .then((data) => data.json())
     .catch((err) => {
       // console.log(err);
     });
 }
 export function ApiSpeaker() {
-  return fetch("https://sessionize.com/api/v2/ybx73zxv/view/Speakers")
+  return fetch("https://sessionize.com/api/v2/8gznf17f/view/Speakers")
     .then((data) => data.json())
     .catch((err) => {
       // console.log(err);
@@ -14,7 +14,7 @@ export function ApiSpeaker() {
 }
 
 export function ApiSession() {
-  return fetch("https://sessionize.com/api/v2/ybx73zxv/view/Sessions")
+  return fetch("https://sessionize.com/api/v2/8gznf17f/view/Sessions")
     .then((data) => data.json())
     .catch((err) => {
       // console.log(err);
@@ -22,7 +22,7 @@ export function ApiSession() {
 }
 
 export function ApiGrid() {
-  return fetch("https://sessionize.com/api/v2/ybx73zxv/view/GridSmart")
+  return fetch("https://sessionize.com/api/v2/8gznf17f/view/GridSmart")
     .then((data) => data.json())
     .catch((err) => {
       // console.log(err);
