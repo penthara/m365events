@@ -42,9 +42,9 @@ export const Speaker = () => {
     <>
       <div className="dec2022-speakers pb-8" id="speakers">
         <h1 className="dec2022-speaker-heading text-center">Speakers</h1>
-        { <div className="mt-4 mb-4">
+        {/* <div className="mt-4 mb-4">
           <ComingSoon />
-        </div> }
+  </div> */}
         {/* {console.log(Speakers && Speakers, "Speakers")} */}
         <div
           style={{
@@ -53,7 +53,7 @@ export const Speaker = () => {
             flexWrap: "wrap",
           }}
         >
-          {/*Speakers.filter((d) => !d.isTopSpeaker).map((data) => {
+          {Speakers.filter((d) => !d.isTopSpeaker).map((data) => {
             return (
               <>
                 <div
@@ -158,7 +158,7 @@ export const Speaker = () => {
                 </div>
               </>
             );
-                          })*/}
+                          })}
         </div>
       </div>
       {modal === true ? (
