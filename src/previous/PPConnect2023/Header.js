@@ -159,7 +159,7 @@ export const Header = () => {
                         style={{ textDecoration: "none" }}
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.google.com/maps/search/?api=1&query=Microsoft+Prestige+Ferns+Galaxy%2C+Bellandur%2C+Gate+Rd%2C+Bellandur%2C+Bengaluru"
+                        href="https://goo.gl/maps/PnbLSXWFy9VuL5167"
                       >
                         <img src={LocationIcon} alt="" />
                       </a>
@@ -169,7 +169,7 @@ export const Header = () => {
                         style={{ textDecoration: "none" }}
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.google.com/maps/search/?api=1&query=Microsoft+Prestige+Ferns+Galaxy%2C+Bellandur%2C+Gate+Rd%2C+Bellandur%2C+Bengaluru"
+                        href="https://goo.gl/maps/PnbLSXWFy9VuL5167"
                       >
                         <span>{data.addrs}</span>
                       </a>
