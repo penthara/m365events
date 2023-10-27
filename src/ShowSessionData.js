@@ -52,7 +52,7 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
     <>
       <div className="container-fluid dec2022-trackdata">
          {console.log(gridData, "check")} 
-        
+      
       </div>
       {modal === true ? (
         <ModalAgenda data={clickedData} modal={modal} toggle={toggle} />

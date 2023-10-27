@@ -1,6 +1,16 @@
 [
   {
     "sponsorId": "1",
+    "sponsorImage": "./images/website/j4.png",
+    "sponsorAltText": "JPOWER",
+    "sponsorName": "JPOWER",
+    "sponsorUrl": "http://www.jpower4.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
+    "sponsorTwitter": "https://twitter.com/Jpower4S",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": "2",
     "sponsorImage": "./images/website/PentharaLogo.svg",
     "sponsorAltText": "Penthara Technologies",
     "sponsorName": "Penthara Technologies",
@@ -10,73 +20,13 @@
     "sponsorStatus": "diamond"
   },
   {
-    "sponsorId": "2",
+    "sponsorId": "3",
     "sponsorImage": "./images/website/microsoftLogo.png",
     "sponsorAltText": "Microsoft",
     "sponsorName": "Microsoft",
     "sponsorUrl": "https://www.microsoft.com",
     "sponsorLinkedIn": "https://www.linkedin.com/company/microsoft/",
     "sponsorTwitter": "https://twitter.com/microsoftindia",
-    "sponsorStatus": "gold"
-  },
-  {
-    "sponsorId": "3",
-    "sponsorImage": "./images/website/j4.png",
-    "sponsorAltText": "JPOWER",
-    "sponsorName": "JPOWER",
-    "sponsorUrl": "http://www.jpower4.com/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
-    "sponsorTwitter": "https://twitter.com/Jpower4S",
-    "sponsorStatus": "platinum"
-  },
-  {
-    "sponsorId": "4",
-    "sponsorImage": "./images/website/athenEps.png",
-    "sponsorAltText": "ATHEN",
-    "sponsorName": "ATHEN",
-    "sponsorUrl": "http://www.athen.tech/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/athen-tech/",
-    "sponsorTwitter": "https://twitter.com/AthenTech",
-    "sponsorStatus": "gold"
-  },
-  {
-    "sponsorId": "5",
-    "sponsorImage": "./images/website/RapidCircle.png",
-    "sponsorAltText": "Rapid Circle",
-    "sponsorName": "Rapid Circle",
-    "sponsorUrl": "https://en.rapidcircle.com/",
-    "sponsorLinkedIn": "https://in.linkedin.com/company/rapid-circle",
-    "sponsorTwitter": "https://twitter.com/rapidcircle",
-    "sponsorStatus": "gold"
-  },
-  {
-    "sponsorId": "6",
-    "sponsorImage": "./images/website/sohoDragon.jpg",
-    "sponsorAltText": "SOHO DRAGON",
-    "sponsorName": "SOHO DRAGON",
-    "sponsorUrl": "https://sohodragon.nyc/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
-    "sponsorTwitter": "https://twitter.com/sohodragon",
-    "sponsorStatus": "gold"
-  },
-  {
-    "sponsorId": "7",
-    "sponsorImage": "./images/website/Quest.png",
-    "sponsorAltText": "Quest",
-    "sponsorName": "Quest",
-    "sponsorUrl": "https://www.quest.com/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/quest-software/",
-    "sponsorTwitter": "https://twitter.com/quest",
-    "sponsorStatus": "diamond"
-  },
-  {
-    "sponsorId": "8",
-    "sponsorImage": "./images/website/atna.png",
-    "sponsorAltText": "Atna",
-    "sponsorName": "Atna",
-    "sponsorUrl": "https://www.atnatechnologies.com/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/atna-technologies-india-pvt-ltd/",
-    "sponsorTwitter": "https://twitter.com/",
     "sponsorStatus": "gold"
   }
 ]
