@@ -1,0 +1,65 @@
+.dec2022-footer {
+  background-color: #363333;
+  color: #ffffff;
+  width: 100%;
+  .dec2022-footer-wrapper {
+    width: 100%;
+    padding: 4rem 6rem;
+    justify-content: center;
+  }
+  .dec2022-footer-logo-wrapper {
+    justify-content: center;
+  }
+  .dec2022-footerlogo {
+    width: 70%;
+    align-self: center;
+  }
+  .dec2022-contact-us-wrapper {
+    padding: 40px 0 0 0;
+    h4 {
+      font-size: 30px;
+      padding: 0 0 20px 0;
+    }
+  }
+  .dec2022-social-media-wrapper {
+    padding: 40px 0 0 0;
+    h4 {
+      font-size: 30px;
+      padding: 0 0 20px 0;
+    }
+    .dec2022-media-array {
+      margin: 0 auto;
+    }
+    .dec2022-social-media-icon {
+      color: #fff;
+      padding: 0 22px;
+      &-hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .dec2022-copyright {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+}
+
+// @media (max-width: 576px) {
+//   .dec2022-footerlogo {
+//     max-width: 100%;
+//   }
+// }
+
+// for mobile
+@media only screen and (max-width: 768px) {
+  .dec2022-footer {
+    .dec2022-footer-wrapper {
+      padding: 4rem 0;
+    }
+    .dec2022-footerlogo {
+      width: 60%;
+    }
+  }
+}
