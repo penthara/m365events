@@ -37,7 +37,7 @@ function App() {
 
                 <Agenda />
                <KeyNoteSpeaker />
-                <Speaker />
+                {/*<Speaker />*/}
                 <Sponsor />
                {/* <UserGroups /> */}
                <EventTeam />
