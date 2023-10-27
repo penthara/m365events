@@ -21,13 +21,15 @@ export const Sponsor = () => {
         className="row dec2022-sponsor-wrapper text-center"
         style={{ display: "flex", justifyContent: "center" }}
       >
-        <div className="dec2022-sponsor-StatusHeading diamond">
-          Diamond
-          <div className="dec2022-horizontal-divider mt-2" >
-          {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
-            Apply for the Diamond Sponsorship
+        <div className="dec2022-horizontal-divider mt-2" >
+        {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
+            Apply for the Sponsorship
           </button> }
         </div>
+
+        <div className="dec2022-sponsor-StatusHeading diamond">
+          Diamond
+          <div className="dec2022-horizontal-divider mt-2" />
         </div>
 
         {SponsorData.filter((data) => {
@@ -59,14 +61,9 @@ export const Sponsor = () => {
       >
         <div className="dec2022-sponsor-StatusHeading platinum">
           Platinum
-          <div className="dec2022-horizontal-divider mt-2" >
-          {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
-            Apply for the Platinum Sponsorship
-          </button> }
+          <div className="dec2022-horizontal-divider mt-2" />
         </div>
-
-        </div>
-
+       
         {SponsorData.filter((data) => {
           return data.sponsorStatus === "platinum";
         }).map((data) => {
@@ -97,10 +94,6 @@ export const Sponsor = () => {
         <div className="dec2022-sponsor-StatusHeading gold">
           Gold
           <div className="dec2022-horizontal-divider mt-2" />
-          {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
-            Apply for the Gold Sponsorship
-          </button> }
-        </div>
 
         {SponsorData.filter((data) => {
           return data.sponsorStatus === "gold";
@@ -208,6 +201,7 @@ export const Sponsor = () => {
       </div>
 
       <ModalSponsor modal={modalSponsor} toggle={toggle} />
+    </div>
     </div>
   );
 };
