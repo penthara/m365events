@@ -272,7 +272,7 @@ export const Header = () => {
           <div className="dec2022-Be-Sponsor">
             <div className="dec2022-Be-Sponsor-wrapper">
               <div className="dec2022-Be-Sponsor-text">
-                Sponsorships for M365 Saturday Bangalore 2022 are Now Open!
+                Sponsorships for M365 Saturday Bangalore 2023 are Now Open!
               </div>
               <div className="dec2022-Be-Sponsor-btn-wrapper">
                 <button className="dec2022-Be-Sponsor-btn" onClick={toggle}>
