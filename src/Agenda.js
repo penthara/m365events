@@ -46,7 +46,7 @@ export const Agenda = () => {
       </div> */}
       <div className="dec2022-agenda-para-text-1">
         Check out the agenda and the sessions for the M365 SATURDAY BANGALORE
-        2022 event.
+        2023 event.
       </div>
       <div className="dec2022-agenda-para-text-2">
         This event has a collection of fantastic sessions and demos by

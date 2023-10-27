@@ -11,7 +11,7 @@ export const About = () => {
         {/*<span> Microsoft </span> */}
       </div>
       <div className="dec2022-about-para-text">
-        M365 SATURDAY BANGALORE 2022 is a one day event organized by the
+        M365 SATURDAY BANGALORE 2023 is a one day event organized by the
         Microsoft 365 Saturday Bangalore User group. This is a non-profit
         community event which is free to all registered participants. This event
         will completely focus on the Microsoft 365 services related to Microsoft

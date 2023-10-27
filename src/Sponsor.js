@@ -23,7 +23,11 @@ export const Sponsor = () => {
       >
         <div className="dec2022-sponsor-StatusHeading diamond">
           Diamond
-          <div className="dec2022-horizontal-divider mt-2" />
+          <div className="dec2022-horizontal-divider mt-2" >
+          {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
+            Apply for the Diamond Sponsorship
+          </button> }
+        </div>
         </div>
 
         {SponsorData.filter((data) => {
@@ -55,7 +59,12 @@ export const Sponsor = () => {
       >
         <div className="dec2022-sponsor-StatusHeading platinum">
           Platinum
-          <div className="dec2022-horizontal-divider mt-2" />
+          <div className="dec2022-horizontal-divider mt-2" >
+          {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
+            Apply for the Platinum Sponsorship
+          </button> }
+        </div>
+
         </div>
 
         {SponsorData.filter((data) => {
@@ -89,7 +98,7 @@ export const Sponsor = () => {
           Gold
           <div className="dec2022-horizontal-divider mt-2" />
           {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
-            Apply for the Sponsorship
+            Apply for the Gold Sponsorship
           </button> }
         </div>
 

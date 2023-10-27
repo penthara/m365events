@@ -32,15 +32,15 @@ function App() {
                 <CountDownTimer />
                  <CallForSpeaker /> 
                <About />
-                <Donate />
-               <QuizPrizes />
+                {/*<Donate />*/}
+               {/*<QuizPrizes />*/}
 
                 <Agenda />
                {/*<KeyNoteSpeaker />*/}
                 {/*<Speaker />*/}
                 <Sponsor />
+                <EventTeam />
                 <UserGroups /> 
-               <EventTeam />
                 <PreviousEvents />
   <Footer />
               </>
