@@ -36,10 +36,10 @@ function App() {
                <QuizPrizes />
 
                 <Agenda />
-               <KeyNoteSpeaker />
+               {/*<KeyNoteSpeaker />*/}
                 {/*<Speaker />*/}
                 <Sponsor />
-               {/* <UserGroups /> */}
+                <UserGroups /> 
                <EventTeam />
                 <PreviousEvents />
   <Footer />
