@@ -1,16 +1,26 @@
 [
   {
     "sponsorId": "1",
-    "sponsorImage": "./images/website/j4.png",
-    "sponsorAltText": "JPOWER",
-    "sponsorName": "JPOWER",
-    "sponsorUrl": "http://www.jpower4.com/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
-    "sponsorTwitter": "https://twitter.com/Jpower4S",
+    "sponsorImage": "./images/website/atna.png",
+    "sponsorAltText": "Atna",
+    "sponsorName": "Atna",
+    "sponsorUrl": "https://www.atnatechnologies.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/atna-technologies-india-pvt-ltd/",
+    "sponsorTwitter": "https://twitter.com/",
     "sponsorStatus": "diamond"
   },
   {
     "sponsorId": "2",
+    "sponsorImage": "./images/website/athenEps.png",
+    "sponsorAltText": "ATHEN",
+    "sponsorName": "ATHEN",
+    "sponsorUrl": "http://www.athen.tech/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/athen-tech/",
+    "sponsorTwitter": "https://twitter.com/AthenTech",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": "3",
     "sponsorImage": "./images/website/PentharaLogo.svg",
     "sponsorAltText": "Penthara Technologies",
     "sponsorName": "Penthara Technologies",
@@ -20,13 +30,33 @@
     "sponsorStatus": "diamond"
   },
   {
-    "sponsorId": "3",
+    "sponsorId": "4",
     "sponsorImage": "./images/website/microsoftLogo.png",
     "sponsorAltText": "Microsoft",
     "sponsorName": "Microsoft",
     "sponsorUrl": "https://www.microsoft.com",
     "sponsorLinkedIn": "https://www.linkedin.com/company/microsoft/",
     "sponsorTwitter": "https://twitter.com/microsoftindia",
-    "sponsorStatus": "gold"
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": "5",
+    "sponsorImage": "./images/website/tsinfo.jpg",
+    "sponsorAltText": "TSinfo Technologies",
+    "sponsorName": "TSinfo Technologies",
+    "sponsorUrl": "https://www.tsinfotechnologies.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/tsinfotechnologies/",
+    "sponsorTwitter": "https://twitter.com/tsinfo_tech",
+    "sponsorStatus": "platinum"
+  },
+  {
+    "sponsorId": "6",
+    "sponsorImage": "./images/website/j4.png",
+    "sponsorAltText": "JPOWER",
+    "sponsorName": "JPOWER",
+    "sponsorUrl": "http://www.jpower4.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
+    "sponsorTwitter": "https://twitter.com/Jpower4S",
+    "sponsorStatus": "platinum"
   }
 ]
