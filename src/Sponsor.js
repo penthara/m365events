@@ -17,10 +17,10 @@ export const Sponsor = () => {
     <div className="dec2022-sponsor p-md-5 p-3" id="sponsors">
       <h1 className="dec2022-sponsor-heading my-5 text-center">SPONSORS</h1>
       {/* <div className="row dec2022-sponsor-wrapper text-center"> */}
-      {<button onClick={toggle} className="dec2022-applySponsorLink-gold">
+      {/*<button onClick={toggle} className="dec2022-applySponsorLink-gold">
             Apply for the Sponsorship
-          </button> }
-        <div style={{clear:"both"}}/>
+  </button> */}
+
       <div
         className="row dec2022-sponsor-wrapper text-center"
         style={{ display: "flex", justifyContent: "center" }}
