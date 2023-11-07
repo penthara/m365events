@@ -19,16 +19,7 @@ export const About = () => {
         professionals and users with excellent training and networking
         opportunities and Help develop, grow, sharing and encourage new
         speakers.
-        {/* <span>
-          <a
-            href="https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Microsoft 365 , Power Platform & Cloud Security India User group
-          </a>
-        </span>
-        */}
+       
       </div>
       <div className="dec2022-registration-text">
         {/* <a className="dec2022-registration-button" href="#sessions-recordings">
@@ -37,7 +28,7 @@ export const About = () => {
         <a
           target={"_blank"}
           className="dec2022-registration-button"
-          href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
+          href="https://www.townscript.com/e/m365-saturday-bangalore-2023-411200"
         >
           <p> Register Now </p>
         </a>
