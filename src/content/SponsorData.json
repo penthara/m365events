@@ -58,5 +58,25 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
     "sponsorTwitter": "https://twitter.com/Jpower4S",
     "sponsorStatus": "platinum"
+  },
+  {
+    "sponsorId": "7",
+    "sponsorImage": "./images/website/PrudentAutolyticsLogo.jpg",
+    "sponsorAltText": "PrudentAutolytics",
+    "sponsorName": "PrudentAutolytics",
+    "sponsorUrl": "http://www.prudentautolytics.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/in/ankeshsinha/",
+    "sponsorTwitter": "https://twitter.com",
+    "sponsorStatus": "platinum"
+  },
+  {
+    "sponsorId": "8",
+    "sponsorImage": "./images/website/sohoDragon.jpg",
+    "sponsorAltText": "SOHO DRAGON",
+    "sponsorName": "SOHO DRAGON",
+    "sponsorUrl": "https://sohodragon.nyc/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
+    "sponsorTwitter": "https://twitter.com/sohodragon",
+    "sponsorStatus": "glod"
   }
 ]
