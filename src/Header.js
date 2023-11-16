@@ -224,11 +224,11 @@ export const Header = () => {
                         }
                       >
                         <Col className="dec2022-sessionNumber">
-                          <span>14</span>
+                          <span>23</span>
                           <span>SPEAKERS</span>
                         </Col>
                         <Col className="dec2022-trackNumber">
-                          <span>14</span>
+                          <span>17</span>
                           <span>SESSIONS</span>
                         </Col>
                         <Col className="dec2022-sponserNumber">

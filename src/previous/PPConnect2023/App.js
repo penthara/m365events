@@ -32,8 +32,7 @@ function App() {
                 <About />
                 <QuizPrizes />
                 <Agenda />
-      <KeyNoteSpeaker />
-
+                <KeyNoteSpeaker />
                 <Speaker />
                 <Sponsor />
                 <EventTeam />
