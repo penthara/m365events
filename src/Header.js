@@ -235,31 +235,7 @@ export const Header = () => {
                           <span>8</span>
                           <span>SPONSORS</span>
                         </Col>
-                        {/* <a
-                          target={"_blank"}
-                          href="https://www.eventbrite.com/e/m365-saturday-bangalore-2022-tickets-432972260687?aff=ebdssbdestsearch&keep_tld=1"
-                          className="dec2022-coming-soon-RegNow text-center"
-                        >
-                          <span className="dec2022-coming-soon-txt font-weight-bold">
-                            Register Now
-                          </span>
-                        </a> */}
-                        {/* <Row
-                          className="dec2022-registrationBtn"
-                          style={{ marginTop: "0px", paddingTop: "5%" }}
-                        >
-                          <Col>
-                            <a
-                              href={data.RegLink}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <button className="dec2022-register-btn">
-                                <span>{data.RegBtn}</span>
-                              </button>
-                            </a>
-                          </Col>
-                        </Row> */}
+                       
                       </div>
                     </Col>
                   </Row>

@@ -12,7 +12,6 @@ import { PreviousEvents } from "./PreviousEvents";
 import { Footer } from "./Footer";
 import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
 import { QuizPrizes } from "./QuizPrizes";
-
 import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
 import { Prev } from "./previous/dec2021/Prev";
@@ -33,16 +32,15 @@ function App() {
                  {/*<CallForSpeaker /> */}
                <About />
                 {/*<Donate />*/}
-               {/*<QuizPrizes />*/}
-
+                <QuizPrizes />
                 <Agenda />
-               <KeyNoteSpeaker />
+                <KeyNoteSpeaker />
                 <Speaker />
                 <Sponsor />
                 <EventTeam />
                 <UserGroups /> 
                 <PreviousEvents />
-  <Footer />
+                <Footer />
               </>
             }
           />
