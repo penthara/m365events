@@ -31,7 +31,7 @@ export const QuizPrizes = () => {
                   alt="prize"
                   className="dec2022-QuizPrizes-card-img"
                 />
-                <div className="dec2022-QuizPrizes-card-heading">
+                <div className="dec2022-QuizPrizes-card-heading" style="display:none">
                   {data.title}
                 </div>
               </div>
