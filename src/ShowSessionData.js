@@ -118,7 +118,7 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
                       <div>
                         {/* <div className="dec2022-speaker-head">Speakers</div> */}
                         <div className="d-flex justify-content-center">
-                          {data.title === "Welcome Note" && (
+                          {/*data.title === "Welcome Note" && (
                             <div className="dec2022-speaker  pr-2 pl-2">
                               <LazyLoad height={70} width={70} debounce={false}>
                                 <ImageLoader
@@ -136,9 +136,9 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
                                 {sessions[1].fullName}
                               </span>
                             </div>
-                          )}
-                          {data.title ==
-                            "Keynote : Discover Microsoft Viva Pillars" && (
+                                )*/}
+                          {/*data.title ==
+                            "Keynote : Site Copilot for Power Pages" && (
                             <div className="dec2022-speaker  pr-2 pl-2">
                               <LazyLoad height={70} width={70} debounce={false}>
                                 <ImageLoader
@@ -156,8 +156,8 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
                                 {sessions[0].fullName}
                               </span>
                             </div>
-                          )}
-                          {data.title === "Quiz / Closing Notes" && (
+                                )*/}
+                          {/*data.title === "Quiz / Closing Notes" && (
                             <div className="dec2022-speaker  pr-2 pl-2">
                               <LazyLoad height={70} width={70} debounce={false}>
                                 <ImageLoader
@@ -175,8 +175,8 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
                                 {sessions[2].fullName}
                               </span>
                             </div>
-                          )}
-                          {data.title === "Quiz / Closing Notes" && (
+                                )*/}
+                          {/*data.title === "Quiz / Closing Notes" && (
                             <div className="dec2022-speaker  pr-2 pl-2">
                               <LazyLoad height={70} width={70} debounce={false}>
                                 <ImageLoader
@@ -194,16 +194,16 @@ export const ShowSessionData = ({ CurrentTrackID }) => {
                                 {sessions[3].fullName}
                               </span>
                             </div>
-                          )}
+                          )*/}
 
-                          {data.title == "Sponsors Session" && (
+                          {/*data.title == "Sponsors Session" && (
                             <div className="dec2022-speaker  pr-2 pl-2">
                               <img
                                 src="./images/website/Quest.png"
                                 width="110px"
                               />
                             </div>
-                          )}
+                          )*/}
 
                           {data.speakers.map((spkr) => {
                             return (
