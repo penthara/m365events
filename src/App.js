@@ -33,9 +33,9 @@ function App() {
                <About />
                 {/*<Donate />*/}
                 <QuizPrizes />
-                <Agenda />
                 <KeyNoteSpeaker />
                 <Speaker />
+                <Agenda />
                 <Sponsor />
                 <EventTeam />
                 <UserGroups /> 
@@ -45,8 +45,8 @@ function App() {
             }
           />
           <Route path="/m3652022" element={<Prev />} />
-          <Route path="/dec2021" element={<Prev />} />
-          <Route path="/ppconnect2023" element={<PPConnect />} />
+          <Route path="/m3652021" element={<Prev />} />
+          <Route path="/ppconnect2023" element={<PPConnect2023 />} />
         </Routes>
       </BrowserRouter>
     </div>

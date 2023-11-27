@@ -2,6 +2,16 @@
   {
     "eventTitle": "Microsoft 365 Saturday Bangalore 2022",
     "eventImage": "./images/website/prevSPS.webp",
-    "eventLink": "/m3652023"
+    "eventLink": "/m3652022"
+  },
+  {
+    "eventTitle": "Microsoft Power Platform Connect 2023 Bangalore",
+    "eventImage": "./images/website/prevSPS.webp",
+    "eventLink": "/ppconnect2023"
+  },
+  {
+    "eventTitle": "Microsoft 365 Saturday Bangalore 2021",
+    "eventImage": "./images/website/prevSPS.webp",
+    "eventLink": "/m3652021"
   }
 ]
