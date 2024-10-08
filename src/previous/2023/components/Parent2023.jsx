@@ -27,7 +27,7 @@ const Parent2023 = ({ theme }) => {
   const [defaultTrackData, setDefaultTrackData] = useState([]);
 
   useEffect(() => {
-    document.title = "ICSS 2023";
+    document.title = "M365 Saturday Bangalore";
     SpeakersAndSessionsCompleteData();
   }, []);
 
