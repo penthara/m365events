@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
   }
   a {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -90,6 +90,10 @@ body::-webkit-scrollbar {
 .dec2022-head-nav-align {
   width: 90%;
   display: flex;
+  margin: auto;
+}
+.dec2022-head-nav-align img{
+object-fit: contain;
 }
 
 .dec2022-head-data {
@@ -148,14 +152,14 @@ body::-webkit-scrollbar {
   }
   .dec2022-content-right {
     padding-top: 80px;
-    padding-left: 10%;
+    // padding-left: 10%;
     flex-direction: column;
     justify-content: center;
     align-items: end;
   }
   .dec2022-nav-item {
     flex-direction: column;
-    // justify-content: center;
+    justify-content: end !important;
     align-items: end;
   }
   .dec2022-handles {
@@ -262,6 +266,12 @@ body::-webkit-scrollbar {
   }
 }
 
+.dec2022-head-data .dec2022-fields .dec2022-fields-row {
+  padding-top: 40px;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
 // hamburger menu css
 .bm-burger-button {
   // position: absolute !important;
@@ -340,6 +350,7 @@ body::-webkit-scrollbar {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
+  left: auto !important;
   background: #fff;
   width: 50px !important;
 }
@@ -467,6 +478,36 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 }
 
+.dec2022-nav-item{
+  display: flex;
+  justify-content: end;
+}
+.bm-burger-button{
+  display: none;
+}
+
+.dec2022-head-nav .col-sm-6{
+  display: none;
+}
+@media only screen and (max-width: 970px) {
+
+  .dec2022-head-data .dec2022-fields .dec2022-fields-row {
+    padding-top: 40px;
+    flex-wrap: nowrap;
+    display: none;
+    flex-direction: column;
+  }
+  
+    .dec2022-nav-item{
+      display: none;
+    }
+    .dec2022-head-nav .col-sm-6{
+      display: block;
+    }
+    .bm-burger-button{
+      display: flex;
+    }
+}
 @media only screen and (max-width: 768px) {
   .dec2022-Be-Sponsor {
     height: 8.5rem;

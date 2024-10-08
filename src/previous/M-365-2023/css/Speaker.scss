@@ -8,6 +8,8 @@
 .dec2022-speakers {
   padding: 2rem 15%;
 }
+
+
 .dec2022-speakers {
   background-color: rgba(245, 246, 246, 0.56);
 }
@@ -220,5 +222,8 @@ h3 {
   .dec2022-keynote,
   .dec2022-speakers {
     padding: 2rem 0;
+  }
+  .dec2022-keynote  .keyNoteRow{
+    flex-direction: column;
   }
 }

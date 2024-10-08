@@ -59,7 +59,7 @@ export const Header = () => {
           <div className="dec2022-head-nav-align">
             <div
               className="col-6 col-sm-3 text-center"
-              style={{ margin: "0", padding: "0" }}
+              style={{ margin: "auto", padding: "0" }}
             >
               <a href="/" className="dec2022-nav-bar-logo-helper" alt="">
                 <img
@@ -107,7 +107,7 @@ export const Header = () => {
               </>
             )}
 
-            {!isMobile && (
+            {isMobile && (
               <>
                 <Col xs={9} className="dec2022-nav-item">
                   <Navbar>

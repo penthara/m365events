@@ -256,8 +256,9 @@ body::-webkit-scrollbar {
 }
 
 /* Color/shape of burger icon bars */
-.bm-burger-bars {
+span.bm-burger-bars {
   background: #fff;
+  left: auto !important;
   width: 50px !important;
 }
 

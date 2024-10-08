@@ -213,9 +213,21 @@ h3 {
     padding: 2rem 10%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .dec2022-keynote  .keyNoteRow{
+    flex-direction: column;
+  }
+  .dec2022-head-data .dec2022-content-right {
+    padding-top: 124px !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+}
 @media only screen and (max-width: 576px) {
   .dec2022-keynote,
   .dec2022-speakers {
     padding: 2rem 0;
   }
+
 }
