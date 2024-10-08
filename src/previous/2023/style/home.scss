@@ -9,6 +9,8 @@ $white: #fff;
       url(../assets/SPSHome.png);
     background-repeat: no-repeat;
     display: flex;
+    max-height: fit-content !important;
+    height: auto !important;
     background-size: cover;
     background-position: center;
     padding-top: 10rem !important;

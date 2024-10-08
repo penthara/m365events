@@ -9,6 +9,7 @@ $white: #fff;
       url(../assets/homeBG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: auto !important;
     background-position: center;
     padding-top: 10rem !important;
   }
