@@ -71,7 +71,7 @@ export const Header = () => {
               </a>
             </div>
 
-            {isMobile && (
+
               <>
                 <Col className="col-3 col-sm-6"> </Col>
                 <Col>
@@ -105,9 +105,9 @@ export const Header = () => {
                   </Menu>
                 </Col>
               </>
-            )}
 
-            {isMobile && (
+
+
               <>
                 <Col xs={9} className="dec2022-nav-item">
                   <Navbar>
@@ -125,7 +125,7 @@ export const Header = () => {
                   </Navbar>
                 </Col>
               </>
-            )}
+
           </div>
         </div>
         <div className="dec2022-head-data">
