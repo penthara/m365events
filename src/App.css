@@ -18,6 +18,19 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  
+  .dec2022-eventTeam .row{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .dec2022-eventTeam .row .col{
+
+    flex-basis: auto;
+
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
