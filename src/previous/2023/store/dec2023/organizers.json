@@ -1,0 +1,59 @@
+[
+
+  {
+    "OrganizerID": "3",
+    "OrganizerImage": "../organizers/Jasjit.jpg",
+    "OrganizerName": "Jasjit Chopra",
+    "isVolunteer": "false",
+    "isCoOrganizer": "false",
+    "speakerLinkedIn": "https://www.linkedin.com/in/jasjitchopra/"
+  },
+  {
+    "OrganizerID": "9",
+    "OrganizerImage": "../organizers/samikRoy.jpg",
+    "OrganizerName": "Samik Roy",
+    "isVolunteer": "false",
+    "isCoOrganizer": "false",
+    "speakerLinkedIn": "https://www.linkedin.com/in/roysamik/"
+  },
+  {
+    "OrganizerID": "9",
+    "OrganizerImage": "../organizers/Jenkins.jpg",
+    "OrganizerName": "Jenkins NS",
+    "isVolunteer": "false",
+    "isCoOrganizer": "false",
+    "speakerLinkedIn": "https://www.linkedin.com/in/jenkinsns/"
+  },
+  {
+    "OrganizerID": "4",
+    "OrganizerImage": "../organizers/Kamlesh.jpg",
+    "OrganizerName": "Kamlesh Rao",
+    "isVolunteer": "false",
+    "isCoOrganizer": "false",
+    "speakerLinkedIn": "https://www.linkedin.com/in/kamleshrao/"
+  },
+  {
+    "OrganizerID": "5",
+    "OrganizerImage": "../organizers/Bijay.jpg",
+    "OrganizerName": "Bijay Kumar",
+    "isCoOrganizer": "false",
+    "isVolunteer": "false",
+    "speakerLinkedIn": "https://www.linkedin.com/in/fewlines4biju/"
+  },
+  {
+    "OrganizerID": "6",
+    "OrganizerImage": "../organizers/MandeepMonty.jpg",
+    "OrganizerName": "Mondeep Maity",
+    "isCoOrganizer": "false",
+    "isVolunteer": "true",
+    "speakerLinkedIn": "https://www.linkedin.com/in/mondeep-maity-8083b2b9/"
+  },
+  {
+    "OrganizerID": "7",
+    "OrganizerImage": "../organizers/FerozKhan.jpg",
+    "OrganizerName": "Abdul Rasheed Feroz Khan",
+    "isCoOrganizer": "false",
+    "isVolunteer": "true",
+    "speakerLinkedIn": "https://www.linkedin.com/in/abdul-rasheed-feroz-khan-72918a102/"
+  }
+]

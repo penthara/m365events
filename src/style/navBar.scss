@@ -1,0 +1,41 @@
+.dec-2023 {
+  .nav-logo {
+    width: 20rem;
+  }
+  .navLayout {
+    width: 100% !important;
+    position: fixed !important;
+  }
+
+  .navMinHeight {
+    // height: 12rem;
+    min-height: clamp(10rem, calc(10rem + ((1vw - 0.515rem) * 2.0202)), 12rem);
+  }
+
+  .navText {
+    font-size: 1.8rem !important;
+    // font-weight: 700 !important;
+    text-transform: uppercase;
+    // min-width: max-content;
+    font-weight: 600 !important;
+    line-height: 27px !important;
+  }
+  .navButton {
+    font-size: 4rem !important;
+  }
+  // .navItemButton {
+  //   margin: 0;
+  //   padding: 0;
+  // }
+  .navTextSpace {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dec-2023 {
+    .nav-logo {
+      width: 17rem;
+    }
+  }
+}

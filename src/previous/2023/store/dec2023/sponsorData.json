@@ -1,0 +1,66 @@
+[
+  {
+    "sponsorId": 1,
+    "sponsorImage": "../logos/PentharaLogo.svg",
+    "sponsorAltText": "Penthara Technologies",
+    "sponsorName": "Penthara Technologies",
+    "sponsorUrl": "https://www.penthara.com",
+    "sponsorStatus": "platinum"
+  },
+  {
+    "sponsorId": 2,
+    "sponsorImage": "../logos/microsoftLogo.png",
+    "sponsorAltText": "Microsoft",
+    "sponsorName": "Microsoft",
+    "sponsorUrl": "https://www.microsoft.com",
+    "sponsorStatus": "platinum"
+  },
+  {
+    "sponsorId": 3,
+    "sponsorImage": "./assets/logos/ossisto.png",
+    "sponsorAltText": "Ossisto365",
+    "sponsorName": "Ossisto365",
+    "sponsorUrl": "https://ossisto365.com/",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": 4,
+    "sponsorImage": "./assets/logos/Rencore.png",
+    "sponsorAltText": "Rencore",
+    "sponsorName": "Rencore",
+    "sponsorUrl": "https://rencore.com/en/",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": 4,
+    "sponsorImage": "./assets/logos/RapidCircle.png",
+    "sponsorAltText": "Rapid Circle",
+    "sponsorName": "Rapid Circle",
+    "sponsorUrl": "https://en.rapidcircle.com/",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": 5,
+    "sponsorImage": "./assets/logos/CloudThat_Master Logo.png",
+    "sponsorAltText": "CloudThat",
+    "sponsorName": "CloudThat",
+    "sponsorUrl": "https://www.cloudthat.com/",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": 5,
+    "sponsorImage": "../logos/JPower.png",
+    "sponsorAltText": "JPower",
+    "sponsorName": "JPower",
+    "sponsorUrl": "http://www.jpower4.com/",
+    "sponsorStatus": "platinum"
+  },
+  {
+    "sponsorId": 6,
+    "sponsorImage": "../logos/TSInfo.png",
+    "sponsorAltText": "TS Info",
+    "sponsorName": "TS Info",
+    "sponsorUrl": "https://www.tsinfotechnologies.com/",
+    "sponsorStatus": "platinum"
+  }
+]

@@ -1,0 +1,30 @@
+$black: #000000;
+.dec-2023 {
+  .social-container {
+    min-height: 10rem;
+  }
+
+  .social-wrapper {
+    color: white;
+    &:hover {
+      color: #217dde !important;
+    }
+  }
+  .socialText {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  .socialIcon {
+    font-size: 3.5rem;
+    font-weight: 400;
+    fill: #217dde;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dec-2023 {
+      .socialText {
+      font-size: 2rem;
+    }
+  }
+}

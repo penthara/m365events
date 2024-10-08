@@ -1,55 +1,78 @@
-import React from "react";
-import "./css/App.scss";
-import { Header } from "./Header";
-import { About } from "./About";
-import { Donate } from "./Donate";
-import { CallForSpeaker } from "./CallForSpeaker";
-import { Agenda } from "./Agenda";
-import { Speaker } from "./Speaker";
-import { Sponsor } from "./Sponsor";
-import { UserGroups } from "./UserGroups";
-import { PreviousEvents } from "./PreviousEvents";
-import { Footer } from "./Footer";
-import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
-import { QuizPrizes } from "./QuizPrizes";
-import { CountDownTimer } from "./CountDownTimer";
-import { EventTeam } from "./EventTeam";
-import { Prev } from "./previous/dec2021/Prev";
-import { PPConnect } from "./previous/PPConnect2023/PPConnect";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+// import Parent2022 from "./2022/components/Parent2022";
+// import Parent2021 from "./2021/components/Parent2021";
+import Parent2023 from "./previous/2023/components/Parent2023";
+import App2022 from "./previous/PPConnect2023/App";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import {
+  Route,
+  Routes,
+  BrowserRouter,
+} from "react-router-dom";
+// import { theme2021 } from "./2021/style/theme/theme2021";
+// import { theme2022 } from "./2022/style/theme/theme2022";
+// import { theme2023 } from "./previous/2023/style/theme/theme2023";
+import { theme2023 } from "./style/theme/theme2023";
+import App2023 from "./previous/M-365-2023/App";
+
+const theme = createTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      mmb: 515,
+      sm: 768,
+      cd: 850,
+      md: 981,
+      lg: 1280,
+      xl: 1536,
+      xxl: 2000,
+    },
+  },
+  palette: {
+    purplePrimary: {
+      main: "#032952",
+    },
+    purpleSecondary: {
+      main: "#651fff",
+    },
+  },
+});
+
+window.addEventListener("DOMContentLoaded", function () {
+  setTimeout(() => {
+    let hash = window.location.href;
+    // console.log(hash, "location Hash");
+    let hashText = hash.split("#")[1];
+    // console.log(hashText, "location Hash Text");
+    if (hashText !== undefined || hashText !== null) {
+      let element = document.getElementById(hashText);
+      // console.log(element, "location Hash element");
+      element?.scrollIntoView();
+    }
+  }, 500);
+});
 
 function App() {
   return (
-    <div className="dec2022-container-fluid icss">
+    <div className="App">
       <BrowserRouter>
         <Routes>
           <Route
             path="/"
             element={
-              <>
-                <Header />
-                <CountDownTimer />
-                 {/*<CallForSpeaker /> */}
-               <About />
-                {/*<Donate />*/}
-                <QuizPrizes />
-                <KeyNoteSpeaker />
-                <Speaker />
-                <Agenda />
-                <Sponsor />
-                <EventTeam />
-                <UserGroups /> 
-                <PreviousEvents />
-                <Footer />
-              </>
+              <ThemeProvider theme={theme}>
+                <Parent2023 theme={theme2023} />
+              </ThemeProvider>
             }
           />
-          <Route path="/m3652022" element={<Prev />} />
-          <Route path="/m3652021" element={<Prev />} />
-          <Route path="/ppconnect2023" element={<PPConnect2023 />} />
+          <Route
+            path="/2023"
+            element={<App2023/>}
+          />         
         </Routes>
       </BrowserRouter>
     </div>
   );
 }
+
 export default App;

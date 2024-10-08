@@ -13,22 +13,17 @@ import { Footer } from "./Footer";
 import { KeyNoteSpeaker } from "./KeyNoteSpeaker";
 import { QuizPrizes } from "./QuizPrizes";
 
-import { CountDownTimer } from "./CountDownTimer";
+// import { CountDownTimer } from "./CountDownTimer";
 import { EventTeam } from "./EventTeam";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+function App2023() {
   return (
     <div className="dec2022-container-fluid icss">
-      <BrowserRouter>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
+
                 <Header />
-                <CountDownTimer />
+                {/* <CountDownTimer /> */}
                 <About />
                 <QuizPrizes />
                 <Agenda />
@@ -37,12 +32,8 @@ function App() {
                 <Sponsor />
                 <EventTeam />
                 <Footer />
-              </>
-            }
-          />
-        </Routes>
-      </BrowserRouter>
+
     </div>
   );
 }
-export default App;
+export default App2023;
