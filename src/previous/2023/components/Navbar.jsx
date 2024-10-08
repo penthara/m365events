@@ -194,9 +194,8 @@ function DrawerAppBar({ theme }) {
                 <MenuIcon
                   className="navButton"
                   style={
-                    navbar
-                      ? { color: theme.colors.text.coalBlack }
-                      : { color: theme.colors.text.primary }
+
+                      { color: theme.colors.text.primary }
                   }
                 />
               </IconButton>
