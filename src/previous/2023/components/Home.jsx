@@ -174,7 +174,7 @@ const Home = ({ theme }) => {
               },
             }}
           >
-            Proudly Presents
+            {/* Proudly Presents */}
           </Typography>
 
         </Box>
@@ -186,7 +186,7 @@ const Home = ({ theme }) => {
               },
               marginTop: {
                 xs: "3.5rem",
-                mmb: "5rem",
+                mmb: "0rem",
               },
             }}
           >
