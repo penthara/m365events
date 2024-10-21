@@ -186,7 +186,7 @@ const Home = ({ theme }) => {
               },
               marginTop: {
                 xs: "3.5rem",
-                mmb: "0rem",
+                mmb: "1rem",
               },
             }}
           >
