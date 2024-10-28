@@ -34,6 +34,7 @@ const ScrollToTop = ({theme}) => {
             position: "fixed",
             bottom: "2.5rem",
             right: "2.5rem",
+            fill: 'blue',
             "&:hover":{
               color: "#fff"
             }
@@ -42,6 +43,7 @@ const ScrollToTop = ({theme}) => {
           <KeyboardArrowUpIcon
             sx={{
               fontSize: "3.5rem",
+              fill: 'blue',
             }}
           />
         </Fab>
