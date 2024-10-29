@@ -25,15 +25,15 @@ const Sponsors = ({ theme }) => {
               // uncomment above when tier sponsor added
             }}
            >
-            {/* <Typography
+            <Typography
               className="text-center sponsorSubHeading diamond"
               sx={{
                 fontSize: { xs: "3rem", mmb: theme.fontSize.sponsorTags },
               }}
             >
               Diamond
-            </Typography> */}
-            {/* <Box>
+            </Typography>
+            <Box>
               <Box
                 sx={{
                   flexDirection: {
@@ -55,7 +55,7 @@ const Sponsors = ({ theme }) => {
                       <Grid
                         item
                         xs={12}
-                        md={6}
+                        md={4}
                         lg={4}
                         key={index}
                         sx={{
@@ -85,7 +85,7 @@ const Sponsors = ({ theme }) => {
                   })}
                 </Grid>
               </Box>
-            </Box> */}
+            </Box>
           </Box>
           <Box
             sx={{
@@ -93,14 +93,14 @@ const Sponsors = ({ theme }) => {
               // uncomment above when tier sponsor added
             }}
             >
-            {/* <Typography
+            <Typography
               className="text-center sponsorSubHeading platinum"
               sx={{
                 fontSize: { xs: "3rem", mmb: theme.fontSize.sponsorTags },
               }}
             >
               Platinum
-            </Typography> */}
+            </Typography>
             <Box>
               <Box
                 sx={{
@@ -119,6 +119,64 @@ const Sponsors = ({ theme }) => {
                 >
                   {SponsorData.filter(
                     (sponsor) => sponsor.sponsorStatus === "platinum"
+                  ).map((data, index) => {
+                    return (
+                      <Grid
+                        item
+                        xs={12}
+                        md={4}
+                        lg={2}
+                        key={index}
+                        sx={{
+                          marginBlock: {
+                            xs: "2rem",
+                          },
+                        }}
+                        className="sponsor-card
+                        d-flex justify-content-center align-items-center"
+                      >
+                        <a
+                          href={data.sponsorUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="sponsor-border"
+                        >
+                          <img
+                            className="sponsor-img"
+                            alt={data.sponsorAltText}
+                            src={data.sponsorImage}
+                            width="280px"
+                            loading="lazy"
+                          />
+                        </a>
+                      </Grid>
+                    );
+                  })}
+                </Grid>
+              </Box>
+            </Box>
+          </Box>
+          <Box sx={{
+              paddingBlock: "3rem",
+            }}>
+            <Typography
+              className="text-center sponsorSubHeading gold"
+              sx={{
+                fontSize: { xs: "3rem", mmb: theme.fontSize.sponsorTags },
+              }}
+            >
+              Gold
+            </Typography>
+          </Box>
+        </Box>
+        <Grid
+                  container
+                  className="d-flex justify-content-center"
+                  spacing={2}
+                  sx={{gap: "8%"}}
+                >
+                  {SponsorData.filter(
+                    (sponsor) => sponsor.sponsorStatus === "gold"
                   ).map((data, index) => {
                     return (
                       <Grid
@@ -153,22 +211,6 @@ const Sponsors = ({ theme }) => {
                     );
                   })}
                 </Grid>
-              </Box>
-            </Box>
-          </Box>
-          {/* <Box sx={{
-              paddingBlock: "3rem",
-            }}>
-            <Typography
-              className="text-center sponsorSubHeading gold"
-              sx={{
-                fontSize: { xs: "3rem", mmb: theme.fontSize.sponsorTags },
-              }}
-            >
-              Gold
-            </Typography>
-          </Box> */}
-        </Box>
         <Box className="sectionMaxWidth" sx={{ paddingBlockEnd: "3rem" }}>
           {/* <Box className="sponsorsHeadingBox">
             <Typography
@@ -180,12 +222,12 @@ const Sponsors = ({ theme }) => {
               Promotional Partners
             </Typography>
           </Box> */}
-          {/* <Box
+          <Box
             sx={{
               paddingBlock: "3rem",
             }}
           >
-            <Box>
+            {/* <Box>
               <Box
                 sx={{
                   flexDirection: {
@@ -235,20 +277,21 @@ const Sponsors = ({ theme }) => {
                   })}
                 </Grid>
               </Box>
-            </Box>
-          </Box> */}
-          {/* <Box sx={{
+            </Box> */}
+          </Box>
+          <Box sx={{
               paddingBlock: "3rem",
             }}>
-            <Typography
+            {/* <Typography
               className="text-center sponsorSubHeading gold"
               sx={{
                 fontSize: { xs: "3rem", mmb: theme.fontSize.sponsorTags },
               }}
             >
               Gold
-            </Typography>
-          </Box> */}
+            </Typography> */}
+
+          </Box>
         </Box>
       </div>
     </>
