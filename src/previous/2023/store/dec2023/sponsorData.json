@@ -80,6 +80,16 @@
     "sponsorStatus": ""
   },
   {
+    "sponsorId": "8",
+    "sponsorImage": "./images/website/sohoDragon.jpg",
+    "sponsorAltText": "SOHO DRAGON",
+    "sponsorName": "SOHO DRAGON",
+    "sponsorUrl": "https://sohodragon.nyc/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
+    "sponsorTwitter": "https://twitter.com/sohodragon",
+    "sponsorStatus": "gold"
+  },
+  {
     "sponsorId": "9",
     "sponsorImage": "./images/website/kasadara_logo.jpg",
     "sponsorAltText": "Kasadara Technology Solutions",
