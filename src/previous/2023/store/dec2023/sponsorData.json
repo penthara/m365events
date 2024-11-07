@@ -50,6 +50,16 @@
     "sponsorStatus": "platinum"
   },
   {
+    "sponsorId": "5",
+    "sponsorImage": "./images/website/RapidCircle.png",
+    "sponsorAltText": "Rapid Circle",
+    "sponsorName": "Rapid Circle",
+    "sponsorUrl": "https://en.rapidcircle.com/",
+    "sponsorLinkedIn": "https://in.linkedin.com/company/rapid-circle",
+    "sponsorTwitter": "https://twitter.com/rapidcircle",
+    "sponsorStatus": "gold"
+  },
+  {
     "sponsorId": "6",
     "sponsorImage": "./images/website/j4.png",
     "sponsorAltText": "JPOWER",

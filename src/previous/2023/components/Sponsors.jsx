@@ -182,7 +182,7 @@ const Sponsors = ({ theme }) => {
                       <Grid
                         item
                         xs={12}
-                        md={6}
+                        md={3}
                         lg={2}
                         key={index}
                         sx={{
