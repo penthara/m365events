@@ -42,7 +42,7 @@ const About = ({ theme }) => {
                 },
               }}
             >
-              A One Day Event <br />  Focusing On The{" "}
+              A One Day Event Focusing On The{" "}
               <Typography
                 component={"span"}
                 sx={{
@@ -54,9 +54,8 @@ const About = ({ theme }) => {
                   color: theme.colors.text.lightGreen,
                 }}
               >
-                Microsoft
               </Typography>{" "}
-              Cloud Security Services
+              Microsoft 365
             </Typography>
           </Box>
           <Box
