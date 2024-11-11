@@ -3,9 +3,9 @@ $card-heading-gradient: linear-gradient(
   #2D98C7 12.41%,
   #06468D 100.31%
 );
-$prizes-text-color: #2d7d7d;
-$prizes-subtext-color: #636363;
-$borderBottomColor: #4faaaa;
+$prizes-text-color: #ffffff;
+$prizes-subtext-color: #ffffff;
+$borderBottomColor: #ffffff;
 
 .dec-2023 {
   .QuizPrizes {
@@ -27,7 +27,7 @@ $borderBottomColor: #4faaaa;
       color: $prizes-subtext-color;
       width: fit-content;
       margin: 0 auto;
-      border-bottom: 5px solid $borderBottomColor;
+      border-bottom: 1px solid $borderBottomColor;
     }
 
     .QuizPrizes-wrapper {
@@ -156,9 +156,13 @@ $borderBottomColor: #4faaaa;
     }
   }
 
+  .QuizPrizes{
+    background: rgba(11, 71, 139, 0.32);
+  }
   .QuizPrizes-scroll {
     display: flex;
   }
+  
 
   @media only screen and (max-width: 991px) {
     .bookPrizes-card-4,
