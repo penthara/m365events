@@ -28,8 +28,8 @@ const navItems = [
   // { text: "Speakers", id: "speakers" },
 
   // { text: "Agenda", id: "agenda" },
+  { text: "Prizes", id: "prizes" },
   { text: "Sponsors", id: "sponsors" },
-  // { text: "Prizes", id: "prizes" },
 
   { text: "Event Team", id: "eventTeam" },
   { text: "Contact Us", id: "contactUS" },
@@ -131,6 +131,8 @@ function DrawerAppBar({ theme }) {
               <Box
                 sx={{
                   width: { xs: "40%", md: "60%" },
+                  display: 'flex',
+                  justifyContent: 'end'
                 }}
               >
                 <List
@@ -155,7 +157,7 @@ function DrawerAppBar({ theme }) {
                         sx={
                           item.id === "beAsponsor"
                             ? beASponsor
-                            : { padding: "0", marginRight: "6rem" }
+                            : { padding: "0", marginLeft: "6rem" }
                         }
                         href={`#${item.id}`}
                         onClick={() => {

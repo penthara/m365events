@@ -1,27 +1,17 @@
 [
     {
       "title": "1ST WINNER",
-      "description": "OnePlus Pad Go 28.85 cm",
-      "image": "./images/website/prizes/1.jpg"
+      "description": "Lenovo Tab M10 Fhd 3Rd Gen",
+      "image": "./images/website/prizes/lenovo-tab.png"
     },
     {
       "title": "2ND WINNER",
-      "description": "Lenovo Tab M10 FHD Plus 3rd Gen",
-      "image": "./images/website/prizes/2.jpg"
+      "description": "Sony WH-CH520 Headphones",
+      "image": "./images/website/prizes/sony.png"
     },
     {
       "title": "3RD WINNER",
-      "description": "Amazon Echo Show 8 (2nd Gen)",
-      "image": "./images/website/prizes/3.jpg"
-    },
-    {
-      "title": "4TH WINNER",
-      "description": "Boat Primia Smart Watch",
-      "image": "./images/website/prizes/4.jpg"
-    },
-    {
-      "title": "5TH WINNER",
-      "description": "OnePlus Nord Earbuds",
-      "image": "./images/website/prizes/5.jpg"
+      "description": "OnePlus Nord Buds 2r",
+      "image": "./images/website/prizes/earbuds.png"
     }
   ]

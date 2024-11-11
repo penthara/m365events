@@ -18,7 +18,7 @@
   },
   {
     "OrganizerID": "9",
-    "OrganizerImage": "../organizers/Jenkins.jpg",
+    "OrganizerImage": "../organizers/jenkinsns.png",
     "OrganizerName": "Jenkins NS",
     "isVolunteer": "false",
     "isCoOrganizer": "false",
@@ -26,7 +26,7 @@
   },
   {
     "OrganizerID": "4",
-    "OrganizerImage": "../organizers/Kamlesh.jpg",
+    "OrganizerImage": "../organizers/Kamlesh.png",
     "OrganizerName": "Kamlesh Rao",
     "isVolunteer": "false",
     "isCoOrganizer": "false",
@@ -34,7 +34,7 @@
   },
   {
     "OrganizerID": "5",
-    "OrganizerImage": "../organizers/Bijay.jpg",
+    "OrganizerImage": "../organizers/Bijay.png",
     "OrganizerName": "Bijay Kumar",
     "isCoOrganizer": "false",
     "isVolunteer": "false",

@@ -34,12 +34,13 @@ $borderBottomColor: #ffffff;
       display: flex;
       margin: auto;
       flex-wrap: wrap;
-      width: 90%;
-      max-width: 120rem;
+      margin-top: 5rem;
+      // width: 90%;
+      // max-width: 120rem;
       justify-content: center;
       align-items: center;
-      row-gap: 6rem;
-      column-gap: 2rem;
+      row-gap: 2rem;
+      column-gap: 12rem;
       :hover {
         transition: all 0.1s ease-in-out;
         transform: scale(1.005);
@@ -53,8 +54,8 @@ $borderBottomColor: #ffffff;
     }
     .QuizPrizes-card {
       padding: 1rem;
-      min-width: 34rem;
-      width: 34rem;
+      min-width: 25rem;
+      width: 25rem;
       height: 40rem;
     }
     .QuizPrizes-card-img {
