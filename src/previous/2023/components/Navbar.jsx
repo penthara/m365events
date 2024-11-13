@@ -25,14 +25,14 @@ import "../style/navBar.scss";
 const navItems = [
   { text: "Home", id: "home" },
   { text: "About", id: "about" },
-  // { text: "Speakers", id: "speakers" },
+  { text: "Speakers", id: "speakers" },
 
-  // { text: "Agenda", id: "agenda" },
+  { text: "Agenda", id: "agenda" },
   { text: "Prizes", id: "prizes" },
   { text: "Sponsors", id: "sponsors" },
 
   { text: "Event Team", id: "eventTeam" },
-  { text: "Contact Us", id: "contactUS" },
+  // { text: "Contact Us", id: "contactUS" },
   // { text: "Become A Sponsor", id: "beAsponsor" },
 ];
 // console.log("navItems", navItems);

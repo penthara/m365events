@@ -1,8 +1,9 @@
-$speakersHeadingColor: #636363;
-$borderBottomColor: #4faaaa;
+$speakersHeadingColor: #ffffff;
+$borderBottomColor: #ffffff;
 $white: #fff;
-$titlebg: linear-gradient(325.49deg, #4faaaa 12.41%, #064949 100.31%);
+$titlebg: linear-gradient(90deg, #2D98C7 0%, #00356E 100%);
 $subGrey: #606060;
+// background: linear-gradient(90deg, #2D98C7 0%, #00356E 100%);
 
 .dec-2023 {
   .speakersHeadingBox {
@@ -12,7 +13,7 @@ $subGrey: #606060;
     color: $speakersHeadingColor;
     width: fit-content;
     margin: 0 auto;
-    border-bottom: 5px solid $borderBottomColor;
+    border-bottom: 1px solid $borderBottomColor;
   }
   .keynote-box {
     padding-block: 5rem;

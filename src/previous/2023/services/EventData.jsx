@@ -1,6 +1,8 @@
-const SpeakerApi = "https://sessionize.com/api/v2/ca6moh2z/view/Speakers";
-const SessionApi = "https://sessionize.com/api/v2/ca6moh2z/view/Sessions";
-const GridApi = "https://sessionize.com/api/v2/ca6moh2z/view/GridSmart";
+const apiId = "wb4qm9lf";
+
+const SpeakerApi = `https://sessionize.com/api/v2/${apiId}/view/Speakers`;
+const SessionApi = `https://sessionize.com/api/v2/${apiId}/view/Sessions`;
+const GridApi = `https://sessionize.com/api/v2/${apiId}/view/GridSmart`;
 
 export const scheduleGridApi = async () => {
   try {
@@ -42,19 +44,19 @@ export const SpeakersAndSessionsCompleteData = async () => {
             fullName: currSpeakerDetails.fullName,
             isTopSpeaker: currSpeakerDetails.isTopSpeaker,
             links: currSpeakerDetails.links,
-            profilePicture: currSpeakerDetails.profilePicture,
+            profilePicture: currSpeakerDetails?.profilePicture,
             questionAnswers: currSpeakerDetails.questionAnswers,
             tagLine: currSpeakerDetails.tagLine,
             // Data To Be Custom Mapped
-            customTagLine: currSpeakerDetails.questionAnswers[0]?.answer,
-            linkedIn: currSpeakerDetails.questionAnswers[3]?.answer,
-            twitter: currSpeakerDetails.questionAnswers[2]?.answer,
+            // customTagLine: currSpeakerDetails.questionAnswers[0]?.answer,
+            linkedIn: currSpeakerDetails.questionAnswers[1]?.answer,
+            twitter: currSpeakerDetails.questionAnswers[3]?.answer,
             companyName: currSpeakerDetails.questionAnswers[4]?.answer,
-            designation: currSpeakerDetails.questionAnswers[5]?.answer,
+            designation: currSpeakerDetails.questionAnswers[2]?.answer,
             isMVP:
-              currSpeakerDetails.categories[0]?.categoryItems[0]?.name == "Yes",
-            isMicrosoftEmployee:
               currSpeakerDetails.categories[1]?.categoryItems[0]?.name == "Yes",
+            isMicrosoftEmployee:
+              currSpeakerDetails.categories[0]?.categoryItems[0]?.name == "Yes",
           };
 
           return (currSessionSpeakersArray[currSessionSpeakerIndex] = {
@@ -72,14 +74,14 @@ export const SpeakersAndSessionsCompleteData = async () => {
       (speaker, currSpeakerIndex, parentSpeakerArray) => {
         let additionalSpeakerDetails = {
           // Data To Be Custom Mapped
-          customTagLine: speaker.questionAnswers[0]?.answer,
-          companyName: speaker.questionAnswers[4]?.answer,
-          linkedIn: speaker.questionAnswers[3]?.answer,
-          twitter: speaker.questionAnswers[2]?.answer,
-          designation: speaker.questionAnswers[5]?.answer,
+          // customTagLine: speaker.questionAnswers[0]?.answer,
+          // companyName: speaker.questionAnswers[3]?.answer,
+          linkedIn: speaker.questionAnswers[1]?.answer,
+          twitter: speaker.questionAnswers[3]?.answer,
+          designation: speaker.questionAnswers[2]?.answer,
           isMVP: speaker.categories[0]?.categoryItems[0]?.name == "Yes",
           isMicrosoftEmployee:
-            speaker.categories[1]?.categoryItems[0]?.name == "Yes",
+            speaker.questionAnswers[5]?.answer == "Yes",
         };
 
         parentSpeakerArray[currSpeakerIndex] = {
@@ -108,6 +110,7 @@ export const SpeakersAndSessionsCompleteData = async () => {
               roomId: currSessionDetails.roomId,
               startsAt: currSessionDetails.startsAt,
               status: currSessionDetails.status,
+              liveUrl: currSessionDetails.liveUrl
             };
 
             return (currSpeakerSessionsArray[currSpeakerSessionIndex] = {

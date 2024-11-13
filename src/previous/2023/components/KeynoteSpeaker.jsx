@@ -34,12 +34,12 @@ const KeynoteSpeaker = ({ theme, keyNote, sessionData }) => {
                 theme={theme}
                 image={keyNote?.profilePicture}
                 name={keyNote?.fullName}
-                designation={keyNote?.questionAnswers[5].answer}
-                company={keyNote?.questionAnswers[4].answer}
-                linkedIn={keyNote?.questionAnswers[3].answer}
-                twitter={keyNote?.questionAnswers[2].answer}
-                microsoft={true}
-                mvp={false}
+                designation={keyNote?.questionAnswers[2]?.answer}
+                company={keyNote?.questionAnswers[4]?.answer}
+                linkedIn={keyNote?.questionAnswers[1]?.answer}
+                twitter={keyNote?.questionAnswers[3]?.answer}
+                microsoft={keyNote?.isMicrosoftEmployee}
+                mvp={keyNote?.isMVP}
               />
             </Box>
           </Box>

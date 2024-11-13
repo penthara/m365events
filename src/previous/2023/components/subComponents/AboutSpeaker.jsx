@@ -18,7 +18,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import moment from "moment-timezone";
 
 const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
-  // console.info("SpeakerModalData from Card", data);
+  console.info("SpeakerModalData from Card", data.isMVP);
   // console.info("isEmpty", sessions);
   // const [additionalSpeakerFields, setAdditionalSpeakerFieldsData] = useState(
   //   []
@@ -142,7 +142,8 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                       <Box
                         className="session-list d-flex justify-content-center align-items-center"
                         sx={{
-                          backgroundColor: theme.colors.text.sessionTime,
+                          // backgroundColor: theme.colors.text.sessionTime,
+                          backgroundColor: "#1976d2",
                           marginRight: "1rem",
                         }}
                       >
@@ -150,8 +151,8 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                           <Typography
                             className="text-center"
                             sx={{
-                              color: "#fff",
                               fontSize: "1.6rem",
+                              color: 'white'
                             }}
                           >
                             Topic
@@ -206,9 +207,9 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                 marginBlock: "2rem",
               }}
             />
-            {!isKeynote ? (
+            {isKeynote ? (
               <Box className="card-social session-modal-speaker">
-                {data.isMVP && (
+                {data?.isMVP && (
                   <IconButton
                     href={""}
                     target="_blank"
@@ -236,7 +237,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                     />
                   </IconButton>
                 )}
-                {data.linkedIn != null && (
+                {data?.linkedIn != null && (
                   <IconButton
                     href={data.linkedIn}
                     aria-label="LinkedIn"

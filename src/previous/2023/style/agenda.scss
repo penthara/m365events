@@ -1,10 +1,14 @@
 $agenda-subtitle: #524f4f !important;
 
 .dec-2023 {
+  
   .agenda-sessions-container {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+  }
+  .agenda-paper{
+    background-color: #032952;
   }
 
   button:focus {
@@ -88,9 +92,9 @@ $agenda-subtitle: #524f4f !important;
     align-items: center;
   }
 
-  .t1 {
-    border-radius: 1rem 0 0 1rem !important;
-  }
+  // .t1 {
+  //   border-radius: 1rem 0 0 1rem !important;
+  // }
   .t3 {
     border-radius: 0 1rem 1rem 0 !important;
   }
@@ -101,10 +105,20 @@ $agenda-subtitle: #524f4f !important;
   }
 }
 
+@media screen and (max-width: 980px) {
+  .dec-2023 {
+    .session-time {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+}
+}
 @media screen and (max-width: 1280px) {
   .dec-2023 {
     .session-time {
       width: 100%;
+      text-align: center;
     }
     .session-time-text {
       margin-left: 0 !important;
@@ -120,9 +134,11 @@ $agenda-subtitle: #524f4f !important;
     }
     .session-title {
       padding-left: 0;
+      // text-align: center;
     }
   }
 }
+
 
 @media screen and (max-width: 980px) {
   .dec-2023 {
@@ -131,9 +147,17 @@ $agenda-subtitle: #524f4f !important;
     }
     .session-title-container {
       width: 100%;
+      justify-content: center;
     }
     .session-tile {
-      padding: 2.5rem 1.5rem;
+      // padding: 2.5rem 1.5rem;
+      text-align: center;
+      justify-content: center;
+    }
+    .session-title {
+      // padding: 2.5rem 1.5rem;
+      text-align: center;
+      justify-content: center;
     }
     .session-data-container {
       flex-direction: column;
@@ -144,6 +168,7 @@ $agenda-subtitle: #524f4f !important;
     .speaker-container {
       width: 100% !important;
       max-width: 35rem;
+      margin: auto;
     }
     .session-speakers {
       margin: auto;

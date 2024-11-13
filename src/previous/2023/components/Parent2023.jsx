@@ -35,7 +35,7 @@ const Parent2023 = ({ theme }) => {
     SpeakersAndSessionsCompleteData().then((data) => {
       setSpeakerData(data[0]);
       console.log("Speaker Data", data[0]);
-      console.info("Session Data", data[1]);
+      console.info("speaker Data", speakerData);
       setSessionData(data[1]);
       let keyNote = data[0].filter((speaker) => speaker.isTopSpeaker == true);
       console.log("keyNote", keyNote);
@@ -59,7 +59,7 @@ const Parent2023 = ({ theme }) => {
       {/* <Eventinfostripe theme={theme} /> */}
       {/* <Box id="Playlist" /> */}
       {/* <VideoPlayer theme={theme} /> */}
-      {/* <ErrorBoundary>
+      <ErrorBoundary>
         <Box id="speakers" />
         {KeynoteSpeakerData != null && KeynoteSpeakerData != undefined ? (
           <KeynoteSpeaker
@@ -75,17 +75,17 @@ const Parent2023 = ({ theme }) => {
             speakerData={speakerData}
             sessionData={sessionData}
             />
-            </ErrorBoundary> */}
-      {/* <Box id="agenda" /> */}
+            </ErrorBoundary>
+      <Box id="agenda" />
       {/* <ErrorBoundary> */}
-      {/* {speakerData.length > 0 && sessionData.length > 0 && (
+      {speakerData.length > 0 && sessionData.length > 0 && (
         <Agenda
         theme={theme}
         speaker={speakerData}
         session={sessionData}
         defaultTrackData={defaultTrackData}
         />
-        )} */}
+        )}
       {/* </ErrorBoundary> */}
       <Box id="prizes" />
       <Prizes theme={theme} />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Typography,
   Box,
@@ -22,9 +22,7 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
   const trackTwo =
     session != undefined &&
     session.filter((s) => s.room == "2" || s.isPlenumSession == true);
-  const trackThree =
-    session != undefined &&
-    session.filter((s) => s.room == "3" || s.isPlenumSession == true);
+
 
   const [currentTrack, setCurrentTrack] = React.useState(defaultTrackData);
   const [alignment, setAlignment] = React.useState("1");
@@ -43,15 +41,21 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
         setCurrentTrack(trackOne);
       } else if (newAlignment == "2") {
         setCurrentTrack(trackTwo);
-      } else {
-        setCurrentTrack(trackThree);
       }
     }
   };
 
+  useEffect(()=>{
+   console.log("TeackOne - Test",trackOne) 
+   console.log("session - Test",session) 
+
+   console.log("trackTwo - Test",trackTwo) 
+
+  })
+
   return (
     <>
-      <div className="agenda">
+      <div className="agenda" style={{paddingBottom: '8rem'}}>
         {console.log("trackOne1", session)}
         <Box className="sectionMaxWidth">
           <Box className="speakersHeadingBox">
@@ -110,7 +114,7 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                     }}
                     className="text-capitalize"
                   >
-                    ( Azure Security & Compliance )
+                    {/* ( Azure Security & Compliance ) */}
                   </Typography>
                 </ToggleButton>
                 <ToggleButton
@@ -148,47 +152,10 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                     }}
                     className="text-capitalize"
                   >
-                    ( M365 Security & Compliance )
+                    {/* ( M365 Security & Compliance ) */}
                   </Typography>
                 </ToggleButton>
-                <ToggleButton
-                  value="3"
-                  sx={{
-                    background:
-                      alignment == "3"
-                        ? theme.colors.bg.agendaSelected
-                        : theme.colors.bg.agendaUnSelected,
-                  }}
-                  className="agenda-track t3 d-flex flex-column"
-                >
-                  <Typography
-                    sx={{
-                      color:
-                        alignment == "3"
-                          ? theme.colors.text.agendaSelected
-                          : theme.colors.text.agendaUnSelected,
-                    }}
-                    className="agenda-track-text text-uppercase"
-                  >
-                    Track III
-                  </Typography>
-                  <Typography
-                    sx={{
-                      color:
-                        alignment == "3"
-                          ? theme.colors.text.agendaSelected
-                          : theme.colors.text.agendaUnSelected,
-                      fontSize: theme.fontSize.agendaSubTxt,
-                      display: {
-                        xs: "none",
-                        cd: "block",
-                      },
-                    }}
-                    className="text-capitalize"
-                  >
-                    ( Power Platform, Endpoint security and others )
-                  </Typography>
-                </ToggleButton>
+
               </ToggleButtonGroup>
               <Box className="agenda-sessions-container">
                 {currentTrack?.map((trackData, idx) => {
@@ -264,23 +231,23 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                               }}
                               className="session-title d-flex align-items-center"
                             >
-                              {Date.now() > new Date("2023-12-6") && (
+                              {Date.now() > new Date("2024-8-7") && (
                                 <Box
-                                  className="session-speakers"
-                                  sx={{
-                                    minWidth: "7rem !important",
-                                  }}
+                                  // className="session-speakers"
+                                  // sx={{
+                                  //   minWidth: "7rem !important",
+                                  // }}
                                 >
-                                  <IconButton
+                                  {/* <IconButton
                                     href={
-                                      alignment == "1" ||
-                                      trackData.title == "Welcome Note" ||
-                                      trackData.title == "Keynote" ||
-                                      trackData.title == "Quiz & Closing Notes"
-                                        ? about.trackOne
+                                      alignment == "1" 
+                                        // trackData.room == "Welcome Note" ||
+                                        // trackData.title == "Keynote" ||
+                                        // trackData.title == "Quiz & Closing Notes"
+                                        ? trackData.liveUrl
                                         : alignment == "2"
-                                        ? about.trackTwo
-                                        : about.trackThree
+                                          ? trackData.liveUrl
+                                          : about.trackThree
                                     }
                                     target="_blank"
                                   >
@@ -340,7 +307,7 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                                         ></path>
                                       </svg>
                                     </SvgIcon>
-                                  </IconButton>
+                                  </IconButton> */}
                                 </Box>
                               )}
                               {trackData.title}
