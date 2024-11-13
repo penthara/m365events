@@ -73,7 +73,7 @@ const Speakers = ({ theme, speakerData, sessionData }) => {
                       company={speakerData?.companyName}
                       linkedIn={speakerData?.linkedIn}
                       twitter={speakerData?.twitter}
-                      mvp={speakerData?.isMVP}
+                      mvp={speakerData?.categories[1]?.categoryItems[1]?.name == 'Yes' ? true : false}
                       isMicroSoftEmployee={speakerData?.isMicrosoftEmployee}
                     />
                   </a>

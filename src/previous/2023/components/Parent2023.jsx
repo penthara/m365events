@@ -35,7 +35,7 @@ const Parent2023 = ({ theme }) => {
     SpeakersAndSessionsCompleteData().then((data) => {
       setSpeakerData(data[0]);
       console.log("Speaker Data", data[0]);
-      console.info("speaker Data", speakerData);
+      console.info("speaker Data", data[0]);
       setSessionData(data[1]);
       let keyNote = data[0].filter((speaker) => speaker.isTopSpeaker == true);
       console.log("keyNote", keyNote);

@@ -18,7 +18,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import moment from "moment-timezone";
 
 const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
-  console.info("SpeakerModalData from Card", data.isMVP);
+  // console.info("SpeakerModalData from Card", data);
   // console.info("isEmpty", sessions);
   // const [additionalSpeakerFields, setAdditionalSpeakerFieldsData] = useState(
   //   []
@@ -280,7 +280,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                 </IconButton>
 
                 <IconButton
-                  href="https://www.linkedin.com/in/hammadrajjoub/"
+                  href="https://www.linkedin.com/in/manojmittal12/"
                   aria-label="LinkedIn"
                   target="_blank"
                 >
@@ -288,7 +288,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                 </IconButton>
 
                 <IconButton
-                  href="https://twitter.com/iRajjoub"
+                  href="https://x.com/manojmcans"
                   aria-label="twitter"
                   target="_blank"
                 >
