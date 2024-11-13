@@ -209,7 +209,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
             />
             {!isKeynote ? (
               <Box className="card-social session-modal-speaker">
-                {data?.isMVP && (
+                {data?.speakerData?.categories[0]?.categoryItems[0]?.name == 'Yes' && (
                   <IconButton
                     href={""}
                     target="_blank"
