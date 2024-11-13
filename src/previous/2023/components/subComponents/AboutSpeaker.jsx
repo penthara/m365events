@@ -207,7 +207,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                 marginBlock: "2rem",
               }}
             />
-            {isKeynote ? (
+            {!isKeynote ? (
               <Box className="card-social session-modal-speaker">
                 {data?.isMVP && (
                   <IconButton
