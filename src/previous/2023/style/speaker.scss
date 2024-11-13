@@ -33,7 +33,9 @@ $subGrey: #606060;
     }
   }
   .card {
-    max-width: 30rem;
+    max-width: min-content;
+    background-color: transparent;
+    overflow: hidden;
 
     &-title {
       &-container {
