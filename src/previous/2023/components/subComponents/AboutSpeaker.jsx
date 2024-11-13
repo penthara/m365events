@@ -18,7 +18,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import moment from "moment-timezone";
 
 const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
-  console.info("SpeakerModalData from Card", data);
+  console.info("SpeakerModalData from Card", open ? data?.categories[1]?.categoryItems[0]?.name : data);
   // console.info("isEmpty", sessions);
   // const [additionalSpeakerFields, setAdditionalSpeakerFieldsData] = useState(
   //   []
@@ -209,7 +209,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
             />
             {!isKeynote ? (
               <Box className="card-social session-modal-speaker">
-                {data?.isMVPs && (
+                {open && data?.categories[1]?.categoryItems[0]?.name == 'Yes' ?  (
                   <IconButton
                     href={""}
                     target="_blank"
@@ -222,8 +222,8 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                       alt="microsoft-mvp"
                     />
                   </IconButton>
-                )}
-                {data.isMicrosoftEmployee && (
+                ): ''}
+                {open && data?.categories[0]?.categoryItems[0]?.name == 'Yes' ? (
                   <IconButton
                     href={""}
                     target="_blank"
@@ -236,7 +236,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                       alt="microsoft-company"
                     />
                   </IconButton>
-                )}
+                ) : ''}
                 {data?.linkedIn != null && (
                   <IconButton
                     href={data.linkedIn}
