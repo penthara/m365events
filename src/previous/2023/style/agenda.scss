@@ -111,8 +111,11 @@ $agenda-subtitle: #524f4f !important;
   }
   .agenda-track-text {
     font-size: 3.2rem;
+    display: flex;
     font-weight: 700;
+    align-items: center;
     margin: auto;
+    gap: 20px;
   }
 }
 
