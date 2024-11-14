@@ -44,6 +44,7 @@ const CircularCard = ({ Name, LinkedIn, Picture, theme }) => {
                 color="primary"
                 sx={{
                   fontSize: "4rem",
+                  fill: "white"
                 }}
               />
             </IconButton>

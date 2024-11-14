@@ -85,7 +85,7 @@ $borderBottomColor: #ffffff;
       display: flex;
       place-items: center;
       place-content: center;
-      bottom: -3.5rem;
+      bottom: -5.8rem;
       color: white;
       font-size: 1.8rem;
       font-weight: 700;
@@ -102,7 +102,7 @@ $borderBottomColor: #ffffff;
       place-content: center;
       font-weight: 500;
       text-align: center;
-      margin: 5rem auto 0 auto;
+      margin: 8rem auto 0 auto;
       /*font-size: clamp(
         1.2rem,
         calc(1.2rem + ((1vw - 0.48rem) * 0.4167)),
@@ -206,7 +206,7 @@ $borderBottomColor: #ffffff;
   @media only screen and (max-width: 515px) {
     .QuizPrizes .QuizPrizes-wrapper {
       width: 100%;
-      row-gap: 0rem;
+      row-gap: 5rem;
     }
     .QuizPrizes .QuizPrizes-wrapper .QuizPrizes-card {
       min-width: 29rem;

@@ -45,17 +45,17 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
     }
   };
 
-  useEffect(()=>{
-   console.log("TeackOne - Test",trackOne) 
-   console.log("session - Test",session) 
+  useEffect(() => {
+    console.log("TeackOne - Test", trackOne)
+    console.log("session - Test", session)
 
-   console.log("trackTwo - Test",trackTwo) 
+    console.log("trackTwo - Test", trackTwo)
 
   })
 
   return (
     <>
-      <div className="agenda" style={{paddingBottom: '8rem'}}>
+      <div className="agenda" style={{ paddingBottom: '8rem' }}>
         {console.log("trackOne1", session)}
         <Box className="sectionMaxWidth">
           <Box className="speakersHeadingBox">
@@ -98,7 +98,9 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                     }}
                     className="agenda-track-text text-uppercase"
                   >
-                    Track I
+                    {alignment == '1' ? <svg  width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="12" height="12" rx="6" fill="white" />
+                    </svg> : ''}Track I
                   </Typography>
                   <Typography
                     sx={{
@@ -136,7 +138,9 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                     }}
                     className="agenda-track-text text-uppercase"
                   >
-                    Track II
+                    {alignment == '2' ? <svg  width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="12" height="12" rx="6" fill="white" />
+                    </svg> : ''}Track II
                   </Typography>
                   <Typography
                     sx={{
@@ -233,10 +237,10 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                             >
                               {Date.now() > new Date("2024-8-7") && (
                                 <Box
-                                  // className="session-speakers"
-                                  // sx={{
-                                  //   minWidth: "7rem !important",
-                                  // }}
+                                // className="session-speakers"
+                                // sx={{
+                                //   minWidth: "7rem !important",
+                                // }}
                                 >
                                   {/* <IconButton
                                     href={
@@ -337,8 +341,8 @@ const Agenda = ({ theme, speaker, session, defaultTrackData }) => {
                                       className="pointer"
                                       src={spkrimg}
                                       sx={{
-                                        width: 80,
-                                        height: 80,
+                                        width: 65,
+                                        height: 65,
                                         marginBottom: "1rem",
                                       }}
                                     />

@@ -98,7 +98,7 @@ function DrawerAppBar({ theme }) {
           navbar
             ? {
                 background: theme.colors.bg.navWhite,
-                boxShadow: theme.colors.navbar.boxShadow,
+                boxShadow: "rgb(255 255 255 / 20%) 0px 3px 20px 0px",
                 transition: theme.colors.navbar.transition,
               }
             : { backgroundColor: "transparent" }

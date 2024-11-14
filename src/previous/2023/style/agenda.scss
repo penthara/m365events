@@ -1,11 +1,19 @@
 $agenda-subtitle: #524f4f !important;
 
 .dec-2023 {
+
+  p.MuiTypography-root.MuiTypography-body1.agenda-track-text.text-uppercase.css-1exy8ke-MuiTypography-root {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
   
   .agenda-sessions-container {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    border-radius: 4px;
+    overflow: hidden;
+    gap: 0;
   }
   .agenda-paper{
     background-color: #032952;
@@ -17,9 +25,12 @@ $agenda-subtitle: #524f4f !important;
 
   .session-tile {
     display: flex;
-    padding-block: 2rem;
+    padding-block: 1rem;
+    border-radius: 0;
     padding-inline: 4rem;
-  }
+    box-shadow: none;
+    border-bottom: 1px solid #d3d3d3;
+}
   .session-data-container {
     width: 100%;
     display: flex;
@@ -126,7 +137,7 @@ $agenda-subtitle: #524f4f !important;
 
     .responsive-wrapper {
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 0.5rem;
     }
 
     .session-title-container {
@@ -155,14 +166,14 @@ $agenda-subtitle: #524f4f !important;
       justify-content: center;
     }
     .session-title {
-      // padding: 2.5rem 1.5rem;
+      padding: 0rem !important;
       text-align: center;
       justify-content: center;
     }
     .session-data-container {
       flex-direction: column;
       align-items: flex-start;
-      gap: 2.5rem;
+      gap: 0.5rem;
       padding-inline: 3rem;
     }
     .speaker-container {
