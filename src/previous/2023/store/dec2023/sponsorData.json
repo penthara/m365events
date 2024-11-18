@@ -108,5 +108,25 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
     "sponsorTwitter": "https://twitter.com/sohodragon",
     "sponsorStatus": "gold"
+  },
+  {
+    "sponsorId": "9",
+    "sponsorImage": "./images/website/DeveloperRoadAhead.png",
+    "sponsorAltText": "Developer Road Ahead",
+    "sponsorName": "Developer Road Ahead",
+    "sponsorUrl": "#",
+    "sponsorLinkedIn": "",
+    "sponsorTwitter": "#",
+    "sponsorStatus": "learningPartner"
+  },
+  {
+    "sponsorId": "9",
+    "sponsorImage": "./images/website/KQL.png",
+    "sponsorAltText": "KQL A Gateway TO Microsoft Sentinel",
+    "sponsorName": "KQL A Gateway TO Microsoft Sentinel",
+    "sponsorUrl": "",
+    "sponsorLinkedIn": "",
+    "sponsorTwitter": "",
+    "sponsorStatus": "learningPartner"
   }
 ]

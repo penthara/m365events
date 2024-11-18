@@ -45,11 +45,18 @@ const Prizes = ({ theme }) => {
                     alt="prize"
                     className="QuizPrizes-card-img"
                   />
+                  {data.title != '' ?
                   <Typography className="QuizPrizes-card-heading">
                     {data.title}
                   </Typography>
+                  
+                  : ''}
                 </div>
-                <Typography className="QuizPrizes-card-desc">
+                <Typography className="QuizPrizes-card-desc"
+                style={{
+                  marginTop: data.title == '' ? '2rem' : '' 
+                }}
+                >
                   {data.description}
                 </Typography>
               </div>

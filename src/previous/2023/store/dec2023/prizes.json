@@ -13,5 +13,15 @@
       "title": "3RD WINNER",
       "description": "OnePlus Nord Buds 2r",
       "image": "./images/website/prizes/earbuds.png"
+    },
+    {
+      "title": "",
+      "description": "Developer Road Ahead",
+      "image": "./images/website/prizes/book1.png"
+    },
+    {
+      "title": "",
+      "description": "KQL A Gateway TO Microsoft Sentinel",
+      "image": "./images/website/prizes/book2.png"
     }
   ]

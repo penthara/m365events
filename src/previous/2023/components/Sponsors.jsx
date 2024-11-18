@@ -24,7 +24,7 @@ const Sponsors = ({ theme }) => {
               paddingBlock: "3rem",
               // uncomment above when tier sponsor added
             }}
-           >
+          >
             <Typography
               className="text-center sponsorSubHeading diamond"
               sx={{
@@ -92,7 +92,7 @@ const Sponsors = ({ theme }) => {
               // paddingBlock: "3rem",
               // uncomment above when tier sponsor added
             }}
-            >
+          >
             <Typography
               className="text-center sponsorSubHeading platinum"
               sx={{
@@ -115,7 +115,7 @@ const Sponsors = ({ theme }) => {
                   container
                   className="d-flex justify-content-center"
                   spacing={2}
-                  sx={{gap: "8%"}}
+                  sx={{ gap: "8%" }}
                 >
                   {SponsorData.filter(
                     (sponsor) => sponsor.sponsorStatus === "platinum"
@@ -157,8 +157,8 @@ const Sponsors = ({ theme }) => {
             </Box>
           </Box>
           <Box sx={{
-              paddingBlock: "3rem",
-            }}>
+            paddingBlock: "3rem",
+          }}>
             <Typography
               className="text-center sponsorSubHeading gold"
               sx={{
@@ -170,47 +170,111 @@ const Sponsors = ({ theme }) => {
           </Box>
         </Box>
         <Grid
-                  container
-                  className="d-flex justify-content-center"
-                  spacing={2}
-                  sx={{gap: "8%"}}
-                >
-                  {SponsorData.filter(
-                    (sponsor) => sponsor.sponsorStatus === "gold"
-                  ).map((data, index) => {
-                    return (
-                      <Grid
-                        item
-                        xs={12}
-                        md={3}
-                        lg={2}
-                        key={index}
-                        sx={{
-                          marginBlock: {
-                            xs: "2rem",
-                          },
-                        }}
-                        className="sponsor-card
+          container
+          className="d-flex justify-content-center"
+          spacing={2}
+          sx={{ gap: "8%" }}
+        >
+          {SponsorData.filter(
+            (sponsor) => sponsor.sponsorStatus === "gold"
+          ).map((data, index) => {
+            return (
+              <Grid
+                item
+                xs={12}
+                md={3}
+                lg={2}
+                key={index}
+                sx={{
+                  marginBlock: {
+                    xs: "2rem",
+                  },
+                }}
+                className="sponsor-card
                         d-flex justify-content-center align-items-center"
-                      >
-                        <a
-                          href={data.sponsorUrl}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="sponsor-border"
-                        >
-                          <img
-                            className="sponsor-img"
-                            alt={data.sponsorAltText}
-                            src={data.sponsorImage}
-                            width="280px"
-                            loading="lazy"
-                          />
-                        </a>
-                      </Grid>
-                    );
-                  })}
-                </Grid>
+              >
+                <a
+                  href={data.sponsorUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="sponsor-border"
+                >
+                  <img
+                    className="sponsor-img"
+                    alt={data.sponsorAltText}
+                    src={data.sponsorImage}
+                    width="280px"
+                    loading="lazy"
+                  />
+                </a>
+              </Grid>
+            );
+          })}
+        </Grid>
+        <Box sx={{
+          paddingBlock: "3rem",
+        }}>
+          <Typography
+            className="text-center sponsorSubHeading learningPartner "
+            sx={{
+              fontSize: { xs: "3rem", mmb: theme.fontSize.sponsorTags },
+            }}
+          >
+            Learning Partners
+          </Typography>
+        </Box>
+        <Grid
+          container
+          className="d-flex justify-content-center"
+          spacing={2}
+          sx={{ gap: "8%" }}
+        >
+          {SponsorData.filter(
+            (sponsor) => sponsor.sponsorStatus === "learningPartner"
+          ).map((data, index) => {
+            return (
+              <Grid
+                item
+                xs={12}
+                md={3}
+                lg={2}
+                key={index}
+                sx={{
+                  marginBlock: {
+                    xs: "2rem",
+                    flexDirection: 'column'
+                  },
+                }}
+                className="sponsor-card
+                        d-flex justify-content-center align-items-center"
+              >
+                <a
+                  // href={data.sponsorUrl}
+                  // target="_blank"
+                  rel="noreferrer"
+                  className="sponsor-border"
+                >
+                  <img
+                    className="learningPartner-img"
+                    alt={data.sponsorAltText}
+                    src={data.sponsorImage}
+                    width="280px"
+                    loading="lazy"
+                  />
+                </a>
+                <Typography className="QuizPrizes-card-desc"
+                  style={{
+                    fontSize: '2rem',
+                    marginTop: '2rem',
+                    color: 'white'
+                  }}
+                >
+                  {data.sponsorName}
+                </Typography>
+              </Grid>
+            );
+          })}
+        </Grid>
         <Box className="sectionMaxWidth" sx={{ paddingBlockEnd: "3rem" }}>
           {/* <Box className="sponsorsHeadingBox">
             <Typography
@@ -280,8 +344,8 @@ const Sponsors = ({ theme }) => {
             </Box> */}
           </Box>
           <Box sx={{
-              paddingBlock: "3rem",
-            }}>
+            paddingBlock: "3rem",
+          }}>
             {/* <Typography
               className="text-center sponsorSubHeading gold"
               sx={{
