@@ -266,7 +266,7 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
               </Box>
             ) : (
               <Box className="card-social session-modal-speaker">
-                {/* <IconButton
+                <IconButton
                   href={""}
                   target="_blank"
                   aria-label="MicroSoft"
@@ -277,18 +277,18 @@ const AboutSpeaker = ({ theme, open, close, data, sessions, isKeynote }) => {
                     className="card-social-img"
                     alt="microsoft-company"
                   />
-                </IconButton> */}
+                </IconButton>
                                   <IconButton
                     href={""}
                     target="_blank"
                     aria-label="MVP"
                     disabled
                   >
-                    <img
+                    {/* <img
                       src={mvpLogo}
                       className="card-social-img"
                       alt="microsoft-mvp"
-                    />
+                    /> */}
                   </IconButton>
 
                 <IconButton

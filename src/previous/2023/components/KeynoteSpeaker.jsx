@@ -38,8 +38,8 @@ const KeynoteSpeaker = ({ theme, keyNote, sessionData }) => {
                 company={keyNote?.questionAnswers[4]?.answer}
                 linkedIn={keyNote?.questionAnswers[1]?.answer}
                 twitter={keyNote?.questionAnswers[3]?.answer}
-                microsoft={keyNote?.isMicrosoftEmployee}
-                mvp={keyNote?.isMVP}
+                isMicroSoftEmployee={true}
+                mvp={false}
               />
             </Box>
           </Box>
