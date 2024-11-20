@@ -183,3 +183,25 @@ flex-direction: column;
     }
   }
 }
+
+@media screen and (max-width: 600px){
+  .speaker-card-wrap {
+    transform: scale(1.15);
+}
+.dec-2023 .speaker-grid {
+  gap: 5rem;
+  row-gap: 12rem;
+  padding-bottom: 10rem;
+}
+.speaker-details p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+}
+
+
+}
