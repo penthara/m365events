@@ -1,8 +1,13 @@
 import React from "react";
-import { Typography, Box, Paper, IconButton } from "@mui/material";
+import {
+  Typography,
+  Box,
+  Paper,
+  IconButton
+} from "@mui/material";
 
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "../../../../images/website/linkedin.png";
+import TwitterIcon from "../../../../images/website/twitter (2).png";
 import "../../style/global.scss";
 import "../../style/speaker.scss";
 
@@ -22,75 +27,45 @@ const Card = ({
 }) => {
 
   return (
-    <>
-      <Box className="card pointer">
-        <Paper elevation={3} className="card-paper">
-          <Box className="img-wrapper">
-            <img src={image} alt={name} loading="lazy" width="100%" />
-          </Box>
-          <Box className="card-content">
-            <Box className="card-title-container d-flex justify-content-center align-items-center text-center">
-              <Typography className="card-title text-uppercase">
-                {name}
-              </Typography>
-            </Box>
-            <Box className="card-container">
-              <Typography className="card-subtitle text-left">
-                {designation}
-              </Typography>
-              <Typography
-                className="card-subtitle text-left"
-                sx={{
-                  fontWeight: "600",
-                }}
-              >
-                {company}
-              </Typography>
-            </Box>
-            <Box className="card-social text-left">
-              {mvp && (
-                <IconButton href={""} target="_blank" aria-label="MVP" disabled>
-                  <img
-                    src={mvpLogo}
-                    className="card-social-img"
-                    alt="microsoft-mvp"
-                  />
-                </IconButton>
-              )}
-              {isMicroSoftEmployee && (
-                <IconButton href={""} target="_blank" aria-label="MVP" disabled>
-                  <img
-                    src={mslogo}
-                    className="card-social-img"
-                    alt="microsoft"
-                  />
-                </IconButton>
-              )}
-
-              {linkedIn && (
-                <IconButton
-                  href={linkedIn}
-                  aria-label="LinkedIn"
-                  target="_blank"
-                >
-                  <LinkedInIcon color="primary" className="card-social-icon" />
-                </IconButton>
-              )}
-              {twitter && (
-                <IconButton href={twitter} aria-label="twitter" target="_blank">
-                  <TwitterIcon
-                    sx={{
-                      color: theme.icon.twitter,
-                    }}
-                    className="card-social-icon"
-                  />
-                </IconButton>
-              )}
-            </Box>
-          </Box>
-        </Paper>
+    <Box className="speaker-card-wrap">
+      <Box className="speaker-img-wrap">
+        <img src={image} alt={name} loading="lazy" />
       </Box>
-    </>
+      <Box className="speaker-details">
+        <Typography variant="h1">
+          {name}
+        </Typography>
+        <Typography className="designation">
+          {designation}
+        </Typography>
+        <Typography className="designation">
+          {company}
+        </Typography>
+      </Box>
+      <Box className="speaker-social-icons">
+        {mvp && (
+          <IconButton href="" target="_blank" aria-label="MVP" disabled>
+            <img src={mvpLogo} alt="microsoft-mvp" />
+          </IconButton>
+        )}
+        {isMicroSoftEmployee && (
+          <IconButton href="" target="_blank" aria-label="Microsoft" disabled>
+            <img src={mslogo} alt="microsoft" />
+          </IconButton>
+        )}
+        {linkedIn && (
+          <IconButton href={linkedIn} target="_blank" aria-label="LinkedIn">
+            <img src={LinkedInIcon} alt="linkedIn" />
+          </IconButton>
+        )}
+        {twitter && (
+          <IconButton href={twitter} target="_blank" aria-label="Twitter">
+            <img src={TwitterIcon} alt="twitter" style={{width: '28px'}}/>
+          </IconButton>
+        )}
+      </Box>
+    </Box>
   );
 };
+
 export default Card;

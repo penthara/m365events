@@ -19,7 +19,7 @@ const Speakers = ({ theme, speakerData, sessionData }) => {
   console.log("sponsor data details", sessionDetails);
   return (
     <>
-      <div>
+      <div className="speakers">
         <Box className="sectionMaxWidth">
           <Box className="speakersHeadingBox">
             <Typography
