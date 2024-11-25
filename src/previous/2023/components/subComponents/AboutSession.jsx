@@ -45,7 +45,7 @@ const AboutSession = ({
         scroll="paper"
         fullWidth
         maxWidth="mmb"
-        className="dec2023-scroll-dialog speaker-modal dec-2023"
+        className="dec2023-scroll-dialog speaker-modal"
         aria-labelledby="scroll-dialog-title"
         aria-describedby="scroll-dialog-description"
       >
