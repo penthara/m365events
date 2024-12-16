@@ -30,7 +30,7 @@ export const About = () => {
         </span>
         */}
       </div>
-      <div className="dec2022-registration-text">
+      <div className="d-none dec2022-registration-text">
         {/* <a className="dec2022-registration-button" href="#sessions-recordings">
           <p>Coming Soon</p>
         </a> */}
