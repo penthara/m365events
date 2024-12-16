@@ -143,7 +143,7 @@ export const Header = () => {
                       <span>{data.subTitle}</span>
                     </Col>
                   </Row>
-                  <Row className="dec2022-registrationBtn">
+                  <Row className="d-none dec2022-registrationBtn">
                     <Col>
                       <a href={data.RegLink} target="_blank" rel="noreferrer">
                         <button className="dec2022-register-btn">
