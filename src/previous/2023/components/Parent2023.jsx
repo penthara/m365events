@@ -53,7 +53,7 @@ const Parent2023 = ({ theme }) => {
       <Navbar theme={theme} />
       <Home theme={theme} />
       {/* <Social theme={theme} /> */}
-      <CountdownTimer />
+      {/* <CountdownTimer /> */}
       <Box id="about" />
       <About theme={theme} />
       {/* <Eventinfostripe theme={theme} /> */}
