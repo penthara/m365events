@@ -1,15 +1,4 @@
-[
-  /*{
-    "sponsorId": "1",
-    "sponsorImage": "./images/website/atna.png",
-    "sponsorAltText": "Atna",
-    "sponsorName": "Atna",
-    "sponsorUrl": "https://www.atnatechnologies.com/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/atna-technologies-india-pvt-ltd/",
-    "sponsorTwitter": "https://twitter.com/",
-    "sponsorStatus": "diamond"
-  },*/
-  
+[ 
   {
     "sponsorId": "1",
     "sponsorImage": "./images/website/athenEps.png",
@@ -90,17 +79,4 @@
     "sponsorTwitter": "https://x.com/sohodragon",
     "sponsorStatus": ""
   }
- 
-  
- /* {
-    "sponsorId": "9",
-    "sponsorImage": "./images/website/DeveloperRoadAhead.png",
-    "sponsorAltText": "Developer Road Ahead",
-    "sponsorName": "Developer Road Ahead",
-    "sponsorUrl": "#",
-    "sponsorLinkedIn": "",
-    "sponsorTwitter": "#",
-    "sponsorStatus": "learningPartner"
-  },*/
-  
 ]
