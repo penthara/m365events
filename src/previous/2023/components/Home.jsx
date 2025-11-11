@@ -42,7 +42,7 @@ const Home = ({ theme }) => {
               fontSize: {
                 xs: "4.5rem",
                 md: "8rem",
-                lg: "clamp(10rem, calc(4rem + ((1vw - 0.52rem) * 3.4091)), 7rem)",
+                //lg: "clamp(10rem, calc(4rem + ((1vw - 0.52rem) * 3.4091)), 7rem)",
               },
             }}
           >
