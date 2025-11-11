@@ -1,4 +1,4 @@
-const apiId = "wb4qm9lf";
+const apiId = "mz1j3hwl";
 
 const SpeakerApi = `https://sessionize.com/api/v2/${apiId}/view/Speakers`;
 const SessionApi = `https://sessionize.com/api/v2/${apiId}/view/Sessions`;
