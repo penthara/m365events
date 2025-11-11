@@ -78,5 +78,15 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
     "sponsorTwitter": "https://x.com/sohodragon",
     "sponsorStatus": "gold"
+  },
+  {
+    "sponsorId": "9",
+    "sponsorImage": "./images/website/sohoDragon.jpg",
+    "sponsorAltText": "SOHO DRAGON",
+    "sponsorName": "SOHO DRAGON",
+    "sponsorUrl": "https://sohodragon.nyc/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
+    "sponsorTwitter": "https://x.com/sohodragon",
+    "sponsorStatus": "gold"
   }
 ]

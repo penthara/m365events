@@ -1,7 +1,7 @@
 [
 
   {
-    "OrganizerID": "3",
+    "OrganizerID": "1",
     "OrganizerImage": "../organizers/Jasjit.jpg",
     "OrganizerName": "Jasjit Chopra",
     "isVolunteer": "false",
@@ -9,7 +9,7 @@
     "speakerLinkedIn": "https://www.linkedin.com/in/jasjitchopra/"
   },
   {
-    "OrganizerID": "9",
+    "OrganizerID": "2",
     "OrganizerImage": "../organizers/ShanthaKumar.png",
     "OrganizerName": "Shantha Kumar",
     "isVolunteer": "false",
@@ -17,7 +17,7 @@
     "speakerLinkedIn": "https://www.linkedin.com/in/ktskumar/"
   },
   {
-    "OrganizerID": "9",
+    "OrganizerID": "3",
     "OrganizerImage": "../organizers/jenkinsns.png",
     "OrganizerName": "Jenkins NS",
     "isVolunteer": "false",
