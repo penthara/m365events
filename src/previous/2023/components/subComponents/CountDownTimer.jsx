@@ -96,7 +96,7 @@ function CountdownTimer() {
                 }}
               >
                 <Typography className="countDownEventDate">
-                  6th Dec 2024
+                  6th Dec 2025
                 </Typography>
                 <Typography className="eventText pt-2">
                 M365 Saturday Bangalore
@@ -115,7 +115,7 @@ function CountdownTimer() {
                 <Countdown
                   renderer={renderer}
                   className="countdownNumbers"
-                  date={"Dec 6 2024"}
+                  date={"Dec 6 2025"}
                 />
               </Grid>
             </Grid>
