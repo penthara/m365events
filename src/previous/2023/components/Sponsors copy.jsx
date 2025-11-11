@@ -288,7 +288,7 @@ const Sponsors = ({ theme }) => {
             >
               Promotional Partners
             </Typography>
-          </Box> */} */
+          </Box> } */
           /*<Box
             sx={{
               paddingBlock: "3rem",
@@ -344,7 +344,7 @@ const Sponsors = ({ theme }) => {
                   })}
                 </Grid>
               </Box>
-            </Box> */}*/
+            </Box> }*/
           /*</Box>
           <Box sx={{
             paddingBlock: "3rem",
@@ -356,7 +356,7 @@ const Sponsors = ({ theme }) => {
               }}
             >
               Gold
-            </Typography> */}*/
+            </Typography> }*/
 
           /*</Box>
         </Box>
