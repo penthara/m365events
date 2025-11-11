@@ -10,11 +10,11 @@
   },
   {
     "OrganizerID": "9",
-    "OrganizerImage": "../organizers/samikRoy.jpg",
-    "OrganizerName": "Samik Roy",
+    "OrganizerImage": "../organizers/ShanthaKumar.jpg",
+    "OrganizerName": "Shantha Kumar",
     "isVolunteer": "false",
     "isCoOrganizer": "false",
-    "speakerLinkedIn": "https://www.linkedin.com/in/roysamik/"
+    "speakerLinkedIn": "https://www.linkedin.com/in/ktskumar/"
   },
   {
     "OrganizerID": "9",
@@ -39,21 +39,6 @@
     "isCoOrganizer": "false",
     "isVolunteer": "false",
     "speakerLinkedIn": "https://www.linkedin.com/in/fewlines4biju/"
-  },
-  {
-    "OrganizerID": "6",
-    "OrganizerImage": "../organizers/MandeepMonty.jpg",
-    "OrganizerName": "Mondeep Maity",
-    "isCoOrganizer": "false",
-    "isVolunteer": "true",
-    "speakerLinkedIn": "https://www.linkedin.com/in/mondeep-maity-8083b2b9/"
-  },
-  {
-    "OrganizerID": "7",
-    "OrganizerImage": "../organizers/FerozKhan.jpg",
-    "OrganizerName": "Abdul Rasheed Feroz Khan",
-    "isCoOrganizer": "false",
-    "isVolunteer": "true",
-    "speakerLinkedIn": "https://www.linkedin.com/in/abdul-rasheed-feroz-khan-72918a102/"
   }
+  
 ]
