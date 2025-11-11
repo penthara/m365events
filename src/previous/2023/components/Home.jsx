@@ -178,7 +178,7 @@ const Home = ({ theme }) => {
           </Typography>
 
         </Box>
-        <Box className="d-none justify-content-center">
+        <Box className="justify-content-center">
           <Box
             sx={{
               paddingBottom: {

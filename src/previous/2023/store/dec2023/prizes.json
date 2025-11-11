@@ -1,27 +1,17 @@
 [
     {
       "title": "1ST WINNER",
-      "description": "Lenovo Tab M10 Fhd 3Rd Gen",
+      "description": "Lenovo Tab M11 with Pen",
       "image": "./images/website/prizes/lenovo-tab.png"
     },
     {
       "title": "2ND WINNER",
-      "description": "Sony WH-CH520 Headphones",
+      "description": "Sony WH-CH520 Wireless Bluetooth Headphones On Ear with Mic",
       "image": "./images/website/prizes/sony.png"
     },
     {
       "title": "3RD WINNER",
       "description": "OnePlus Nord Buds 2r",
       "image": "./images/website/prizes/earbuds.png"
-    },
-    {
-      "title": "",
-      "description": "Developer Road Ahead",
-      "image": "./images/website/prizes/book1.png"
-    },
-    {
-      "title": "",
-      "description": "KQL A Gateway TO Microsoft Sentinel",
-      "image": "./images/website/prizes/book2.png"
     }
   ]
