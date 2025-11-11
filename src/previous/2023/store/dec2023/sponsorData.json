@@ -1,5 +1,5 @@
 [
-  {
+  /*{
     "sponsorId": "1",
     "sponsorImage": "./images/website/atna.png",
     "sponsorAltText": "Atna",
@@ -8,36 +8,47 @@
     "sponsorLinkedIn": "https://www.linkedin.com/company/atna-technologies-india-pvt-ltd/",
     "sponsorTwitter": "https://twitter.com/",
     "sponsorStatus": "diamond"
-  },
+  },*/
+  
   {
-    "sponsorId": "2",
+    "sponsorId": "1",
     "sponsorImage": "./images/website/athenEps.png",
     "sponsorAltText": "ATHEN",
     "sponsorName": "ATHEN",
     "sponsorUrl": "http://www.athen.tech/",
     "sponsorLinkedIn": "https://www.linkedin.com/company/athen-tech/",
-    "sponsorTwitter": "https://twitter.com/AthenTech",
+    "sponsorTwitter": "https://x.com/AthenTech",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": "2",
+    "sponsorImage": "./images/website/sharepointdesigns.png",
+    "sponsorAltText": "SharePoint Designs",
+    "sponsorName": "SharePoint Designs",
+    "sponsorUrl": "https://www.sharepointdesigns.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/sharepoint-designs",
+    "sponsorTwitter": "https://x.com/spdesignsolu",
     "sponsorStatus": "diamond"
   },
   {
     "sponsorId": "3",
+    "sponsorImage": "./images/website/PrudentAutolyticsLogo.jpg",
+    "sponsorAltText": "PrudentAutolytics",
+    "sponsorName": "PrudentAutolytics",
+    "sponsorUrl": "http://www.prudentautolytics.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/in/ankeshsinha/",
+    "sponsorTwitter": "https://x.com",
+    "sponsorStatus": "diamond"
+  },
+  {
+    "sponsorId": "4",
     "sponsorImage": "./images/website/PentharaLogo.svg",
     "sponsorAltText": "Penthara Technologies",
     "sponsorName": "Penthara Technologies",
     "sponsorUrl": "https://www.penthara.com",
     "sponsorLinkedIn": "https://www.linkedin.com/company/penthara/",
-    "sponsorTwitter": "https://twitter.com/Penthara",
+    "sponsorTwitter": "https://x.com/Penthara",
     "sponsorStatus": "platinum"
-  },
-  {
-    "sponsorId": "4",
-    "sponsorImage": "./images/website/microsoftLogo.png",
-    "sponsorAltText": "Microsoft",
-    "sponsorName": "Microsoft",
-    "sponsorUrl": "https://www.microsoft.com",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/microsoft/",
-    "sponsorTwitter": "https://twitter.com/microsoftindia",
-    "sponsorStatus": "diamond"
   },
   {
     "sponsorId": "5",
@@ -46,38 +57,28 @@
     "sponsorName": "TSinfo Technologies",
     "sponsorUrl": "https://www.tsinfotechnologies.com/",
     "sponsorLinkedIn": "https://www.linkedin.com/company/tsinfotechnologies/",
-    "sponsorTwitter": "https://twitter.com/tsinfo_tech",
+    "sponsorTwitter": "https://x.com/tsinfo_tech",
     "sponsorStatus": "platinum"
-  },
-  {
-    "sponsorId": "5",
-    "sponsorImage": "./images/website/RapidCircle.png",
-    "sponsorAltText": "Rapid Circle",
-    "sponsorName": "Rapid Circle",
-    "sponsorUrl": "https://en.rapidcircle.com/",
-    "sponsorLinkedIn": "https://in.linkedin.com/company/rapid-circle",
-    "sponsorTwitter": "https://twitter.com/rapidcircle",
-    "sponsorStatus": "gold"
   },
   {
     "sponsorId": "6",
     "sponsorImage": "./images/website/j4.png",
-    "sponsorAltText": "JPOWER",
-    "sponsorName": "JPOWER",
+    "sponsorAltText": "JPOWER4",
+    "sponsorName": "JPOWER4",
     "sponsorUrl": "http://www.jpower4.com/",
     "sponsorLinkedIn": "https://www.linkedin.com/company/jpower4/",
-    "sponsorTwitter": "https://twitter.com/Jpower4S",
+    "sponsorTwitter": "https://x.com/Jpower4S",
     "sponsorStatus": "platinum"
   },
   {
     "sponsorId": "7",
-    "sponsorImage": "./images/website/PrudentAutolyticsLogo.jpg",
-    "sponsorAltText": "PrudentAutolytics",
-    "sponsorName": "PrudentAutolytics",
-    "sponsorUrl": "http://www.prudentautolytics.com/",
-    "sponsorLinkedIn": "https://www.linkedin.com/in/ankeshsinha/",
-    "sponsorTwitter": "https://twitter.com",
-    "sponsorStatus": "platinum"
+    "sponsorImage": "./images/website/microsoftLogo.png",
+    "sponsorAltText": "Microsoft",
+    "sponsorName": "Microsoft",
+    "sponsorUrl": "https://www.microsoft.com",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/microsoft/",
+    "sponsorTwitter": "https://x.com/microsoftindia",
+    "sponsorStatus": "gold"
   },
   {
     "sponsorId": "8",
@@ -86,30 +87,12 @@
     "sponsorName": "SOHO DRAGON",
     "sponsorUrl": "https://sohodragon.nyc/",
     "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
-    "sponsorTwitter": "https://twitter.com/sohodragon",
+    "sponsorTwitter": "https://x.com/sohodragon",
     "sponsorStatus": ""
-  },
-  {
-    "sponsorId": "8",
-    "sponsorImage": "./images/website/sohoDragon.jpg",
-    "sponsorAltText": "SOHO DRAGON",
-    "sponsorName": "SOHO DRAGON",
-    "sponsorUrl": "https://sohodragon.nyc/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
-    "sponsorTwitter": "https://twitter.com/sohodragon",
-    "sponsorStatus": "gold"
-  },
-  {
-    "sponsorId": "9",
-    "sponsorImage": "./images/website/kasadara_logo.jpg",
-    "sponsorAltText": "Kasadara Technology Solutions",
-    "sponsorName": "Kasadara Technology Solutions",
-    "sponsorUrl": "https://kasadara.com/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
-    "sponsorTwitter": "https://twitter.com/sohodragon",
-    "sponsorStatus": "gold"
-  },
-  {
+  }
+ 
+  
+ /* {
     "sponsorId": "9",
     "sponsorImage": "./images/website/DeveloperRoadAhead.png",
     "sponsorAltText": "Developer Road Ahead",
@@ -118,15 +101,6 @@
     "sponsorLinkedIn": "",
     "sponsorTwitter": "#",
     "sponsorStatus": "learningPartner"
-  },
-  {
-    "sponsorId": "9",
-    "sponsorImage": "./images/website/KQL.png",
-    "sponsorAltText": "KQL : A Gateway TO Microsoft Sentinel",
-    "sponsorName": "KQL: A Gateway TO Microsoft Sentinel",
-    "sponsorUrl": "",
-    "sponsorLinkedIn": "",
-    "sponsorTwitter": "",
-    "sponsorStatus": "learningPartner"
-  }
+  },*/
+  
 ]
