@@ -78,14 +78,14 @@ const Parent2023 = ({ theme }) => {
             </ErrorBoundary>
       <Box id="agenda" />
       {/* <ErrorBoundary> */}
-      {speakerData.length > 0 && sessionData.length > 0 && (
+      { /*speakerData.length > 0 && sessionData.length > 0 && (
         <Agenda
         theme={theme}
         speaker={speakerData}
         session={sessionData}
         defaultTrackData={defaultTrackData}
         />
-        )}
+        )*/}
       {/* </ErrorBoundary> */}
       <Box id="prizes" />
       <Prizes theme={theme} />
