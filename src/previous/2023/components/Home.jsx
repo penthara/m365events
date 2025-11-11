@@ -47,7 +47,7 @@ const Home = ({ theme }) => {
             }}
           >
             {/* {homeData.eventName} */}
-            M365 Saturday Bangalore 2024
+            M365 Saturday Bangalore 2025
             <br />
             
           </Typography>

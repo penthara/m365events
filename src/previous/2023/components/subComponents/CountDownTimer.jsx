@@ -63,7 +63,7 @@ function CountdownTimer() {
             placeItems: "center",
           }}
         >
-          <Typography className="countDownEventDate">7th Dec 2024</Typography>
+          <Typography className="countDownEventDate">6th Dec 2025</Typography>
           <Typography className="eventText pt-2">
           M365 Saturday Bangalore 
           </Typography>
@@ -96,7 +96,7 @@ function CountdownTimer() {
                 }}
               >
                 <Typography className="countDownEventDate">
-                  7th Dec 2024
+                  6th Dec 2024
                 </Typography>
                 <Typography className="eventText pt-2">
                 M365 Saturday Bangalore
@@ -115,7 +115,7 @@ function CountdownTimer() {
                 <Countdown
                   renderer={renderer}
                   className="countdownNumbers"
-                  date={"Dec 7 2024"}
+                  date={"Dec 6 2024"}
                 />
               </Grid>
             </Grid>
