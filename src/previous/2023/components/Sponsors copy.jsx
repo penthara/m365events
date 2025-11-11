@@ -1,4 +1,4 @@
-import { Typography, Box, Grid } from "@mui/material";
+/* import { Typography, Box, Grid } from "@mui/material";
 import "../style/sponsors.scss";
 import "../style/global.scss";
 import SponsorData from "../store/dec2023/sponsorData.json";
@@ -288,8 +288,8 @@ const Sponsors = ({ theme }) => {
             >
               Promotional Partners
             </Typography>
-          </Box> */}
-          <Box
+          </Box> */} */
+          /*<Box
             sx={{
               paddingBlock: "3rem",
             }}
@@ -344,8 +344,8 @@ const Sponsors = ({ theme }) => {
                   })}
                 </Grid>
               </Box>
-            </Box> */}
-          </Box>
+            </Box> */}*/
+          /*</Box>
           <Box sx={{
             paddingBlock: "3rem",
           }}>
@@ -356,12 +356,12 @@ const Sponsors = ({ theme }) => {
               }}
             >
               Gold
-            </Typography> */}
+            </Typography> */}*/
 
-          </Box>
+          /*</Box>
         </Box>
       </div>
     </>
   );
 };
-export default Sponsors;
+export default Sponsors;*/
