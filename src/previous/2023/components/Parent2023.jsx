@@ -17,7 +17,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import PreviousEvents from "./PreviousEvents";
 import { Box } from "@mui/material";
 import "../style/global.scss";
-import { SpeakersAndSessionsCompleteData } from "../services/EventData";
+import { SpeakersAndSessionsCompleteData } from "./EventData";
 import VideoPlayer from "./VideoPlayer/VideoPlayer";
 
 const Parent2023 = ({ theme }) => {
