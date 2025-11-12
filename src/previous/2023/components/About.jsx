@@ -97,9 +97,9 @@ const About = ({ theme }) => {
                   {/* Microsoft 365 Saturday Bangalore User group.{" "} */}
                 </Typography>
               </a>
-              <p style="text-align: justify !important"> This M365 Saturday Bangalore is a free community‐focused technology event dedicated to educating and engaging members of the local technical community. With the expansion of the Microsoft 365 platform, the event now draws upon the expertise of IT professionals, developers and solutions architects who come together to share their real-world experiences, lessons learned, best practices, and general knowledge with other like‐minded individuals.
+              This M365 Saturday Bangalore is a free community‐focused technology event dedicated to educating and engaging members of the local technical community. With the expansion of the Microsoft 365 platform, the event now draws upon the expertise of IT professionals, developers and solutions architects who come together to share their real-world experiences, lessons learned, best practices, and general knowledge with other like‐minded individuals.
                 These individuals bring invaluable experience and lessons across the broad suite of services Microsoft offers like: Copilot, SharePoint, Microsoft Teams, Microsoft Viva, Power Platform, and other M365 applications.
-                </p>
+                
 
               <br /> <br />
               {/* The ultimate goal of this one-day virtual event is to cover all
