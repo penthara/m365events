@@ -57,8 +57,8 @@ const Parent2023 = ({ theme }) => {
       <Box id="about" />
       <About theme={theme} />
       { <Eventinfostripe theme={theme} /> }
-      { <Box id="Playlist" /> }
-      { <VideoPlayer theme={theme} /> }
+      { /*<Box id="Playlist" />*/ }
+      { /*<VideoPlayer theme={theme} />*/ }
       <ErrorBoundary>
         <Box id="speakers" />
         {KeynoteSpeakerData != null && KeynoteSpeakerData != undefined ? (
