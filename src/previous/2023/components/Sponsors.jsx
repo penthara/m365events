@@ -217,14 +217,14 @@ const Sponsors = ({ theme }) => {
        <Box sx={{
           paddingBlock: "3rem",
         }}>
-          <Typography
+          { /*<Typography
             className="text-center sponsorSubHeading learningPartner "
             sx={{
               fontSize: { xs: "3rem", mmb: theme.fontSize.sponsorTags },
             }}
           >
-            Learning Partners
-          </Typography>
+             Learning Partners
+          </Typography> */}
         </Box>
         <Grid
           container
