@@ -81,12 +81,12 @@
   },
   {
     "sponsorId": "9",
-    "sponsorImage": "./images/website/sohoDragon.jpg",
-    "sponsorAltText": "SOHO DRAGON",
-    "sponsorName": "SOHO DRAGON",
-    "sponsorUrl": "https://sohodragon.nyc/",
-    "sponsorLinkedIn": "https://www.linkedin.com/company/soho-dragon-solutions/",
-    "sponsorTwitter": "https://x.com/sohodragon",
-    "sponsorStatus": "Learning"
+    "sponsorImage": "./images/website/atna.png",
+    "sponsorAltText": "ATNA",
+    "sponsorName": "ATNA",
+    "sponsorUrl": "https://atnatechnologies.com/",
+    "sponsorLinkedIn": "https://www.linkedin.com/company/atna-technologies-india-pvt-ltd/",
+    "sponsorTwitter": "https://x.com/atna_tech",
+    "sponsorStatus": "gold"
   }
 ]

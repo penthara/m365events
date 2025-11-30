@@ -33,6 +33,7 @@ const Parent2023 = ({ theme }) => {
 
   useEffect(() => {
     SpeakersAndSessionsCompleteData().then((data) => {
+      console.log("Speaker Data", data[0]);
       setSpeakerData(data[0]);
       console.log("Speaker Data", data[0]);
       console.info("speaker Data", data[0]);
