@@ -11,7 +11,7 @@
   },
   {
     "sponsorId": "2",
-    "sponsorImage": "./images/website/SharePointDesigns.png",
+    "sponsorImage": "./images/website/SharePointDesigns_Logo.svg",
     "sponsorAltText": "SharePoint Designs",
     "sponsorName": "SharePoint Designs",
     "sponsorUrl": "https://www.sharepointdesigns.com/",
@@ -41,7 +41,7 @@
   },
   {
     "sponsorId": "5",
-    "sponsorImage": "./images/website/tsinfo.jpg",
+    "sponsorImage": "./images/website/TSinfoLogo.png",
     "sponsorAltText": "TSinfo Technologies",
     "sponsorName": "TSinfo Technologies",
     "sponsorUrl": "https://www.tsinfotechnologies.com/",
